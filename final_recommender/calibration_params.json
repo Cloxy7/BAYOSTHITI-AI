@@ -1,0 +1,5 @@
+{
+ "platt_a": 0.9994702625928157,
+ "platt_b": -0.49720414144073427,
+ "note": "P = 1/(1+exp(-(a*logit(raw)+b))), fitted on out-of-fold pairs of seed 0 (5 folds)"
+}

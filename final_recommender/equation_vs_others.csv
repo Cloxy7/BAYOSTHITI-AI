@@ -1,0 +1,7 @@
+compared_with,d_Hit10,CI_low,CI_high,d_MRR,MRR_CI_low,MRR_CI_high
+Random,0.493,0.413,0.572,0.34,0.275,0.404
+2D similarity only (kNN),0.065,0.011,0.116,0.071,0.03,0.112
+Logistic regression,-0.011,-0.043,0.018,-0.023,-0.055,0.01
+XGBoost,0.076,0.018,0.134,0.083,0.032,0.136
+LightGBM,0.087,0.029,0.141,0.092,0.043,0.147
+Extra trees,0.083,0.036,0.13,0.063,0.025,0.103

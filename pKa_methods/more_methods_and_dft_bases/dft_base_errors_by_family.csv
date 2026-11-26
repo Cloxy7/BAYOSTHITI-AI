@@ -1,0 +1,7 @@
+chemotype,n,pKa_mean,pKa_min,pKa_max,MAE,bias
+aromatic amine (aniline-type),1,2.51,2.51,2.51,5.57,5.57
+amidine/guanidine,1,13.6,13.6,13.6,3.14,-3.14
+N-heteroaromatic (imidazolium/pyridinium),1,7.3,7.3,7.3,1.79,1.79
+carboxylate+amine (amino acid),14,9.42,7.24,10.78,0.93,-0.47
+primary/secondary/tertiary aliphatic ammonium,17,9.24,6.4,10.8,0.89,-0.01
+other base,1,9.07,9.07,9.07,0.53,-0.53

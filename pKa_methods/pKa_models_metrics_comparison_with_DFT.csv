@@ -1,0 +1,31 @@
+model,test_set,n,MAE,RMSE,R2
+"RF paper (Baltruschat 2020, OpenEye prep)",5-fold CV,,0.708,1.094,0.797
+"RF paper (Baltruschat 2020, OpenEye prep)",Novartis,280.0,1.147,1.513,0.569
+"RF paper (Baltruschat 2020, OpenEye prep)",AvLiLuMoVe,123.0,0.532,0.785,0.889
+"Graph-pKa paper (Xiong 2022, own S-pKa data)",own test set,,0.55,,0.92
+RF (ML meets pKa),Novartis,280.0,1.444,1.801,0.389
+RF (ML meets pKa),AvLiLuMoVe,123.0,0.964,1.43,0.633
+RF (ML meets pKa),our measured ions (all),138.0,1.407,2.218,0.501
+RF (ML meets pKa),our measured ions (true pKa 2-12),129.0,1.105,1.697,0.632
+RF (ML meets pKa),our measured ions (true pKa outside 2-12),9.0,5.736,5.844,-0.121
+"RF reproduction check (OpenEye-prepared training, 100 trees)",Novartis,280.0,1.141,1.517,0.566
+"RF reproduction check (OpenEye-prepared training, 100 trees)",AvLiLuMoVe,123.0,0.511,0.772,0.893
+Graph-pKa (GNN),internal 15% (acidic),384.0,0.812,1.179,0.78
+Graph-pKa (GNN),internal 15% (basic),489.0,0.553,0.867,0.851
+Graph-pKa (GNN),internal 15% (both),873.0,0.667,1.016,0.823
+Graph-pKa (GNN),Novartis,280.0,1.173,1.561,0.541
+Graph-pKa (GNN),AvLiLuMoVe,119.0,0.573,0.886,0.848
+Graph-pKa (GNN),our measured ions (all),153.0,2.075,3.439,0.134
+Graph-pKa (GNN),our measured ions (true pKa 2-12),135.0,1.463,2.436,0.246
+Graph-pKa (GNN),our measured ions (true pKa outside 2-12),18.0,6.667,7.485,-0.978
+RF (ML meets pKa),"our measured ions: same ions, all",138.0,1.407,2.218,0.501
+Graph-pKa (GNN),"our measured ions: same ions, all",138.0,1.768,2.986,0.095
+RF (ML meets pKa),"our measured ions: same ions, true pKa 2-12",129.0,1.105,1.697,0.632
+Graph-pKa (GNN),"our measured ions: same ions, true pKa 2-12",129.0,1.416,2.383,0.273
+RF (ML meets pKa),"our measured ions: same ions, true pKa outside 2-12",9.0,5.736,5.844,-0.121
+Graph-pKa (GNN),"our measured ions: same ions, true pKa outside 2-12",9.0,6.817,7.439,-0.816
+RF (ML meets pKa),"our measured ions: same ions, 2-12 and GNN in domain",80.0,0.565,1.001,0.859
+Graph-pKa (GNN),"our measured ions: same ions, 2-12 and GNN in domain",80.0,0.624,1.174,0.806
+"DFT B3LYP/def2-SVPD + SMD (calibrated line, leave-one-out)","measured ions, acids (anions)",80.0,0.793,,0.882
+"DFT B3LYP/def2-SVPD + SMD (calibrated line, leave-one-out)","measured ions, bases (cations)",64.0,1.293,,0.197
+"DFT B3LYP/def2-SVPD + SMD (calibrated line, leave-one-out)","measured ions, all together (no filter)",144.0,1.015,,0.817

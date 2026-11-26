@@ -1,0 +1,4 @@
+value,ions,drugs,n_ions,n_drugs
+dipole (xTB),291,138.0,291,138
+logS (measured),135,78.0,291,138
+LD50 (measured),46,,291,138

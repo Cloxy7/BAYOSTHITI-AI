@@ -1,0 +1,243 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counter-Ion Recommender</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one narrow reading column, tabs on top; a ranked list is the main object. Palette: cool slate neutrals, one teal accent, four fixed hues for the four score groups. */
+:root{
+  --bg:#f3f6f8; --card:#ffffff; --ink:#14212b; --ink2:#506372; --line:#dbe3e9; --chip:#e8eef2;
+  --accent:#0d6b73; --accent-ink:#ffffff; --pub:#1d7a4f; --pubbg:#e4f3ea; --new:#1f5f99; --newbg:#e3eefa; --warn:#9a6700; --warnbg:#fbf1d9;
+  --g2d:#2a6f97; --g3d:#3a9d5d; --gpka:#d98e04; --gesp:#7a5fb3;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f161c; --card:#17212a; --ink:#e6edf2; --ink2:#9db0be; --line:#2a3945; --chip:#22303b;
+  --accent:#4fc1c9; --accent-ink:#0b1a1d; --pub:#6fd3a0; --pubbg:#14332a; --new:#8cc0f2; --newbg:#162b44; --warn:#e6b84f; --warnbg:#38300f;
+  --g2d:#5aa6d1; --g3d:#63c487; --gpka:#e9a825; --gesp:#a58fdb; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f161c; --card:#17212a; --ink:#e6edf2; --ink2:#9db0be; --line:#2a3945; --chip:#22303b;
+  --accent:#4fc1c9; --accent-ink:#0b1a1d; --pub:#6fd3a0; --pubbg:#14332a; --new:#8cc0f2; --newbg:#162b44; --warn:#e6b84f; --warnbg:#38300f;
+  --g2d:#5aa6d1; --g3d:#63c487; --gpka:#e9a825; --gesp:#a58fdb; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px));padding-block:0}
+.wrap{max-width:980px;margin:0 auto;padding-block:22px 64px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;margin-bottom:14px}
+h1{font-size:1.45rem;line-height:1.2;margin:0;font-weight:600;letter-spacing:-.01em;text-wrap:balance}
+.kick{font:500 .72rem var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--ink2)}
+h2{font-size:1.1rem;margin:0 0 8px;font-weight:600}
+h3{font-size:.95rem;margin:18px 0 6px;font-weight:600}
+p{margin:0 0 10px;max-width:70ch}
+.muted{color:var(--ink2)}
+nav{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:18px;overflow-x:auto}
+nav a{padding:9px 14px;color:var(--ink2);text-decoration:none;font-weight:500;border-bottom:2px solid transparent;white-space:nowrap}
+nav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+nav a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px}
+.controls{display:grid;grid-template-columns:minmax(0,2fr) repeat(2,minmax(0,1fr));gap:12px;align-items:end}
+@media(max-width:640px){.controls{grid-template-columns:1fr}}
+label{display:block;font-size:.78rem;font-weight:600;margin-bottom:4px;color:var(--ink2)}
+input[type=text],select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+.check{display:flex;gap:8px;align-items:center;margin-top:12px;font-size:.9rem}
+.check input{width:16px;height:16px}
+.drug{margin:18px 0 6px;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.drug b{font-size:1.2rem}
+.smiles{font:.76rem var(--mono);color:var(--ink2);word-break:break-all}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chip{display:inline-block;padding:2px 9px;border-radius:999px;font-size:.78rem;background:var(--chip);color:var(--ink)}
+.chip.pub{background:var(--pubbg);color:var(--pub);font-weight:500}
+.chip.new{background:var(--newbg);color:var(--new);font-weight:500}
+.chip.warn{background:var(--warnbg);color:var(--warn)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.8rem;color:var(--ink2);margin:6px 0 12px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.list{border:1px solid var(--line);border-radius:8px;background:var(--card);overflow:hidden}
+.row{border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.rh{display:grid;grid-template-columns:34px minmax(0,2.2fr) 128px minmax(0,1.5fr) 18px;gap:10px;align-items:center;padding:10px 14px;cursor:pointer;width:100%;background:none;border:0;color:inherit;font:inherit;text-align:left}
+.rh:hover{background:var(--bg)}
+@media(max-width:720px){.rh{grid-template-columns:28px minmax(0,1fr) 18px}.rh .st,.rh .bar{grid-column:2/3}}
+.rk{font:500 .95rem var(--mono);color:var(--accent)}
+.ion{font-weight:500;overflow-wrap:anywhere}
+.ion small{display:block;font:.7rem var(--mono);color:var(--ink2);font-weight:400;overflow-wrap:anywhere}
+.sc{font:500 .95rem var(--mono);text-align:right}
+.bar{display:flex;flex-direction:column;gap:3px}
+.track{height:7px;background:var(--chip);border-radius:4px;overflow:hidden}
+.fill{height:100%;background:var(--accent)}
+.stack{display:flex;height:7px;border-radius:4px;overflow:hidden;background:var(--chip)}
+.stack span{display:block;height:100%}
+.chev{color:var(--ink2);transition:transform .15s}
+.row.open .chev{transform:rotate(90deg)}
+.detail{display:none;padding:2px 14px 14px 58px;font-size:.9rem}
+.row.open .detail{display:block}
+@media(max-width:720px){.detail{padding-left:14px}}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px 16px;margin:8px 0}
+.kv div{min-width:0}.kv b{display:block;font:500 .95rem var(--mono)}.kv span{font-size:.74rem;color:var(--ink2);text-transform:uppercase;letter-spacing:.05em}
+.note{background:var(--chip);border-radius:6px;padding:10px 12px;font-size:.85rem;color:var(--ink2);margin:14px 0;max-width:80ch}
+.case{margin-bottom:14px}
+.case h3{margin:0 0 4px;font-size:1.05rem}
+.case .meta{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 10px}
+.case dl{margin:10px 0 0;display:grid;grid-template-columns:110px minmax(0,1fr);gap:6px 14px}
+.case dt{font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--ink2);padding-top:2px}
+.case dd{margin:0}
+@media(max-width:600px){.case dl{grid-template-columns:1fr}.case dt{padding-top:6px}}
+a{color:var(--accent)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:10px 0 14px}
+.tile{border:1px solid var(--line);border-radius:8px;padding:12px;background:var(--card)}
+.tile b{display:block;font:500 1.5rem var(--mono)}.tile span{font-size:.8rem;color:var(--ink2)}
+.eq{font:.85rem var(--mono);background:var(--chip);padding:10px 12px;border-radius:6px;overflow-x:auto;white-space:pre}
+.share{display:grid;grid-template-columns:150px minmax(0,1fr) 54px;gap:8px;align-items:center;margin:5px 0;font-size:.88rem}
+.share .track{height:10px}
+.file{margin-top:14px;padding-top:14px;border-top:1px dashed var(--line);font-size:.85rem}
+footer{margin-top:28px;font-size:.78rem;color:var(--ink2)}
+ul{margin:4px 0 10px;padding-left:20px;max-width:75ch}li{margin:3px 0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+<header><span class="kick">API-IL · DDP · IIT Madras</span><h1>Counter-ion recommender for drug molecules</h1></header>
+<nav id="tabs"><a href="#recommend">Recommend</a><a href="#pairs">New pairs and sources</a><a href="#method">How the score works</a></nav>
+
+<section id="recommend" hidden>
+  <div class="card">
+    <div class="controls">
+      <div><label for="drugin">Drug (type to search the 138 known drugs)</label><input type="text" id="drugin" list="druglist" autocomplete="off" placeholder="e.g. Ibuprofen"><datalist id="druglist"></datalist></div>
+      <div><label for="topn">Show top</label><select id="topn"><option>10</option><option>20</option></select></div>
+      <div><label for="viewm">Show</label><select id="viewm"><option value="all">All suggestions</option><option value="new">Only new (not published for this drug)</option><option value="pub">Only already published</option></select></div>
+    </div>
+    <div class="file"><label for="fileload">Your own drug that is not in the list</label>
+      <input type="file" id="fileload" accept=".json,application/json">
+      <div class="muted" style="margin-top:4px">Run <b>Colab_recommend_for_new_drug.ipynb</b> with your drug's SMILES, then load the <code>new_drug_result.json</code> it writes. The list below then shows your drug.</div></div>
+  </div>
+  <div id="out"></div>
+</section>
+
+<section id="pairs" hidden>
+  <h2>Why some unpublished pairs look good, and what the literature says</h2>
+  <p>These are pairs that are not among the 652 pairs in our data. For each one I looked for a paper that made the pair, and I report where the model ranked it when the drug was treated as unseen. The first three are in the top 10. The last three are pairs I found in papers that the model ranked lower, so you can see where it fails.</p>
+  <div class="note">This is a small, hand-picked check and not a measured hit rate. I searched mainly around the model's own suggestions, so it is biased towards finding agreements. The papers show that a pair has been made, not that it is the best choice.</div>
+  <div id="cases"></div>
+</section>
+
+<section id="method" hidden>
+  <h2>How the score works</h2>
+  <div class="tiles" id="tiles"></div>
+  <p>Every drug is described by four groups of numbers, and each group adds a smooth curve to one score:</p>
+  <div class="eq">score  =  100 x calibrated probability of
+logit P = b0 + f(2D similarity) + f(3D similarity) + f(pKa) + f(ESP)</div>
+  <h3>What each group is</h3>
+  <ul>
+    <li><b style="color:var(--g2d)">2D similarity</b>: how alike the drug's structure is to known drugs that already have this counter-ion published.</li>
+    <li><b style="color:var(--g3d)">3D similarity</b>: the same idea using 3D shape numbers.</li>
+    <li><b style="color:var(--gpka)">pKa</b>: the difference between the drug pKa and the ion pKa (the pKa rule). It is a score input and a label, never a filter.</li>
+    <li><b style="color:var(--gesp)">ESP</b>: how well the electrostatic surfaces of the two ions complement each other (xTB charges).</li>
+  </ul>
+  <h3>How much each group matters</h3>
+  <p class="muted">Share of the drop in Hit@10 when the group is taken out. pKa and ESP have confidence intervals that include zero.</p>
+  <div id="shares"></div>
+  <h3>Limits</h3>
+  <ul>
+    <li>The labels are reported pairs, not proven good pairs. A pair nobody reported is not a failed pair.</li>
+    <li>About a quarter of the reported pairs use an ion that no other drug uses. This method cannot suggest a brand-new ion.</li>
+    <li>For a drug you enter yourself, ESP is not computed (the median is used) and pKa is only used if you supply a measured value.</li>
+    <li>Not predicted: melting point, solubility and toxicity of the pair.</li>
+  </ul>
+  <h3>Next step</h3>
+  <p>A diffusion model that proposes new ion structures is planned as future work, so that suggestions are not limited to ions already seen in the literature.</p>
+</section>
+<footer>Jilla Sai Mahima · BE22B047 · Dual Degree Project, IIT Madras · Guide: Prof. Sanjib Senapati. Numbers come from leave-drug-out testing on 138 drugs, 291 counter-ions and 652 reported pairs.</footer>
+</div>
+
+<script id="appdata" type="application/json">__DATA__</script>
+<script>
+(function(){
+var DATA = JSON.parse(document.getElementById('appdata').textContent);
+var FAC = DATA.facts, DRUGS = DATA.drugs.slice(), CUR = null;
+var GN = ['2D similarity','3D similarity','pKa','ESP'], GC = ['var(--g2d)','var(--g3d)','var(--gpka)','var(--gesp)'];
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function $(id){return document.getElementById(id)}
+function pct(x){return (100*x).toFixed(0)+'%'}
+
+/* ---------- tabs ---------- */
+var TABS=['recommend','pairs','method'];
+function show(){
+  var h=(location.hash||'').slice(1); if(TABS.indexOf(h)<0) h='recommend';
+  TABS.forEach(function(t){ $(t).hidden = (t!==h); });
+  Array.prototype.forEach.call(document.querySelectorAll('#tabs a'),function(a){ if(a.getAttribute('href')==='#'+h) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+}
+window.addEventListener('hashchange',show); show();
+
+/* ---------- recommend ---------- */
+var dl=$('druglist'); DRUGS.forEach(function(d){var o=document.createElement('option'); o.value=d.name; dl.appendChild(o);});
+function find(name){ for(var i=0;i<DRUGS.length;i++) if(DRUGS[i].name.toLowerCase()===name.toLowerCase()) return DRUGS[i]; return null; }
+function driver(r){
+  var best=-1,bi=-1; r.c.forEach(function(v,i){ if(v>best){best=v;bi=i;} });
+  return best>0.15 ? GN[bi] : null;
+}
+function rowHtml(r, d){
+  var st = r.rep ? '<span class="chip pub">Published for this drug</span>' : '<span class="chip new">New suggestion</span>';
+  var tot = r.c.reduce(function(a,v){return a+Math.max(v,0)},0)||1;
+  var stack = r.c.map(function(v,i){ return '<span style="width:'+(100*Math.max(v,0)/tot).toFixed(1)+'%;background:'+GC[i]+'" title="'+GN[i]+': '+v.toFixed(2)+'"></span>'; }).join('');
+  var maxsc = Math.max.apply(null, d.rows.map(function(x){return x.sc}));
+  var lab = r.lab==='pKa not given' ? '<span class="chip warn">'+esc(r.lab)+'</span>' : '<span class="chip">'+esc(r.lab)+'</span>';
+  var safeCls = (r.safe && /research-only/.test(r.safe)) ? 'chip warn' : 'chip';
+  if(r.safe) lab += '<span class="'+safeCls+'">'+esc('Safety: '+r.safe)+'</span>';
+  var contrib = r.c.map(function(v,i){return '<div><span style="color:'+GC[i]+'">'+GN[i]+'</span><b>'+(v>=0?'+':'')+v.toFixed(2)+'</b></div>'}).join('');
+  return '<div class="row"><button class="rh" aria-expanded="false"><span class="rk">'+r.rk+'</span>'+
+    '<span class="ion">'+esc(r.ion)+'<small>'+esc(r.smi)+'</small></span>'+
+    '<span class="st">'+st+'</span>'+
+    '<span class="bar"><span style="display:flex;justify-content:space-between;gap:8px"><span class="muted" style="font-size:.74rem">score</span><span class="sc">'+r.sc.toFixed(1)+'</span></span><span class="track"><span class="fill" style="display:block;width:'+(100*r.sc/maxsc).toFixed(0)+'%"></span></span><span class="stack">'+stack+'</span></span>'+
+    '<span class="chev" aria-hidden="true">&#9656;</span></button>'+
+    '<div class="detail"><div class="chips">'+lab+'</div>'+
+    '<div class="kv">'+contrib+'</div>'+
+    '<div class="kv"><div><span>2D similarity value</span><b>'+r.s2.toFixed(2)+'</b></div><div><span>3D similarity value</span><b>'+r.s3.toFixed(2)+'</b></div>'+
+    '<div><span>delta pKa</span><b>'+(r.dp==null?'n/a':r.dp.toFixed(2))+'</b></div></div>'+
+    '<p class="muted" style="font-size:.8rem">Contribution numbers are logit points relative to an average candidate. A score of 3 means about 3 in 100 probability; the average candidate scores about 2.8.</p></div></div>';
+}
+function render(){
+  var d=CUR; if(!d){ $('out').innerHTML='<div class="note">Pick a drug above to see its ranked counter-ions.</div>'; return; }
+  var n=parseInt($('topn').value,10), mode=$('viewm').value;
+  var rows=d.rows.filter(function(r){ return mode==='all' || (mode==='new' && !r.rep) || (mode==='pub' && r.rep); }).slice(0,n);
+  var head='<div class="drug"><b>'+esc(d.name)+'</b><span class="muted">'+esc(d.role)+(d.pka!=null?' · pKa '+d.pka:' · pKa not given')+' · '+d.ncand+' candidate ions scored</span></div><div class="smiles">'+esc(d.smi)+'</div>';
+  var chipsOf=function(a){return a.map(function(x){return '<span class="chip pub">'+esc(x)+'</span>'}).join('')};
+  var rep = d.reported && d.reported.length ? '<div class="chips"><span class="muted" style="font-size:.8rem">Published for this drug in our data ('+d.reported.length+'):</span>'+chipsOf(d.reported.slice(0,6))+(d.reported.length>6?'<details style="display:contents"><summary class="chip" style="cursor:pointer">+'+(d.reported.length-6)+' more</summary>'+chipsOf(d.reported.slice(6))+'</details>':'')+'</div>' : '<div class="chips"><span class="chip">No published counter-ion in our data: this drug is treated as new</span></div>';
+  var info = '<div class="note">'+esc(d.src.charAt(0).toUpperCase()+d.src.slice(1))+'. Score = 100 x probability that the ion is a reported counter-ion for this drug. On unseen drugs, the top 10 contained a published counter-ion for '+pct(FAC.lodo_hit10)+' of drugs (random ranking: '+pct(FAC.rnd)+').</div>';
+  var legend='<div class="legend">'+GN.map(function(g,i){return '<span><i style="background:'+GC[i]+'"></i>'+g+'</span>'}).join('')+'<span>Bar under the score shows which groups built it. Click a row for details.</span></div>';
+  $('out').innerHTML = head+rep+info+legend+'<div class="list">'+(rows.map(function(r){return rowHtml(r,d)}).join('')||'<div class="row" style="padding:14px">Nothing to show with this filter.</div>')+'</div>';
+}
+$('out').addEventListener('click',function(e){ var b=e.target.closest('.rh'); if(!b) return; var row=b.parentNode; var o=row.classList.toggle('open'); b.setAttribute('aria-expanded',o?'true':'false'); });
+function pick(){ var d=find($('drugin').value.trim()); if(d){ CUR=d; render(); try{ sessionStorage.setItem('drug',d.name);}catch(e){} } }
+$('drugin').addEventListener('input',pick); $('drugin').addEventListener('change',pick);
+$('topn').addEventListener('change',render); $('viewm').addEventListener('change',render);
+$('fileload').addEventListener('change',function(e){
+  var f=e.target.files[0]; if(!f) return; var rd=new FileReader();
+  rd.onload=function(){ try{ var d=JSON.parse(rd.result); if(!d.rows||!d.rows.length) throw new Error('no rows'); d.reported=d.reported||[]; d.src=d.src||'new drug entered by the user'; d.ncand=d.ncand||d.rows.length; CUR=d; $('drugin').value=d.name||''; render(); }catch(err){ $('out').innerHTML='<div class="note">That file could not be read as a result file from the notebook ('+esc(err.message)+').</div>'; } };
+  rd.readAsText(f);
+});
+var start='Ibuprofen'; try{ start=sessionStorage.getItem('drug')||start; }catch(e){}
+$('drugin').value=find(start)?start:'Ibuprofen'; pick();
+
+/* ---------- literature cases ---------- */
+function caseHtml(c){
+  var where = c.top10 ? '<span class="chip pub">Rank '+c.rank+' of '+c.n+' (top 10)</span>' : '<span class="chip warn">Rank '+c.rank+' of '+c.n+' (outside the top 10)</span>';
+  var dp = c.dp==null ? '' : '<span class="chip">delta pKa '+c.dp.toFixed(1)+'</span>';
+  var bars = c.c.map(function(v,i){return '<span class="chip" style="border:1px solid var(--line);background:none"><span style="color:'+GC[i]+'">'+GN[i]+'</span> '+(v>=0?'+':'')+v.toFixed(2)+'</span>'}).join('');
+  return '<div class="card case"><h3>'+esc(c.drug)+' + '+esc(c.ion)+'</h3><div class="meta">'+where+'<span class="chip new">Not in our 652 pairs</span><span class="chip">score '+c.score.toFixed(1)+'</span>'+dp+'<span class="chip">'+esc(c.lab)+'</span></div>'+
+   '<div class="meta">'+bars+'</div>'+
+   '<dl><dt>Why the model scores it</dt><dd>'+esc(c.why)+'</dd>'+
+   '<dt>What the paper shows</dt><dd>'+esc(c.found)+'</dd>'+
+   '<dt>Keep in mind</dt><dd>'+esc(c.caveat)+'</dd>'+
+   '<dt>Source</dt><dd>'+esc(c.paper)+' <a href="'+esc(c.url)+'" target="_blank" rel="noopener">Open source</a></dd></dl></div>';
+}
+$('cases').innerHTML = DATA.cases.map(caseHtml).join('');
+
+/* ---------- method ---------- */
+$('tiles').innerHTML =
+  '<div class="tile"><b>'+pct(FAC.hit10)+'</b><span>Hit@10 in 5-fold leave-drug-out testing (95% CI '+pct(FAC.hit10_lo)+' to '+pct(FAC.hit10_hi)+'). Random ranking: '+pct(FAC.rnd)+'.</span></div>'+
+  '<div class="tile"><b>'+pct(FAC.lodo_hit10)+'</b><span>Hit@10 when each of the '+FAC.n_drugs+' drugs is left out one at a time (MRR '+FAC.lodo_mrr.toFixed(2)+').</span></div>'+
+  '<div class="tile"><b>'+pct(FAC.lodo_hit1)+'</b><span>Hit@1: a published counter-ion is ranked first.</span></div>';
+var sh=''; var cols={'2D similarity':'var(--g2d)','3D similarity':'var(--g3d)','pKa':'var(--gpka)','ESP complementarity':'var(--gesp)'};
+Object.keys(FAC.share).forEach(function(k){ sh+='<div class="share"><span>'+esc(k)+'</span><span class="track"><span class="fill" style="display:block;width:'+FAC.share[k]+'%;background:'+cols[k]+'"></span></span><b style="font:500 .85rem var(--mono)">'+FAC.share[k].toFixed(0)+'%</b></div>'; });
+$('shares').innerHTML=sh;
+})();
+</script>

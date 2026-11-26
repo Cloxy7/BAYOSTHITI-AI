@@ -1,0 +1,292 @@
+id,smiles,name,type,perm,neutral_smiles,key14,logS,logS_match,logS_entry,mp_C,mp_C_match,mp_C_entry,mp_source,ld50_mgkg,ld50_mgkg_match,ld50_mgkg_entry,ld50_source,pubchem_cid,pubchem_mp_text,pubchem_tox_text
+U001,C1CCC2=NCCC[NH+]2CC1,"1,8-Diazabicyclo[5.4.0]undec-7-enium",cation,0,C1CCC2=NCCCN2CC1,GQHTUMJGOHRCHB,,,,-70.0,free form,"1,8-diazabicyclo[5.4.0]undec-7-ene",Bradley,,,,,81184,,
+U002,C1CN=C2CCC[NH+]2C1,"1,5-Diazabicyclonon-5-enium",cation,0,C1CN=C2CCCN2C1,SGUVLZREKBPKCE,,,,,,,,,,,,76349,,
+U003,C1COCC[NH2+]1,Morpholinium,cation,0,C1COCCN1,YNAVUWVOSKDBBP,1.0599,free form,morpholine,-5.0,free form,Morpholine | morpholine,Bradley,,,,,8083,,LD50 Rabbit skin 1210 mg/kg
+U004,C1C[NH+]2CCN1CC2,"1,4-Diazabicyclo[2.2.2]octanium",cation,0,C1CN2CCN1CC2,IMNIMPAHZVJRPE,0.6033,free form,"1,4-diazabicyclo(2,2,2)octane  (dabco)",158.5,free form,"1,4-diazabicyclo(2,2,2)octane (dabco) | 1,4-diazabicyclo[2.2.2]octane",Bradley,1700.0,free form,,PubChem CID 9237 (rat oral),9237,,LD50 Rat oral 1700 mg/kg || LD50 Rabbit oral 1100 mg/kg || LD50 Guinea pig oral 2250 mg/kg
+U005,C1C[NH2+]CCN1,Piperazinium,cation,0,C1CNCCN1,GLUUGHFHXGJENI,1.0648,free form,piperazine,106.0,free form,"Piperazine | piperazine | piperazine, anhydrous",Bradley,3475.0,free form,,PubChem CID 4837 (rat oral),4837,,"LD50 Rat oral 4,900 mg/kg /Piperazine hydrochloride/ || LD50  Rat oral  2,050 mg/kg /Piperazine base/ || LD50  Mouse oral  6,200 mg/kg /Piperazine hydrochloride/ || LD50  Mouse oral  7,000 mg/kg /Piperazine dihydrochloride/"
+U006,C=C(C)C(=O)OCC[N+](C)(C)C,[2-(Methacryloyloxy)ethyl]trimethylammonium,cation,1,C=C(C)C(=O)OCC[N+](C)(C)C,USFMMZYROHDWPJ,,,,,,,,,,,,78739,,
+U007,C=C(C)C(=O)[O-],Methacrylate,anion,0,C=C(C)C(=O)O,CERQOIWHTDAKMF,0.0562733679,free form,2-methylprop-2-enoic acid,16.0,free form,Methacrylic acid | methacrylic acid,Bradley,1060.0,free form,,PubChem CID 4093 (rat oral),4093,,LD50 MOUSE ORAL 1250 MG/KG || LD50 Rat oral 1060 mg/kg || LD50 Mouse ip 48 mg/kg || LD50 Rabbit oral 1200 mg/kg
+U008,C=C(C)C1CCC2(C(=O)[O-])CCC3(C)C(CCC4C5(C)CCC(O)C(C)(C)C5CCC43C)C12,Betulinate,anion,0,C=C(C)C1CCC2(C(=O)O)CCC3(C)C(CCC4C5(C)CCC(O)C(C)(C)C5CCC43C)C12,QGJZLNKBHJESQX,,,,,,,,,,,,2371,,
+U009,C=C(CC(=O)[O-])C(=O)O,Itaconate,anion,0,C=C(CC(=O)O)C(=O)O,LVHBHZANLOWSRM,-0.2250282975,free form,2-methylidenebutanedioic acid,171.0,free form,"butanedioic acid, methylene- | itaconic acid",Bradley,,,,,811,,
+U010,C=CC(=O)[O-],Acrylate,anion,0,C=CC(=O)O,NIXOWILDQLNWCW,0.0059673299,free form,acrylic acid,13.0,free form,Acrylic Acid | acrylic acid | acrylic_acid,Bradley,920.0,free form,,PubChem CID 6581 (rat oral),6581,,LD50 Rat oral 193 mg/kg || LD50 Rat oral 340 mg/kg || LD50 Rat oral 1500 mg/kg || LD50 Rat oral 2500 mg/kg
+U011,C=CC[N+](C)(C)CC=C,Diallyldimethylammonium,cation,1,C=CC[N+](C)(C)CC=C,YIOJGTBNHQAVBO,,,,,,,,,,,,33287,,
+U012,C=CC[N+](C)(C)Cc1ccccc1,Allylbenzyldimethylammonium,cation,1,C=CC[N+](C)(C)Cc1ccccc1,YVEJDOBFMBXLPV,,,,,,,,,,,,412388,,
+U013,C=C[n+]1ccn(CC)c1,1-Ethyl-3-vinylimidazolium,cation,1,C=C[n+]1ccn(CC)c1,MAXSYFSJUKUMRE,,,,,,,,,,,,9976734,,
+U014,CC(=O)CCC(=O)[O-],Levulinate,anion,0,CC(=O)CCC(=O)O,JOOXCMJARBKPKM,,,,33.0,free form,Laevulinic Acid | levulinic acid,Bradley,,,,,11579,,
+U015,CC(=O)NC(C(=O)[O-])C(C)C,N-Acetyl-L-valinate,anion,0,CC(=O)NC(C(=O)O)C(C)C,IHYJTAOFMMMOPX,-0.4962,free form,"dl-valine, n-acetyl- | l-valine, n-acetyl-",148.0,free form,N-acetyl-dl-valine,Bradley,,,,,227752,,
+U016,CC(=O)OCC1=C(C(=O)[O-])N2C(=O)C(NC(=O)Cc3cccs3)C2SC1,Cephalothin,anion,0,CC(=O)OCC1=C(C(=O)O)N2C(=O)C(NC(=O)Cc3cccs3)C2SC1,XIURVHNZVLADCM,-2.94,free form,cephalothin,160.25,free form,Cefalotin | cephalothin,Bradley,,,,,2612,,
+U017,CC(=O)Oc1ccccc1C(=O)[O-],Acetylsalicylate,anion,0,CC(=O)Oc1ccccc1C(=O)O,BSYNRYMUTXBXSQ,-1.72,free form,acetylsalicylic_acid,135.0,free form,2-Acetoxybenzoic acid | Acetylsalicylic acid | acetylsalicylic acid | acetylsalicylicacid | aspirin | o-acetylsalicylic ,Bradley,850.0,free form,,PubChem CID 2244 (rat oral),2244,,LD50 RABBIT ORAL 1800 MG/KG || LD50 RABBIT INTRAPERITONEAL 500 MG/KG || LD50 Rat oral 1500 mg/kg || LD50 Rat oral 200 mg/kg
+U018,CC(=O)[N-]S(=O)(=O)c1ccc(N)cc1,Sulfacetamidate,anion,0,CC(=O)NS(=O)(=O)c1ccc(N)cc1,SKIVFJLNDNKQPD,-1.41,free form,sulfacetamide;  n1-(acetyl)sulfanilamide,183.0,free form,N-[(4-Aminophenyl)sulfonyl]acetamide | Sulfacetamide | sulfacetamide | sulfanilacetamide,Bradley,,,,,5320,,
+U019,CC(=O)[O-],Acetate,anion,0,CC(=O)O,QTBSBXVTEAMEQO,1.0017178079,free form,acetic acid,16.650000000000013,free form,(~2~H_4_)Acetic acid | Acetic acid | acetic acid | acetic_acid,Bradley,3530.0,free form,,PubChem CID 176 (rat oral),176,,LD50 Rat oral 3.53 g/kg || LD50 Mouse iv 525 mg/kg || LD50 Rabbit dermal 1060 mg/kg || LD50 Mouse oral 4960 mg/kg
+U020,CC(C(=O)[O-])c1ccc(-c2ccccc2)c(F)c1,Flurbiprofenate,anion,0,CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1,SYTBZMRGLBWNTM,-4.29,free form,flurbiprofen,110.5,free form,2-fluoro-alpha-methyl-4-biphenylacetic acid | Flurbiprofen | flurbiprofen,Bradley,,,,,3394,,
+U021,CC(C(=O)[O-])c1ccc(CC2CCCC2=O)cc1,Loxoprofenate,anion,0,CC(C(=O)O)c1ccc(CC2CCCC2=O)cc1,YMBXTVYHTMGZDW,,,,,,,,,,,,3965,108.5 - 111,
+U022,CC(C)C(N)C(=O)[O-],L-Valinate,anion,0,CC(C)C(N)C(=O)O,KZSNJWFQEVHDMF,-0.1971,free form,dl-valine,315.0,free form,L-Valine | L-valine | valine,Bradley,,,,,1182,,
+U023,CC(C)CC(CN)CC(=O)[O-],Pregabalin,anion,0,CC(C)CC(CN)CC(=O)O,AYXYPKUFHZROOJ,,,,,,,,,,,,4715169,,
+U024,CC(C)CC([NH3+])C(=O)OC(C)C,L-Leucine isopropyl ester,cation,0,CC(C)CC(N)C(=O)OC(C)C,KDESEECZHLTGMH,,,,,,,,,,,,2827651,,
+U025,CC(C)CCCC(C)CCOS(=O)(=O)[O-],"3,7-Dimethyloctanyl sulfate",anion,0,CC(C)CCCC(C)CCOS(=O)(=O)O,RTCVAOONMOKKCM,,,,,,,,,,,,121371309,,
+U026,CC(C)COC(=O)CC(C(=O)OCC(C)C)S(=O)(=O)[O-],Diisobutylsulfosuccinate,anion,0,CC(C)COC(=O)CC(C(=O)OCC(C)C)S(=O)(=O)O,NNARPPSIYMCXMB,0.1773743212,in a salt,"sodium 1,4-bis(2-methylpropoxy)-1,4-dioxobutane-2-sulfonate",,,,,,,,,61070,,
+U027,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1,Ibuprofenate,anion,0,CC(C)Cc1ccc(C(C)C(=O)O)cc1,HEFNNWSXXWATRW,-3.992248354700001,free form,2-[4-(2-methylpropyl)phenyl]propanoic acid,76.0,free form,(+/+)-ibuprofen | 2-(4-Isobutylphenyl)propanoic acid | 4-isobutyl-alpha-methylphenylacetic acid | Ibumetin | Ibuprofen |,Bradley,636.0,free form,,PubChem CID 3672 (rat oral),3672,,LD50 Rat oral 636 mg/kg || LD50 Rat ip 626 mg/kg || LD50 Rat sc 740 mg/kg || LD50 Rat rectal 530 mg/kg
+U028,CC(C)N=c1cc2n(-c3ccc(Cl)cc3)c3ccccc3[nH+]c-2cc1Nc1ccc(Cl)cc1,Clofazimine (protonated),cation,0,CC(C)N=c1cc2n(-c3ccc(Cl)cc3)c3ccccc3nc-2cc1Nc1ccc(Cl)cc1,WDQPAMHFFCXSNU,-6.24,free form,clofazimine,211.0,free form,Clofazimine | clofazimine,Bradley,,,,,2794,,
+U029,CC(C)OC(=O)C(C)[NH3+],L-Alanine isopropyl ester,cation,0,CC(C)OC(=O)C(C)N,QDQVXVRZVCTVHE,,,,,,,,,,,,11804791,,
+U030,CC(C)OC(=O)C(N)CCCC[NH3+],L-Lysine isopropyl ester,cation,0,CC(C)OC(=O)C(N)CCCCN,OIYIOFZIDFHSJL,,,,,,,,,,,,22005839,,
+U031,CC(C)OC(=O)C([NH3+])C(C)C,L-Valine isopropyl ester,cation,0,CC(C)OC(=O)C(N)C(C)C,GJJLNXZGOBJOFF,,,,,,,,,,,,14178473,,
+U032,CC(C)OC(=O)C([NH3+])C(C)O,L-Threonine isopropyl ester,cation,0,CC(C)OC(=O)C(N)C(C)O,DAVNUZXTMACPML,,,,,,,,,,,,21564155,,
+U033,CC(C)OC(=O)C([NH3+])CO,L-Serine isopropyl ester,cation,0,CC(C)OC(=O)C(N)CO,DETDCGYOOXTNBW,,,,,,,,,,,,4571063,,
+U034,CC(C)OC(=O)C([NH3+])CS,L-Cysteine isopropyl ester,cation,0,CC(C)OC(=O)C(N)CS,HXHFZINLHDNRTP,,,,,,,,,,,,,,
+U035,CC(C)OC(=O)C([NH3+])Cc1ccccc1,L-Phenylalanine isopropyl ester,cation,0,CC(C)OC(=O)C(N)Cc1ccccc1,JPWDURLJLRNJAT,,,,,,,,,,,,407875,,
+U036,CC(C)OC(=O)C1CCC[NH2+]1,L-Proline isopropyl ester,cation,0,CC(C)OC(=O)C1CCCN1,NAHHGJMBRWRITI,,,,,,,,,,,,11051913,,
+U037,CC(C)OC(=O)CC([NH3+])C(=O)OC(C)C,L-Aspartic acid diisopropyl ester,cation,0,CC(C)OC(=O)CC(N)C(=O)OC(C)C,CDGUKEIXKGHSIS,,,,,,,,,,,,22128986,,
+U038,CC(C)OC(=O)C[NH3+],Glycine isopropyl ester,cation,0,CC(C)OC(=O)CN,YLGOWOYJZYKTDO,,,,,,,,,,,,13820629,,
+U039,CC(C)c1ccc(C=CC(=O)[O-])cc1,4-Isopropylcinnamate,anion,0,CC(C)c1ccc(C=CC(=O)O)cc1,SJDOOXOUSJDYFE,,,,,,,,,,,,72854,,
+U040,CC(CCC(=O)[O-])C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C,Cholate,anion,0,CC(CCC(=O)O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C,BHQCQFFYRZLCQQ,-3.4991,free form,cholic  acid | cholic acid,198.0,free form,Cholic Acid | cholic acid,Bradley,,,,,303,,
+U041,CC(CCC(=O)[O-])C1CCC2C3CCC4CC(O)CCC4(C)C3CC(O)C12C,Deoxycholate,anion,0,CC(CCC(=O)O)C1CCC2C3CCC4CC(O)CCC4(C)C3CC(O)C12C,KXGVEGMKQFWNSR,-3.9522000000000004,free form,deoxycholic acid | deoxycholic_acid,175.5,free form,deoxycholic acid,Bradley,,,,,2987,,
+U042,CC(O)C(=O)[O-],Lactate,anion,0,CC(O)C(=O)O,JVTAAEKCZFNVCJ,1.0454,free form,lactic acid,35.4,free form,"L-lactic acid, anhydrous | a-hydroxypropionic acid | d-lactic acid | l-lactic acid | lactic acid",Bradley,3730.0,free form,,PubChem CID 612 (rat oral),612,,LD50 Rat oral 3730 mg/kg || LD50 Guinea pigs oral 1810 mg/kg || LD50 Mouse sc 4500 mg/kg || LD50 Mouse oral 4875 mg/kg
+U043,CC(O)CC(=O)[O-],3-Hydroxybutyrate,anion,0,CC(O)CC(=O)O,WHBMMWSBFZVSSR,,,,46.0,free form,3-hydroxybutyric acid | b-hydroxybutyric acid,Bradley,,,,,441,,
+U044,CC(O)C[NH+](CC(C)O)CC(C)O,Triisopropanolammonium,cation,0,CC(O)CN(CC(C)O)CC(C)O,SLINHMUFWFWBMU,0.4173208759,free form,1-[bis(2-hydroxypropyl)amino]propan-2-ol,45.0,free form,"2-propanol, 1,1',1''-nitrilotris-",Bradley,4730.0,free form,,PubChem CID 24730 (rat oral),24730,,"LD50 Mouse oral 2520 mg/kg || LD50 Rat oral 4730 mg/kg || LD50 Guinea pig oral 1080 mg/kg || LD50 Rabbit oral 11,000 mg/kg"
+U045,CC(O)C[NH2+]CC(C)O,Diisopropanolammonium,cation,0,CC(O)CNCC(C)O,LVTYICIALWPMFW,0.815044373,free form,1-[(2-hydroxypropyl)amino]propan-2-ol,43.25,free form,diisopropanolamine,Bradley,4765.0,free form,,PubChem CID 8086 (rat oral),8086,,LD50 Mouse ip 96 mg/kg || LD50 Rat oral 4765 mg/kg || LD50 Mouse oral 2120 mg/kg || LD50 Rabbit  oral 4700 mg/kg
+U046,CC(O)C[NH3+],2-Hydroxypropylammonium,cation,0,CC(O)CN,HXKKHQJGJAFBHI,1.1243,free form,1-amino-2-propanol,22.0,free form,(2S)-1-amino-2-propanol | 1-Aminopropan-2-ol | F-Loop of Vitamin B12 | dl-1-amino-2-propanol,Bradley,4260.0,free form,,PubChem CID 4 (rat oral),4,,LD50 Rat oral 4.26 g/kg
+U047,CC1(C)C2CCC1(CS(=O)(=O)[O-])C(=O)C2,(1R)-Camphorsulfonate,anion,0,CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2,MIOPJNTWMNEORI,-0.3,free form,"(7,7-dimethyl-2-oxo-1-bicyclo[2.2.1]heptanyl)methanesulfonic acid",200.0,free form,(1R)-camphor-10-sulfonic acid,Bradley,,,,,18462,,
+U048,CC1(C)SC2C(NC(=O)C(C(=O)[O-])c3ccccc3)C(=O)N2C1C(=O)[O-],Carbenicillin (carbenicillinate),anion,0,CC1(C)SC2C(NC(=O)C(C(=O)O)c3ccccc3)C(=O)N2C1C(=O)O,FPPNZSSZRUTDAP,,,,,,,,,,,,2560,,
+U049,CC1(C)SC2C(NC(=O)C(N)c3ccccc3)C(=O)N2C1C(=O)[O-],Ampicillin (ampicillinate),anion,0,CC1(C)SC2C(NC(=O)C(N)c3ccccc3)C(=O)N2C1C(=O)O,AVKUERGKIZMTKX,-1.7645082211499998,free form,"6-{[amino(phenyl)acetyl]amino}-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid | ampicillin",200.5,free form,Ampicillin | ampicillin | ampicillin trihydrate,Bradley,,,,,2174,,
+U050,CC1=CC(=O)[N-]S(=O)(=O)O1,Acesulfamate,anion,0,CC1=CC(=O)NS(=O)(=O)O1,YGCFIWIQZPHFLU,,,,123.25,free form,acesulfame,Bradley,7431.0,free form,,PubChem CID 36573 (rat oral),36573,,LD50 Rat oral 7431 mg/kg /Acesulfame K/ || LD50 Rat ip 2243 mg/kg /Acesulfame K/
+U051,CC=CC=CC(=O)[O-],Sorbate,anion,0,CC=CC=CC(=O)O,WSWCOQWTEOXDQX,-1.77,free form,"2,4-hexadienoic acid;  sorbic  acid | sorbic_acid",134.0,free form,"(2E,4E)-Hexa-2,4-dienoic acid | sorbic acid",Bradley,,,,,5251,,
+U052,CCC(C)C([NH3+])C(=O)OC(C)C,L-Isoleucine isopropyl ester,cation,0,CCC(C)C(N)C(=O)OC(C)C,IGLFLAMJRDARAK,,,,,,,,,,,,14598395,,
+U053,CCC=CCC=CCC=CCC=CCC=CCC=CCCC(=O)[O-],Docosahexaenoate,anion,0,CCC=CCC=CCC=CCC=CCC=CCC=CCCC(=O)O,MBMBGCFOFBJSGT,,,,,,,,,,,,3144,,
+U054,CCC=CCC=CCC=CCCCCCCCC(=O)[O-],alpha-Linolenate,anion,0,CCC=CCC=CCC=CCCCCCCCC(=O)O,DTOSIQBPPRVQHS,,,,-16.5,free form,"9,12,15-octadecatrienoic acid, (z,z,z)- | Alpha-Linolenic Acid",Bradley,,,,,860,,
+U055,CCCC(=O)[O-],Butyrate,anion,0,CCCC(=O)O,FERIUCNNQQJTOY,-0.1669,free form,butyric acid,-5.699999999999989,free form,Butyric acid | butanoic_acid | butyric acid,Bradley,8790.0,free form,,PubChem CID 264 (rat oral),264,,LD50 Rat oral 8.79 g/kg || LD50 Mouse iv 800 mg/kg /From table/ || LD50 Mouse ip 3180 mg/kg /From table/ || LD50 Mouse sc 3180 mg/kg /From table/
+U056,CCCCC(CC)CCC(CC(C)C)OS(=O)(=O)[O-],7-Ethyl-2-methylundecan-4-yl sulfate,anion,0,CCCCC(CC)CCC(CC(C)C)OS(=O)(=O)O,GROJOWHVXQYQGN,,,,,,,,,,,,8771,199 ,
+U057,CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-],Docusate,anion,0,CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)O,HNSDLXPSAYFUHK,-1.7357141887,in a salt,"sodium 1,4-bis[(2-ethylhexyl)oxy]-1,4-dioxobutane-2-sulfonate",,,,,,,,,11339,153-157,
+U058,CCCCC(CC)COS(=O)(=O)[O-],2-Ethyl-1-hexyl sulfate,anion,0,CCCCC(CC)COS(=O)(=O)O,MHGOKSLTIUHUBF,0.3329637961,in a salt,sodium 2-ethylhexyl sulfate,,,,,,,,,31364,,
+U059,CCCCCC(=O)[O-],Hexanoate,anion,0,CCCCCC(=O)O,FUZZWVXGSFPDMH,-1.0522193787,free form,hexanoic acid,-3.0,free form,Hexanoic acid | hexanoic acid | hexanoic_acid,Bradley,3000.0,free form,,PubChem CID 8892 (rat oral),8892,,LD50 Rat oral 3.0 g/kg || LD50 Mouse ip 3180 mg/kg /From table/ || LD50 Mouse sc 3180 mg/kg /From table/ || LD50 Mouse iv 1725 mg/kg /From table/
+U060,CCCCCC(C)[NH3+],Tuaminoheptanium,cation,0,CCCCCC(C)N,VSRBKQFNFZQRBM,,,,,,,,,,,,5603,,
+U061,CCCCCC=CCC=CCCCCCCCC(=O)[O-],Linoleate,anion,0,CCCCCC=CCC=CCCCCCCCC(=O)O,OYHQOLUKZRVURQ,,,,-8.5,free form,"(9Z,12Z)-Octadeca-9,12-dienoic acid | linoleic acid",Bradley,,,,,3931,,
+U062,CCCCCCC(CCCC)COS(=O)(=O)[O-],2-Butyl-1-octyl sulfate,anion,0,CCCCCCC(CCCC)COS(=O)(=O)O,CYEJSYGBYQRTPJ,0.142087324,in a salt,sodium 2-butyloctyl sulfate,,,,,,,,,6366484,,
+U063,CCCCCCCC(=O)[O-],Octanoate,anion,0,CCCCCCCC(=O)O,WWZKQHOCKIZLMA,-2.3,free form,caprylic_acid,16.300000000000004,free form,Caprylic acid | octanoic acid | octanoic_acid,Bradley,1410.0,free form,,PubChem CID 379 (rat oral),379,,"LD50 Rat oral 1410 mg/kg || LD50 Rat oral 14.7 mL/kg /C6 0.5%, C8 97.9%, C10 1.6%, C12 traces/ || LD50 Rat gavage 1.41mL (1283 mg)/kg || LD50 Rabbit dermal >5000 mg/kg || LD50 Rabbit dermal 0.71 mL (647 mg)/kg"
+U064,CCCCCCCCC(CCCCCC)COS(=O)(=O)[O-],2-Hexyl-1-decyl sulfate,anion,0,CCCCCCCCC(CCCCCC)COS(=O)(=O)O,HHZJDUIWODCURL,,,,,,,,,,,,3015238,,
+U065,CCCCCCCCC=CCCCCCCCC(=O)[O-],Oleate,anion,0,CCCCCCCCC=CCCCCCCCC(=O)O,ZQPPMHVWECSIRJ,-7.52371549505,in a salt,"(3-aminopropyl)[(9Z)-octadec-9-en-1-yl]amine; bis((9Z)-octadec-9-enoic acid) | 9-Octadecenoic acid (Z)-, reaction produc",28.5,free form,elaidic acid | oleic acid,Bradley,,,,,965,,
+U066,CCCCCCCCC=CCCCCCCCC[N+](C)(C)C,Oleyltrimethylammonium,cation,1,CCCCCCCCC=CCCCCCCCC[N+](C)(C)C,QYWVQMLYIXYLRE,,,,,,,,,,,,82639,,
+U067,CCCCCCCCC=CCCCCCCCC[N+](C)(CCO)CCO,Oleyldi(2-hydroxyethyl)methylammonium,cation,1,CCCCCCCCC=CCCCCCCCC[N+](C)(CCO)CCO,SIIMROTZKDKRFD,,,,,,,,,,,,87649,,
+U068,CCCCCCCCCC(=O)[O-],Decanoate,anion,0,CCCCCCCCCC(=O)O,GHVNFZFCNZKVNT,-3.4452161366000005,free form,decanoic acid,31.0,free form,Decanoic acid | decanoic acid | decanoic_acid,Bradley,3730.0,free form,,PubChem CID 2969 (rat oral),2969,,LD50 Rat oral 3320 mg/kg || LD50 Rat oral 3730 mg/kg /mix isomers/ || LD50 Rat oral 15800 mg/kg /5% decanoic acid in 40% w/w ethanol/ || LD50 Mouse iv 129 mg/kg
+U069,CCCCCCCCCCC(=O)[O-],Undecanoate,anion,0,CCCCCCCCCCC(=O)O,ZDPHROOEEOARMN,-3.5525,free form,undecanoic acid,28.55,free form,Undecanoic acid | undecanoic acid,Bradley,,,,,8180,,
+U070,CCCCCCCCCCC(CCCCCCCC)COS(=O)(=O)[O-],2-Octyl-1-dodecyl sulfate,anion,0,CCCCCCCCCCC(CCCCCCCC)COS(=O)(=O)O,HTICBIANTYCPMS,,,,,,,,,,,,6365778,,
+U071,CCCCCCCCCCCC(=O)[O-],Laurate,anion,0,CCCCCCCCCCCC(=O)O,POULHZVOKOAJMA,-4.6195835711,free form,dodecanoic acid,43.6,free form,Lauric Acid | Lauric acid | dodecanoic acid,Bradley,12000.0,free form,,PubChem CID 3893 (rat oral),3893,,"LD50 Mouse iv 131 mg/kg || LD50 Rat oral 12,000 mg/kg"
+U072,CCCCCCCCCCCCCC(=O)[O-],Myristate,anion,0,CCCCCCCCCCCCCC(=O)O,TUNFSRHWOTWDNC,-5.3293,free form,tetradecanoic acid,55.0,free form,Myristic acid | tetradecanoic acid,Bradley,10000.0,free form,,PubChem CID 11005 (rat oral),11005,,"LD50 Rat oral >10000 mg/kg /C12: 2.7%, C14 95.4%, C16 1.9%/ || LD50 Mouse iv 43 mg/kg"
+U073,CCCCCCCCCCCCCCCC(=O)[O-],Palmitate,anion,0,CCCCCCCCCCCCCCCC(=O)O,IPCSVZSSVZVIGE,-6.806908841,free form,hexadecanoic acid,61.8,free form,Palmitic acid | palmitic acid,Bradley,,,,,985,,LD50 Mouse iv 57 mg/kg
+U074,CCCCCCCCCCCCCCCCCC(=O)[O-],Stearate,anion,0,CCCCCCCCCCCCCCCCCC(=O)O,QIQXTHQIDYTFRH,-4.98,free form,stearic  acid;  octadecanoic  acid,68.65,free form,(~2~H_35_)Octadecanoic acid | Stearic acid | stearic acid,Bradley,,,,,5281,,"LD50 Rat iv 22 mg/kg || LD50 Rabbit dermal >5000 mg/kg || LD50 Mouse iv 23 mg/kg || LD50 Rat iv 21,500 ug/kg"
+U075,CCCCCCCCCCCCCCCCCCOS(=O)(=O)[O-],Octadecyl sulfate,anion,0,CCCCCCCCCCCCCCCCCCOS(=O)(=O)O,HVWGGPRWKSHASF,,,,,,,,,,,,8912,,
+U076,CCCCCCCCCCCCCCCCCC[N+](C)(C)C,Octadecyltrimethylammonium,cation,1,CCCCCCCCCCCCCCCCCC[N+](C)(C)C,PDSVZUAJOIQXRK,-3.7337919543,in a salt,"N,N,N-trimethyloctadecan-1-aminium bromide | N,N,N-trimethyloctadecan-1-aminium chloride",,,,,,,,,8156,,
+U077,CCCCCCCCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCCCCCCCC,Di(hydrogenated tallow alkyl)dimethylammonium,cation,1,CCCCCCCCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCCCCCCCC,OGQYPPBGSLZBEG,,,,,,,,,,,,7880,,
+U078,CCCCCCCCCCCCCCCCCC[NH3+],Octadecylammonium,cation,0,CCCCCCCCCCCCCCCCCCN,REYJJPSVUYRZGE,-3.6312456144,free form,octadecan-1-amine,52.900000000000034,free form,1-octadecylamine | Octadecan-1-amine | octadecylamine,Bradley,1000.0,free form,,PubChem CID 15793 (rat oral),15793,,"LD50 RAT ORAL 1000 MG/KG, ACUTE || LD50 Mouse oral 3 g/kg || LD50 Mouse ip 250 mg/kg"
+U079,CCCCCCCCCCCCCCCC[N+](C)(C)C,Hexadecyltrimethylammonium,cation,1,CCCCCCCCCCCCCCCC[N+](C)(C)C,RLGQACBPNDBWTB,-3.1249455224,in a salt,hexadecyltrimethylazanium chloride,240.0,free form,Cetyl-Trimethyl-Ammonium,Bradley,,,,,2681,,
+U080,CCCCCCCCCCCCCCCC[n+]1cccc(C)c1,1-Hexadecyl-3-methylpyridinium,cation,1,CCCCCCCCCCCCCCCC[n+]1cccc(C)c1,YJXXHMRKZRKLNB,,,,,,,,,,,,75337,,
+U081,CCCCCCCCCCCCCCCC[n+]1ccccc1,Hexadecylpyridinium,cation,1,CCCCCCCCCCCCCCCC[n+]1ccccc1,NEUSVAOJNUQRTM,-0.4861495515,in a salt,1-hexadecylpyridinium chloride,,,,,,,,,2683,,
+U082,CCCCCCCCCCCCCCCCn1cc[n+](C)c1,1-Hexadecyl-3-methylimidazolium,cation,1,CCCCCCCCCCCCCCCCn1cc[n+](C)c1,DCLKMMFVIGOXQN,,,,,,,,,,,,2734232,,
+U083,CCCCCCCCCCCCCCCCn1cc[n+](C)c1C,"1-Hexadecyl-2,3-dimethylimidazolium",cation,1,CCCCCCCCCCCCCCCCn1cc[n+](C)c1C,OAFYUGJKLQQHEK,,,,,,,,,,,,53358213,,
+U084,CCCCCCCCCCCCCC[N+](C)(C)C,Tetradecyltrimethylammonium,cation,1,CCCCCCCCCCCCCC[N+](C)(C)C,GLFDLEXFOHUASB,-2.8980709963,in a salt,bis(trimethyl(tetradecyl)azanium) oxalate,,,,,,,,,14251,,
+U085,CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1,Benzalkonium,cation,1,CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1,WNBGYVXHFTYOBY,-0.9531217854,in a salt,benzyldimethyltetradecylazanium chloride,,,,,,,,,8756,,
+U086,CCCCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC,Tributyltetradecylphosphonium,cation,1,CCCCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC,YCBRTSYWJMECAH,,,,,,,,,,,,183729,,
+U087,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,Trihexyltetradecylphosphonium,cation,1,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,PYVOHVLEZJMINC,,,,,,,,,,,,11181837,,
+U088,CCCCCCCCCCCCCCn1cc[n+](C)c1,1-Tetradecyl-3-methylimidazolium,cation,1,CCCCCCCCCCCCCCn1cc[n+](C)c1,BMKLRPQTYXVGNK,,,,,,,,,,,,2734230,,
+U089,CCCCCCCCCCCCOS(=O)(=O)[O-],Dodecyl sulfate,anion,0,CCCCCCCCCCCCOS(=O)(=O)O,MOTZDAYCYVMXPC,-0.08745920914999997,in a salt,lithium dodecyl sulfate | sodium dodecyl sulfate,205.5,free form,Sodium lauryl sulfate,Bradley,1300.0,free form,,PubChem CID 8778 (rat oral),8778,,LD50 Rat oral 1300 mg/kg
+U090,CCCCCCCCCCCCS(=O)(=O)[O-],Bis(dodecanesulfonate),anion,0,CCCCCCCCCCCCS(=O)(=O)O,LDMOEFOXLIZJOW,,,,,,,,,,,,15192,,
+U091,CCCCCCCCCCCC[N+](C)(C)C,Cocotrimethylammonium,cation,1,CCCCCCCCCCCC[N+](C)(C)C,VICYBMUVWHJEFT,,,,,,,,,,,,8153,,
+U092,CCCCCCCCCCCC[N+](C)(C)C1CCCCC1,Cyclohexyldodecyldimethylammonium,cation,1,CCCCCCCCCCCC[N+](C)(C)C1CCCCC1,SOMLLVRRBHAOQM,,,,,,,,,,,,14671679,,
+U093,CCCCCCCCCCCC[N+](C)(C)CCCC,Butyldodecyldimethylammonium,cation,1,CCCCCCCCCCCC[N+](C)(C)CCCC,VQRZNCVKGHWIHL,,,,,,,,,,,,407819,,
+U094,CCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCC,Dicocodimethylammonium,cation,1,CCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCC,QQJDHWMADUVRDL,,,,,,,,,,,,18670,,
+U095,CCCCCCCCCCCC[N+](C)(C)CCO,Dodecylcholinium ([C12Ch]),cation,1,CCCCCCCCCCCC[N+](C)(C)CCO,IDROXUWVODOXTL,,,,,,,,,,,,81487,,
+U096,CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1,Benzyldodecyldimethylammonium,cation,1,CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1,CYDRXTMLKJDRQH,,,,,,,,,,,,8754,,
+U097,CCCCCCCCCCCC[N+](C)(CCO)CCO,Cocodi(2-hydroxyethyl)methylammonium,cation,1,CCCCCCCCCCCC[N+](C)(CCO)CCO,VVWPRBUPUHNJPX,,,,,,,,,,,,31147,,
+U098,CCCCCCCCCCCC[N+]1(C)CCCCC1,1-Dodecyl-1-methylpiperidinium,cation,1,CCCCCCCCCCCC[N+]1(C)CCCCC1,HLOSFNUKTPAIOO,,,,,,,,,,,,189195,,
+U099,CCCCCCCCCCCC[N+]1(C)CCOCC1,N-Dodecyl-N-methylmorpholinium,cation,1,CCCCCCCCCCCC[N+]1(C)CCOCC1,VXYGFTZDXZHPHP,,,,,,,,,,,,427649,,
+U100,CCCCCCCCCCCC[NH+](C)C,Dodecyldimethylammonium,cation,0,CCCCCCCCCCCCN(C)C,YWFWDNVOPHGWMX,-4.4261227438,free form,"N,N-dimethyldodecan-1-amine",-17.5,free form,"N,N-dimethyldodecylamine | n,n-dimethyldodecylamine",Bradley,740.0,free form,,PubChem CID 8168 (rat oral),8168,,LD50 Rat oral 740 mg/kg
+U101,CCCCCCCCCCCC[NH3+],Dodecylammonium,cation,0,CCCCCCCCCCCCN,JRBPAEWTRLWTQC,-3.3759,free form,n-dodecylamine,29.0,free form,"1-dodecanamine, acetate | Dodecan-1-amine | n-dodecylamine",Bradley,,,,,13583,,LD50 Mouse ip 320 mg/kg
+U102,CCCCCCCCCCCCn1cc[n+](C)c1,1-Dodecyl-3-methylimidazolium,cation,1,CCCCCCCCCCCCn1cc[n+](C)c1,ILQHIGIKULUQFQ,,,,,,,,,,,,2734228,,
+U103,CCCCCCCCCCOC(=O)C(C)[NH3+],Decyl alaninate (alanine decyl ester cation),cation,0,CCCCCCCCCCOC(=O)C(C)N,YUXJLYBUNGKOOQ,,,,,,,,,,,,10955353,,
+U104,CCCCCCCCCCOC(=O)C([NH3+])Cc1ccccc1,Decyl phenylalaninate (phenylalanine decyl ester cation),cation,0,CCCCCCCCCCOC(=O)C(N)Cc1ccccc1,HMSHFXBDVHMCRC,,,,,,,,,,,,21585830,,
+U105,CCCCCCCCCCOS(=O)(=O)[O-],Decyl sulfate,anion,0,CCCCCCCCCCOS(=O)(=O)O,CSMFSDCPJHNZRY,0.1029880533,in a salt,sodium decyl sulfate,,,,,,,,,8904,,
+U106,CCCCCCCCCC[N+](C)(C)C,Decyltrimethylammonium,cation,1,CCCCCCCCCC[N+](C)(C)C,RKMJXTWHATWGNX,,,,,,,,,,,,16389,,
+U107,CCCCCCCCCC[N+](C)(C)C1CCCCC1,Cyclohexyldecyldimethylammonium,cation,1,CCCCCCCCCC[N+](C)(C)C1CCCCC1,ICMDMXKHYMPMBJ,,,,,,,,,,,,14671673,,
+U108,CCCCCCCCCC[N+](C)(C)CCCCCCCCCC,Didecyldimethylammonium,cation,1,CCCCCCCCCC[N+](C)(C)CCCCCCCCCC,JGFDZZLUDWMUQH,-2.9677471262,in a salt,"N-decyl-N,N-dimethyldecan-1-aminium chloride",,,,,,,,,16958,,
+U109,CCCCCCCCCC[N+](C)(C)CCO,"N-Decyl-N-(2-hydroxyethyl)-N,N-dimethylammonium",cation,1,CCCCCCCCCC[N+](C)(C)CCO,FOPBFJNWYFZWBJ,,,,,,,,,,,,431468,,
+U110,CCCCCCCCCC[N+]1(C)CCCCC1,Decylmethylpiperidinium,cation,1,CCCCCCCCCC[N+]1(C)CCCCC1,ITMKMGFAZDZEPE,,,,,,,,,,,,20286157,,
+U111,CCCCCCCCCC[NH+](C)CCCCCCCCCC,Didecylmethylammonium,cation,0,CCCCCCCCCCN(C)CCCCCCCCCC,ATBNMWWDBWBAHM,,,,,,,,,,,,81880,,
+U112,CCCCCCCCCC[NH3+],Decylammonium,cation,0,CCCCCCCCCCN,MHZGKXUYDGKKIU,-2.4564,free form,n-decylamine,16.0,free form,1-aminodecane | Decan-1-amine | n-decylamine,Bradley,,,,,8916,,
+U113,CCCCCCCCCC[n+]1cccc(C)c1,1-Decyl-3-methylpyridinium (3-picolinium),cation,1,CCCCCCCCCC[n+]1cccc(C)c1,PWYMFIKRESQIBO,,,,,,,,,,,,44298487,,
+U114,CCCCCCCCCC[n+]1ccccc1,1-Decylpyridinium,cation,1,CCCCCCCCCC[n+]1ccccc1,MFMBELVKZWEQOM,,,,,,,,,,,,74160,,
+U115,CCCCCCCCCC[n+]1ccn(C)c1,1-Decyl-3-methylimidazolium,cation,1,CCCCCCCCCC[n+]1ccn(C)c1,LDVVBLGHGCHZBJ,,,,,,,,,,,,2734226,,
+U116,CCCCCCCCCCn1cc[n+](C)c1,1-Decyl-3-methylimidazolium,cation,1,CCCCCCCCCCn1cc[n+](C)c1,LDVVBLGHGCHZBJ,,,,,,,,,,,,2734226,,
+U117,CCCCCCCCCOCn1cc[nH+]c1,1-[(Nonyloxy)methyl]-1H-imidazol-3-ium,cation,0,CCCCCCCCCOCn1ccnc1,GBFIMRVGJASDGP,,,,,,,,,,,,90787753,,
+U118,CCCCCCCCCOS(=O)(=O)[O-],Nonyl sulfate,anion,0,CCCCCCCCCOS(=O)(=O)O,KETHQOOVMIVLCH,-0.1361989598,in a salt,sodium nonyl sulfate,,,,,,,,,70619,,
+U119,CCCCCCCCOC(=O)C([NH3+])C(C)C,L-Valine octyl ester (cation),cation,0,CCCCCCCCOC(=O)C(N)C(C)C,XNHNEYDGXNIRRV,,,,,,,,,,,,61304092,,
+U120,CCCCCCCCOS(=O)(=O)[O-],Octyl sulfate,anion,0,CCCCCCCCOS(=O)(=O)O,UZZYXUGECOQHPU,0.2872063056,in a salt,sodium octyl sulfate,,,,,,,,,8885,,
+U121,CCCCCCCCS(=O)(=O)[O-],Octanesulfonate,anion,0,CCCCCCCCS(=O)(=O)O,WLGDAKIJYPIYLR,,,,,,,,,,,,49939,,
+U122,CCCCCCCC[N+](C)(C)C,Octyltrimethylammonium,cation,1,CCCCCCCC[N+](C)(C)C,HTKPDYSCAPSXIR,,,,,,,,,,,,24950,,
+U123,CCCCCCCC[N+](C)(C)CCCCCCCC,Dioctyldimethylammonium,cation,1,CCCCCCCC[N+](C)(C)CCCCCCCC,MELGLHXCBHKVJG,,,,,,,,,,,,62582,,
+U124,CCCCCCCC[N+](C)(C)CCO,Octylcholinium ([C8Ch]),cation,1,CCCCCCCC[N+](C)(C)CCO,OCAPHIRVDIMADR,,,,,,,,,,,,10104284,,
+U125,CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC,Trioctylmethylammonium,cation,1,CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC,ZUZLIXGTXQBUDC,,,,,,,,,,,,21219,,
+U126,CCCCCCCC[NH+](CCCCCCCC)CCCCCCCC,Trioctylammonium,cation,0,CCCCCCCCN(CCCCCCCC)CCCCCCCC,XTAZYLNFDRKIHJ,-6.8496,free form,tri(n-octyl)amine,-39.0,free form,tri-n-octylamine,Bradley,,,,,14227,,
+U127,CCCCCCCC[NH3+],Octylammonium,cation,0,CCCCCCCCN,IOQPZZOEVPZRBK,-2.75,free form,n-octylamine,0.0,free form,1-aminooctane | 1-octylamine | n-octylamine | octylamine,Bradley,,,,,8143,,
+U128,CCCCCCCC[P+](C)(CCCCCCCC)CCCCCCCC,Trioctylmethylphosphonium,cation,1,CCCCCCCC[P+](C)(CCCCCCCC)CCCCCCCC,AHCKRTXGDNIJSK,,,,,,,,,,,,18705639,,
+U129,CCCCCCCCn1cc[n+](C)c1,1-Octyl-3-methylimidazolium,cation,1,CCCCCCCCn1cc[n+](C)c1,WXMVWUBWIHZLMQ,,,,,,,,,,,,2734224,,
+U130,CCCCCCCOC(=O)C([NH3+])C(C)C,L-Valine heptyl ester (cation),cation,0,CCCCCCCOC(=O)C(N)C(C)C,ZTOYPWZGPCCVBV,,,,,,,,,,,,14657664,,
+U131,CCCCCCOC(=O)C([NH3+])C(C)C,L-Valine hexyl ester (protonated),cation,0,CCCCCCOC(=O)C(N)C(C)C,DZNBKNSYGUTTQA,,,,,,,,,,,,61302114,,
+U132,CCCCCCOC(=O)CC(C(=O)OCCCCCC)S(=O)(=O)[O-],Dihexyl sulfosuccinate,anion,0,CCCCCCOC(=O)CC(C(=O)OCCCCCC)S(=O)(=O)O,SOSQXPIKTBUEKF,,,,,,,,,,,,82160,,
+U133,CCCCCCOS(=O)(=O)[O-],1-Hexyl sulfate,anion,0,CCCCCCOS(=O)(=O)O,IDUWTCGPAPTSFB,,,,,,,,,,,,75157,,
+U134,CCCCCCS(=O)(=O)[O-],Bis(hexane-1-sulfonate),anion,0,CCCCCCS(=O)(=O)O,FYAQQULBLMNGAH,,,,16.1,free form,hexanesulfonic acid,Bradley,,,,,49937,,
+U135,CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC,Tetrahexylammonium,cation,1,CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC,DTIFFPXSSXFQCJ,,,,,,,,,,,,75057,,
+U136,CCCCCC[n+]1cccc(C(N)=O)c1,N-Hexylnicotinamidium,cation,1,CCCCCC[n+]1cccc(C(N)=O)c1,PVMWZBOSCFWICX,,,,,,,,,,,,164949,,
+U137,CCCCCC[n+]1ccccc1,1-Hexylpyridinium,cation,1,CCCCCC[n+]1ccccc1,AMKUSFIBHAUBIJ,,,,,,,,,,,,2734173,,
+U138,CCCCCC[n+]1ccn(C)c1,1-Hexyl-3-methylimidazolium,cation,1,CCCCCC[n+]1ccn(C)c1,RVEJOWGVUQQIIZ,,,,,,,,,,,,2734164,,
+U139,CCCCCCn1cc[n+](C)c1,1-Hexyl-3-methylimidazolium,cation,1,CCCCCCn1cc[n+](C)c1,RVEJOWGVUQQIIZ,,,,,,,,,,,,2734164,,
+U140,CCCCCOC(=O)C([NH3+])C(C)C,L-Valine amyl (pentyl) ester (cation),cation,0,CCCCCOC(=O)C(N)C(C)C,CSJBCDOFKKNABP,,,,,,,,,,,,61301740,,
+U141,CCCCCOC(=O)CC(C(=O)OCCCCC)S(=O)(=O)[O-],Diamylsulfosuccinate,anion,0,CCCCCOC(=O)CC(C(=O)OCCCCC)S(=O)(=O)O,CBCQTCPKFYFJEU,,,,,,,,,,,,70207,,
+U142,CCCCC[NH+](CCCCC)CCCCC,Triamylammonium,cation,0,CCCCCN(CCCCC)CCCCC,OOHAUGDGCWURIT,-4.0326,free form,"1-pentanamine, n,n-dipentyl-",,,,,,,,,12133,,
+U143,CCCCOC(=O)C([NH3+])C(C)C,L-Valine butyl ester,cation,0,CCCCOC(=O)C(N)C(C)C,KIVHHEUXDIMERT,,,,,,,,,,,,13783304,,
+U144,CCCCOC(=O)C([NH3+])C(C)CC,L-Isoleucine butyl ester,cation,0,CCCCOC(=O)C(N)C(C)CC,DZBIWYBLSWZUPN,,,,,,,,,,,,6426962,,
+U145,CCCCOC(=O)C([NH3+])C(C)O,L-Threonine butyl ester,cation,0,CCCCOC(=O)C(N)C(C)O,IWOXIXGLKKLPCA,,,,,,,,,,,,13783325,,
+U146,CCCCOC(=O)C([NH3+])CCSC,L-Methionine butyl ester,cation,0,CCCCOC(=O)C(N)CCSC,FEOZZKKBHYDPPI,,,,,,,,,,,,6426963,,
+U147,CCCCOC(=O)C1CCC[NH2+]1,L-Proline butyl ester (protonated),cation,0,CCCCOC(=O)C1CCCN1,YTXNDJXECACZEL,,,,,,,,,,,,6426964,,
+U148,CCCCOC[N+](C)(C)C,(Butoxymethyl)trimethylammonium,cation,1,CCCCOC[N+](C)(C)C,XUMPOCLRQPWYDG,,,,,,,,,,,,3026389,,
+U149,CCCCOCn1cc[n+](C)c1,1-Butoxymethyl-3-methylimidazolium,cation,1,CCCCOCn1cc[n+](C)c1,GAGXTGQPJPEODZ,,,,,,,,,,,,101737622,,
+U150,CCCC[N+](C)(C)C,Trimethylbutylammonium,cation,1,CCCC[N+](C)(C)C,IUNCEDRRUNZACO,,,,,,,,,,,,24399,,
+U151,CCCC[N+](C)(CCCC)CCCC,Tributylmethylammonium,cation,1,CCCC[N+](C)(CCCC)CCCC,HJHUXWBTVVFLQI,0.4850619562,in a salt,tributyl(methyl)azanium chloride,,,,,,,,,36209,,
+U152,CCCC[N+](CCCC)(CCCC)CCCC,Tetrabutylammonium,cation,1,CCCC[N+](CCCC)(CCCC)CCCC,DZLFLBLQUQXARW,1.3320248442,in a salt,tetrabutylazanium bromide,,,,,,,,,16028,,
+U153,CCCC[N+](CCCC)(CCCC)CCOCCOCCOC,Triethylene glycol monomethyl ether tributylammonium,cation,1,CCCC[N+](CCCC)(CCCC)CCOCCOCCOC,YHEMHNJMISUVTC,,,,,,,,,,,,,,
+U154,CCCC[N+]1(C)CCCC1,1-Butyl-1-methylpyrrolidinium,cation,1,CCCC[N+]1(C)CCCC1,PXELHGDYRQLRQO,,,,,,,,,,,,11009533,,
+U155,CCCC[NH+](CCCC)CCCC,Tributylammonium,cation,0,CCCCN(CCCC)CCCC,IMFACGCPASFAPR,-3.1157,free form,tri n-butylamine,-70.0,free form,"N,N-Dibutylbutan-1-amine | tri n-butylamine | tributylamine",Bradley,,,,,7622,,"LD50 Rabbit, dermal 195 mg/kg bw || LD50 Rats, i.p. 107 mg/kg bw || LD50 Mice, i.p. 107 mg/kg bw"
+U156,CCCC[NH+]1CCCCC1C(=O)Nc1c(C)cccc1C,Bupivacaine,cation,0,CCCCN1CCCCC1C(=O)Nc1c(C)cccc1C,LEBVLXFERQHONN,-3.22,free form,bupivacaine,107.25,free form,Bupivacaine | bupivacaine,Bradley,,,,,2474,,
+U157,CCCC[NH3+],Butylammonium,cation,0,CCCCN,HQABUPZFAYXKJW,1.1359,free form,n-butylamine,-49.0,free form,1-aminobutane | Butan-1-amine | Butylamine | n-butylamine,Bradley,433.0,free form,,PubChem CID 8007 (rat oral),8007,,LD50 Rat oral 500 mg/kg || LD50 Rat oral 366 mg/kg || LD50 Rat ip 48 mg/kg
+U158,CCCC[P+](C)(CCCC)CCCC,Tributylmethylphosphonium,cation,1,CCCC[P+](C)(CCCC)CCCC,XKFPGUWSSPXXMF,,,,,,,,,,,,2760115,,
+U159,CCCC[P+](CCCC)(CCCC)CCCC,Tetrabutylphosphonium,cation,1,CCCC[P+](CCCC)(CCCC)CCCC,BJQWBACJIAKDTJ,0.41483097,in a salt,tetrabutylphosphonium bromide,,,,,,,,,75312,,
+U160,CCCCn1cc[n+](C)c1,1-Butyl-3-methylimidazolium,cation,1,CCCCn1cc[n+](C)c1,IQQRAVYLUAZUGX,,,,,,,,,,,,2734162,,
+U161,CCCN(CCOc1c(Cl)cc(Cl)cc1Cl)C(=O)n1cc[nH+]c1,Prochlorazium (protonated prochloraz),cation,0,CCCN(CCOc1c(Cl)cc(Cl)cc1Cl)C(=O)n1ccnc1,TVLSRXXIMLFWEO,-4.0445,free form,prochloraz,48.0,free form,prochloraz,Bradley,,,,,73665,,
+U162,CCCOC(=O)C([NH3+])C(C)C,L-Valine propyl ester,cation,0,CCCOC(=O)C(N)C(C)C,LVTMTRYOHIIDOO,,,,,,,,,,,,13783235,,
+U163,CCCOC(=O)C([NH3+])C(C)CC,L-Isoleucine propyl ester,cation,0,CCCOC(=O)C(N)C(C)CC,JWZJCRJPVOPCSC,,,,,,,,,,,,13783237,,
+U164,CCCOC(=O)C([NH3+])C(C)O,L-Threonine propyl ester,cation,0,CCCOC(=O)C(N)C(C)O,RELVKKXAEWOJGJ,,,,,,,,,,,,13783256,,
+U165,CCCOC(=O)C([NH3+])CCSC,L-Methionine propyl ester (Met-OPro),cation,0,CCCOC(=O)C(N)CCSC,QAAOQCWMSDMQMI,,,,,,,,,,,,10313478,,
+U166,CCCOC(=O)C([NH3+])Cc1c[nH]c2ccccc12,L-Tryptophan propyl ester,cation,0,CCCOC(=O)C(N)Cc1c[nH]c2ccccc12,JYNUKVKOSIMWBB,,,,,,,,,,,,13783298,,
+U167,CCCOC(=O)C([NH3+])Cc1c[nH]c[nH+]1,L-Histidine propyl ester,cation,0,CCCOC(=O)C(N)Cc1c[nH]cn1,KNPVUHLIUOMRSK,,,,,,,,,,,,4737522,,
+U168,CCCOC(=O)C([NH3+])Cc1ccc(O)cc1,L-Tyrosine propyl ester,cation,0,CCCOC(=O)C(N)Cc1ccc(O)cc1,RXTAVOMESVSQHO,,,,,,,,,,,,13783288,,
+U169,CCCOC(=O)C([NH3+])Cc1ccccc1,L-Phenylalanine propyl ester,cation,0,CCCOC(=O)C(N)Cc1ccccc1,ZQFRXVDPMWSCHZ,,,,,,,,,,,,577477,,
+U170,CCCOC(=O)C1CCC[NH2+]1,L-Proline propyl ester (protonated),cation,0,CCCOC(=O)C1CCCN1,ZEERPIASPMMKRH,,,,,,,,,,,,11658327,,
+U171,CCOC(=O)C(C)[NH3+],Alanine Ethyl Ester,cation,0,CCOC(=O)C(C)N,ROBXZHNBBCHEIQ,,,,,,,,,,,,69236,,
+U172,CCOC(=O)C([NH3+])C(C)C,L-Valine ethyl ester (protonated),cation,0,CCOC(=O)C(N)C(C)C,BQIVJVAZDJHDJF,,,,,,,,,,,,519419,,
+U173,CCOC(=O)C([NH3+])CC(C)C,L-Leucine ethyl ester,cation,0,CCOC(=O)C(N)CC(C)C,QIGLJVBIRIXQRN,-0.5606,free form,"leucine, ethyl ester",,,,,,,,,158178,,
+U174,CCOC(=O)C([NH3+])Cc1ccccc1,L-Phenylalanine ethyl ester,cation,0,CCOC(=O)C(N)Cc1ccccc1,CJGXMNONHNZEQQ,,,,,,,,,,,,102688,,
+U175,CCOC(=O)C1CCC[NH2+]1,L-Proline Ethyl Ester,cation,0,CCOC(=O)C1CCCN1,QPNJHVDIRZNKOX,,,,,,,,,,,,550673,,
+U176,CCOC(=O)CC([NH3+])C(=O)OCC,L-Aspartic acid diethyl ester,cation,0,CCOC(=O)CC(N)C(=O)OCC,HMNXRLQSCJJMBT,,,,,,,,,,,,423728,,
+U177,CCOC(=O)c1ccc([NH3+])cc1,Benzocainium,cation,0,CCOC(=O)c1ccc(N)cc1,BLFLLBZGZJTVJG,-2.32,free form,benzocaine,89.0,free form,"Benzocaine, Ethyl 4-aminobenzoate | Ethyl 4-aminobenzoate | benzocaine | ethyl 4-aminobenzoate | ethyl p-aminobenzoate |",Bradley,,,,,2337,,
+U178,CCOCC[n+]1ccn(C)c1,3-(2-Ethoxyethyl)-1-methyl-1H-imidazol-3-ium,cation,1,CCOCC[n+]1ccn(C)c1,BOBMQZJXYHTQKD,,,,,,,,,,,,23105192,,
+U179,CC[N+](CC)(CC)CC,Tetraethylammonium,cation,1,CC[N+](CC)(CC)CC,CBXCPBUEXACCNR,0.63038242435,in a salt,"N,N,N-triethylethanaminium 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluorooctane-1-sulfonate | tetraethylazanium benzo",360.0,free form,,PubChem CID 5413,,,,,5413,360 °C or 680 °F,
+U180,CC[N+]1(C)CCCCC1,1-Ethyl-1-methylpiperidinium,cation,1,CC[N+]1(C)CCCCC1,WACRAFUNNYGNEQ,,,,,,,,,,,,20154,,
+U181,CC[N+]1(C)CCOCC1,4-Ethyl-4-methylmorpholin-4-ium,cation,1,CC[N+]1(C)CCOCC1,NWORVTSPNLVHSH,,,,,,,,,,,,103454,,
+U182,CC[NH+](CC)CC,Triethylammonium,cation,0,CCN(CC)CC,ZMANZCXQSJIPKH,-0.1376829835,free form,triethylamine,-114.99999999999997,free form,"N,N-Diethylethanamine | triethylamine",Bradley,460.0,free form,,PubChem CID 8471 (rat oral),8471,,LD50 Rabbit dermal 0.57 mL/kg (416 mg/kg) || LD50 Mouse oral 546 mg/kg || LD50 Mouse ip 405 mg/kg || LD50 Rat oral 460 mg/kg
+U183,CC[NH+](CC)CC(=O)Nc1c(C)cccc1C,Lidocainium,cation,0,CCN(CC)CC(=O)Nc1c(C)cccc1C,NNJVILVZKWQKPM,-1.78,free form,"2-diethylamino-N-(2,6-dimethylphenyl)acetamide",68.5,free form,Lidocaine | lidocaine,Bradley,317.0,free form,,PubChem CID 3676 (rat oral),3676,,LD50 Mouse oral 292 mg/kg || LD50 Mouse ip 105 mg/kg || LD50 Mouse iv 19.5 mg/kg || LD50 Rat oral 317 mg/kg
+U184,CC[NH+](CC)CCCO,3-Diethylamino-1-propanol (protonated),cation,0,CCN(CC)CCCO,WKCYFSZDBICRKL,,,,,,,,,,,,12159,,
+U185,CC[NH+](CC)CCOC(=O)c1ccc(N)cc1,Procaine-,cation,0,CCN(CC)CCOC(=O)c1ccc(N)cc1,MFDFERRIHVXMIY,-1.72,free form,procaine,61.0,free form,procaine,Bradley,,,,,4914,,LD50 Rat sc 600 mg/kg || LD50 Mouse oral 350 mg/kg || LD50 Mouse ip 124 mg/kg || LD50 Mouse sc 300 mg/kg || LD50 Mouse iv 45 mg/kg
+U186,CC[NH2+]CC,Diethylammonium,cation,0,CCNCC,HPNMFZURTQLUMO,1.1358509819,free form,N-ethylethanamine,-50.0,free form,N-Ethylethanamine | diethylamine,Bradley,540.0,free form,,PubChem CID 8021 (rat oral),8021,,LD50 Rat oral 540 mg/kg || LD50 Rabbit skin 820 mg/kg || LD50 Rabbit dermal 580 mg/kg
+U187,CC[n+]1ccn(C)c1,1-Ethyl-3-methylimidazolium,cation,1,CC[n+]1ccn(C)c1,NJMWOUFKYKNWDW,,,,,,,,,,,,174076,,
+U188,CC[n+]1ccn(C)c1C,"1-Ethyl-2,3-dimethylimidazolium",cation,1,CC[n+]1ccn(C)c1C,IRGDPGYNHSIIJJ,,,,,,,,,,,,2734166,,
+U189,CC[n+]1ccn(C)n1,"1-Ethyl-3-methyl-1,2,3-triazolium",cation,1,CC[n+]1ccn(C)n1,GIHBVPRHSQKSML,,,,,,,,,,,,57873662,,
+U190,CCn1cc(C(=O)[O-])c(=O)c2cc3c(cc21)OCO3,Oxolineate,anion,0,CCn1cc(C(=O)O)c(=O)c2cc3c(cc21)OCO3,KYGZCKSPAKDVKC,-4.38,free form,"5-ethyl-8-oxo-[1,3]dioxolo[4,5-g]quinoline-7-carboxylic acid",315.0,free form,oxolinic acid,Bradley,,,,,4628,,
+U191,CCn1cc[n+](C)c1,1-Ethyl-3-methylimidazolium,cation,1,CCn1cc[n+](C)c1,NJMWOUFKYKNWDW,,,,,,,,,,,,174076,,
+U192,CN(C)C(=[NH2+])N(C)C,"1,1,3,3-Tetramethylguanidinium",cation,0,CN(C)C(=N)N(C)C,KYVBNYUBXIEUFW,0.9386229258,free form,"1,1,3,3-tetramethylguanidine",,,,,,,,,66460,,
+U193,CN(C)C(=[NH2+])N=C(N)N,Metforminium,cation,0,CN(C)C(=N)N=C(N)N,XZWYZXLIPXDOLR,0.257987497,in a salt,"N,N-dimethylimidodicarbonimidic diamide hydrochloride",224.5,free form,Metformin | metformin hydrochloride [usan],Bradley,,,,,152743144,,
+U194,CN1CC(=O)[NH+]=C1N,Creatininium,cation,0,CN1CC(=O)N=C1N,DDRJAANPRJIHGJ,-0.1499,free form,creatinine,303.0,free form,,PubChem CID 137319715,,,,,137319715,303 °C (decomposes),
+U195,COC(=O)C([NH3+])C(C)C,L-Valine methyl ester (cation),cation,0,COC(=O)C(N)C(C)C,CEMZBWPSKYISTN,,,,,,,,,,,,409683,,
+U196,COC(=O)C([NH3+])Cc1ccccc1,L-Phenylalanine methyl ester (protonated),cation,0,COC(=O)C(N)Cc1ccccc1,VSDUZFOSJDMAFZ,,,,,,,,,,,,75737,,
+U197,COC(=O)c1ccc[n+](C)c1,Methylnicotinium,cation,1,COC(=O)c1ccc[n+](C)c1,PUCDEIAKSXKMSO,,,,,,,,,,,,78410,,
+U198,COCCC(=O)[O-],3-Methoxypropionate,anion,0,COCCC(=O)O,YSIKHBWUBSFBRZ,,,,,,,,,,,,134442,,
+U199,COCC[n+]1ccn(C)c1,1-(2-Methoxyethyl)-3-methylimidazolium,cation,1,COCC[n+]1ccn(C)c1,BYCVVPOEPZGGGL,,,,,,,,,,,,9834419,,
+U200,COCCn1cc[n+](C)c1,1-(2-Methoxyethyl)-3-methylimidazolium,cation,1,COCCn1cc[n+](C)c1,BYCVVPOEPZGGGL,,,,,,,,,,,,9834419,,
+U201,CO[Si](CCC[n+]1ccn(C)c1)(OC)OC,1-Methyl-3-(3-trimethoxysilylpropyl)imidazolium,cation,1,CO[Si](CCC[n+]1ccn(C)c1)(OC)OC,FWXCLIPINAVLFO,,,,,,,,,,,,20807124,,
+U202,COc1cc(C(=O)[O-])ccc1O,Vanillate,anion,0,COc1cc(C(=O)O)ccc1O,WKOLLVMJNQIZCI,-2.0496,free form,4-hydroxy-3-methoxybenzoic acid,211.5,free form,4-Hydroxy-3-Methoxybenzoate | 4-Hydroxy-3-methoxybenzoic acid | 4-hydroxy-3-methoxybenzoic acid | vanillic acid,Bradley,,,,,8468,,
+U203,COc1cc(C=CC(=O)[O-])ccc1O,Ferulate,anion,0,COc1cc(C=CC(=O)O)ccc1O,KSEBMYQBYZTDHS,-3.05,free form,4-hydroxy-3-methoxycinnamic.acid;  ferulic.acid,173.0,free form,trans-4-hydroxy-3-methoxycinnamic acid,Bradley,,,,,709,,
+U204,COc1cc2c(cc1OC)C(=O)C(CC1CC[NH+](Cc3ccccc3)CC1)C2,Donepezil (cation),cation,0,COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2,ADEBPBSSDYVVLD,,,,206.72,free form,Donepezil,Bradley,,,,,3152,,
+U205,COc1ccc(C=CC(=O)[O-])cc1,4-Methoxycinnamate,anion,0,COc1ccc(C=CC(=O)O)cc1,AFDXODALSZRGIH,-2.3984,free form,"cinnamic acid, p-methoxy-",173.5,free form,para-methoxycinnamic acid | trans-4-methoxycinnamic acid,Bradley,,,,,13245,,
+U206,COc1ccc([NH3+])cc1,p-Anisidinium (4-methoxyanilinium),cation,0,COc1ccc(N)cc1,BHAAPTBBJKJZER,-0.7480293677,free form,4-methoxyaniline,57.6,free form,4-Methoxyaniline | 4-methoxyaniline | p-anisidine,Bradley,1400.0,free form,,PubChem CID 7732 (rat oral),7732,,LD50 Rat oral 1400 mg/kg || LD50 Rat skin 3200 mg/kg || LD50 Rat ip 1400 mg/kg || LD50 Mouse oral 1410 mg/kg
+U207,COc1ccc2cc(C(C)C(=O)[O-])ccc2c1,Naproxenate,anion,0,COc1ccc2cc(C(C)C(=O)O)ccc2c1,CMWTZPSULFXXJA,-3.895,free form,naproxen,153.0,free form,(S)-2-(6-methoxy-2-naphthyl)propionic acid | DL-Naproxen | Naproxen | naprosyn | naproxen,Bradley,,,,,1302,,
+U208,CS(=O)(=O)[O-],Mesylate,anion,0,CS(=O)(=O)O,AFVFQIVMOAPDHO,1.0172449791,free form,methanesulfonic acid,20.0,free form,methanesulfonic acid,Bradley,400.0,free form,,PubChem CID 6395 (rat oral),6395,,"LD50 Rat oral 200-400 mg/kg || LD50 Mouse oral 6200 mg/kg (neutralized 70% Methanesulfonic acid) || LD50 Guinea pig dermal > 2,000 mg/kg"
+U209,CSCCC([NH3+])C(=O)O,Methioninium,cation,0,CSCCC(N)C(=O)O,FFEARJCKVFRZRR,-0.6593,free form,dl-methionine,281.0,free form,L-Methionine | Methionine,Bradley,,,,,876,,
+U210,CSCCC([NH3+])C(=O)OC(C)C,L-Methionine isopropyl ester,cation,0,CSCCC(N)C(=O)OC(C)C,WLUAUPQSKOQURS,,,,,,,,,,,,437594,,
+U211,C[N+](C)(C)C,Tetramethylammonium,cation,1,C[N+](C)(C)C,QEMXHQIAXOOASZ,0.9601894459,in a salt,"N,N,N-trimethylmethanaminium chloride | tetramethylazanium 2-carboxybenzoate | tetramethylazanium hydroxide",,,,,,,,,6380,,
+U212,C[N+](C)(C)CC(O)CC(=O)O,L-Carnitine (protonated),cation,1,C[N+](C)(C)CC(O)CC(=O)O,PHIQHXFUZVPYII,,,,196.5,free form,L-Carnitine,Bradley,,,,,85,,
+U213,C[N+](C)(C)CCCl,Chlormequat (2-chloroethyltrimethylammonium),cation,1,C[N+](C)(C)CCCl,JUZXDNPBRPUIOR,0.799,in a salt,chlormequat chloride,,,,,,,,,13837,,
+U214,C[N+](C)(C)CCO,Cholinium,cation,1,C[N+](C)(C)CCO,OEYIOHPDSNJKLS,0.6032053211,in a salt,"2-hydroxy-N,N,N-trimethylethanaminium hydroxide",274.0,free form,,PubChem CID 305,,,,,305,244-247 °C (as chloride salt) || 302 - 303 °C (chloride salt),
+U215,C[N+](C)(CCO)CCO,Dimethyldihydroxyethylammonium,cation,1,C[N+](C)(CCO)CCO,FIVJMCNNMIGYRO,,,,,,,,,,,,162304,,
+U216,C[N+](C)(Cc1ccccc1)Cc1ccccc1,Dibenzyldimethylammonium,cation,1,C[N+](C)(Cc1ccccc1)Cc1ccccc1,LNIYNESXCOYFPW,,,,,,,,,,,,101570,,
+U217,C[N+]1(C)CCCC1C(=O)O,Stachydrine,cation,1,C[N+]1(C)CCCC1C(=O)O,CMUNUTVVOOHQPW,,,,,,,,,,,,555,,
+U218,C[N+]1(CC2CO2)CCCC1=O,"N-(2,3-Epoxypropyl)-N-methyl-2-oxopyrrolidinium",cation,1,C[N+]1(CC2CO2)CCCC1=O,ZWUZZITZJGUZLX,,,,,,,,,,,,,,
+U219,C[NH+](C)C,Trimethylammonium,cation,0,CN(C)C,GETQZCLCWQTVFV,1.1777,free form,trimethylamine,-117.03999999999999,free form,"N,N-Dimethylmethanamine | trimethylamine",Bradley,500.0,free form,,PubChem CID 1146 (rat oral),1146,,LD50 Rat oral 500 mg/kg || LD50 Mouse (male) iv 90 mg/kg
+U220,C[NH+](C)CCCO,3-Dimethylamino-1-propanol (protonated),cation,0,CN(C)CCCO,PYSGFFTXMUWEOT,0.9864676175,free form,3-(dimethylamino)propan-1-ol,-35.0,free form,3-dimethylamino-1-propanol,Bradley,,,,,76646,,
+U221,C[NH+](C)CCO,"2-Hydroxy-N,N-dimethylethan-1-aminium",cation,0,CN(C)CCO,UEEJHVSXFDXPFK,1.0499,free form,2-dimethylaminoethanol,-60.0,free form,2-(Dimethylamino)ethanol | 2-(dimethylamino)ethanol | 2-dimethylaminoethanol,Bradley,,,,,7902,,LD50 Rabbit dermal 1370 mg/kg || LD50 Mouse sc 961 mg/kg || LD50 Mouse ip 234 mg/kg || LD50 Rat ip 1080 mg/kg
+U222,C[NH2+]C(C)C(O)c1ccccc1,Ephedrine-,cation,0,CNC(C)C(O)c1ccccc1,KWGRBVOPPLSCSI,-0.42,free form,2-(methylamino)-1-phenylpropan-1-ol | ephedrine,38.0,free form,"(1R,2S)-2-(Methylamino)-1-phenylpropan-1-ol | (1r,2s)-(-)-ephedrine | 2-(Methylamino)-1-phenylpropan-1-ol | Ephedrine | ",Bradley,,,,,5032,,
+U223,C[NH2+]CC(O)C(O)C(O)C(O)CO,Megluminium,cation,0,CNCC(O)C(O)C(O)C(O)CO,MBBZMMPHUWSWHV,0.4084,free form,"d-glucitol, 1-deoxy-1-(methylamino)-",129.25,free form,"N-methyl-D-glucamine | d-glucitol, 1-deoxy-1-(methylamino)-",Bradley,,,,,4049,,
+U224,C[n+]1ccn(CCCCCCCCCCCCn2cc[n+](C)c2)c1,"1,12-Bis(3-methylimidazolium-1-yl)dodecane",cation,1,C[n+]1ccn(CCCCCCCCCCCCn2cc[n+](C)c2)c1,JNUJNAJRIPVMPR,,,,,,,,,,,,46185649,,
+U225,C[n+]1ccn(CCO)c1,1-(2-Hydroxyethyl)-3-methylimidazolium,cation,1,C[n+]1ccn(CCO)c1,ZGZLRWJZGFRHHQ,,,,,,,,,,,,11184839,,
+U226,Cc1[nH]cc[nH+]1,2-Methylimidazolium,cation,0,Cc1ncc[nH]1,LXBGSDVWAMZHDD,0.5121363664999999,free form,2-methyl-1H-imidazole,143.0,free form,2-methylimidazole,Bradley,,,,,12749,,LD50 Mouse oral 1400 mg/kg || LD50 Mouse ip 480 mg/kg
+U227,Cc1ccc(C=CC(=O)[O-])cc1,4-Methylcinnamate,anion,0,Cc1ccc(C=CC(=O)O)cc1,RURHILYUWQEGOS,,,,,,,,,,,,15835,,
+U228,Cc1ccc(Cl)c(Nc2ccccc2C(=O)[O-])c1Cl,Meclofenamate,anion,0,Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,SBDNJUWAMKYJOX,,,,257.0,free form,Meclofenamic acid | meclofenamic a,Bradley,,,,,4037,,
+U229,Cc1ccc(S(=O)(=O)[O-])cc1,4-Toluenesulfonate,anion,0,Cc1ccc(S(=O)(=O)O)cc1,JOXIMZWYDAKGHI,0.5564,free form,p-toluenesulfonic acid,104.5,free form,p-toluenesulfonic acid,Bradley,400.0,free form,,PubChem CID 6101 (rat oral),6101,,LD50 MICE INTRAVENOUS 160 MG/KG || LD50 RATS INTRAVENOUS 70 MG/KG || LD50 Rat oral 400 mg/kg
+U230,Cc1ccc[n+](CCO)c1,1-(2-Hydroxyethyl)-3-methylpyridinium (3-picolinium),cation,1,Cc1ccc[n+](CCO)c1,IVTPOCWYJBIPAJ,,,,,,,,,,,,5142487,,
+U231,Cc1ccc[nH+]c1,3-Methylpyridinium,cation,0,Cc1cccnc1,ITQTTZVARXURQS,1.0309,free form,3-methylpyridine,-18.1,free form,3-Methylpyridine | 3-methylpyridine | 3-picoline,Bradley,,,,,7970,,LD50 Mouse iv >596 mg/kg || LD50 Rat i.p. 150 mg/kg
+U232,Cc1cccc(C)c1NC(=O)C1CCCC[NH+]1C,Mepivacaine,cation,0,Cc1cccc(C)c1NC(=O)C1CCCCN1C,INWLQCZOYSRPNW,-1.99,free form,mepivacaine,150.5,free form,"2-piperidinecarboxamide, n-(2,6-dimethylphenyl)- | Mepivacaine",Bradley,,,,,4062,,
+U233,Cc1onc(-c2ccccc2)c1C(=O)NC1C(=O)N2C1SC(C)(C)C2C(=O)[O-],Oxacillin (oxacillinate),anion,0,Cc1onc(-c2ccccc2)c1C(=O)NC1C(=O)N2C1SC(C)(C)C2C(=O)O,UWYHMGVUTGAWSP,,,,,,,,,,,,4608,,
+U234,Cn1c(=O)c2c(nc(N3CC[NH2+]CC3)n2C)n(C)c1=O,8-Piperazinylcaffeinium (protonated 8-piperazinyl caffeine),cation,0,Cn1c(=O)c2c(nc(N3CCNCC3)n2C)n(C)c1=O,CWQBJMULHKYRNB,,,,,,,,,,,,706307,,
+U235,Cn1cc[n+](CCCO)c1,3-(3-Hydroxypropyl)-1-methyl-1H-imidazol-3-ium,cation,1,Cn1cc[n+](CCCO)c1,ZFXCYNGTSCSHND,,,,,,,,,,,,9994125,,
+U236,Cn1cc[n+](CCO)c1,1-(2-Hydroxyethyl)-3-methylimidazolium,cation,1,Cn1cc[n+](CCO)c1,ZGZLRWJZGFRHHQ,,,,,,,,,,,,11184839,,
+U237,Cn1cc[n+](CCOCCO)c1,3-(2-(2-Hydroxyethoxy)ethyl)-1-methyl-1H-imidazol-3-ium,cation,1,Cn1cc[n+](CCOCCO)c1,RHAJCQJPFJKQKK,,,,,,,,,,,,11438462,,
+U238,Cn1cc[nH+]c1,1-Methyl-1H-imidazol-3-ium,cation,0,Cn1ccnc1,MCTWTZJPVLRJOU,1.0856251051,free form,1-methyl-1H-imidazole,-6.0,free form,"1-methylimidazole | 1h-imidazole, 1-methyl-",Bradley,,,,,1390,,
+U239,NC(CCCC[NH3+])C(=O)O,Lysine,cation,0,NCCCCC(N)C(=O)O,KDXKERNSBIXSRK,0.8351,free form,lysine,224.0,free form,L-Lysine | dl-lysine,Bradley,,,,,866,,
+U240,NC(N)=[NH+]CCCC(N)C(=O)O,Arginine,cation,0,NC(N)=NCCCC(N)C(=O)O,ODKSFYDXXFIFQN,0.0,free form,l(+)-arginine,228.0,free form,D-arginine | L-Arginine,Bradley,,,,,232,,
+U241,NCC1(CC(=O)[O-])CCCCC1,Gabapentin,anion,0,NCC1(CC(=O)O)CCCCC1,UGJMXCAKCUNAIE,0.0190211463,in a salt,2-[1-(aminomethyl)cyclohexyl]acetic acid hydrochloride,164.0,free form,Gabapentin,Bradley,,,,,3446,,
+U242,NCCCC(=O)[O-],gamma-Aminobutyrate,anion,0,NCCCC(=O)O,BTCSSZJGUNDROE,1.1006,free form,4-aminobutyric acid,203.0,free form,,PubChem CID 119,,,,,119,203 °C,
+U243,NCCS(=O)(=O)[O-],Taurinate,anion,0,NCCS(=O)(=O)O,XOAAWQZATWQOTB,-0.1906,free form,taurine,328.0,free form,2-Aminoethanesulfonic Acid | 2-Aminoethanesulfonic acid | taurine,Bradley,7000.0,free form,,PubChem CID 1123 (rat oral),1123,,LD50 Rats oral >7000 mg/kg bw || LD50 Mice sc 6000 mg/kg
+U244,O=C([O-])C(=O)O,Oxalate,anion,0,O=C(O)C(=O)O,MUBZPKHOEPUJKR,0.0790172102,free form,oxalic acid,145.5,free form,Oxalate Ion | oxalic acid dihydrate,Bradley,,,,,971,,
+U245,O=C([O-])C(O)C(O)C(=O)O,Tartrate,anion,0,O=C(O)C(O)C(O)C(=O)O,FEWJPZIEWOKRBE,0.6977239219,free form,"(2R,3R)-2,3-dihydroxybutanedioic acid | d-tartaric acid",169.0,free form,"(2R,3R)-2,3-Dihydroxysuccinic acid | (2S,3S)-2,3-Dihydroxysuccinic acid | D-tartaric acid | L-tartaric acid | Tartaric a",Bradley,,,,,875,,
+U246,O=C([O-])C(O)C(O)C(O)C(O)CO,Gluconate,anion,0,O=C(O)C(O)C(O)C(O)C(O)CO,RGHNJXZEOKUKBD,-0.1798,in a salt,cupric gluconate | sodium gluconate,131.0,free form,d-gluconic acid,Bradley,,,,,604,,
+U247,O=C([O-])C(O)c1ccccc1,Mandelate,anion,0,O=C(O)C(O)c1ccccc1,IWYDHOAUDWTVEP,-0.0321269405,free form,"2-hydroxy-2-phenylacetic acid | benzeneacetic acid, .alpha.-hydroxy-, (s)- | hydroxy(phenyl)acetic acid",121.0,free form,"(2R)-Hydroxy(phenyl)acetic acid | (R)-Mandelic Acid | a-hydroxyphenylacetic acid | benzeneacetic acid, .alpha.-hydroxy-,",Bradley,,,,,1292,,
+U248,O=C([O-])C1C(C(=O)O)C2(Cl)C(Cl)=C(Cl)C1(Cl)C2(Cl)Cl,Chlorendate,anion,0,O=C(O)C1C(C(=O)O)C2(Cl)C(Cl)=C(Cl)C1(Cl)C2(Cl)Cl,DJKGDNKYTKCJKD,-2.0457,free form,chlorendic acid,224.75,free form,"1,4,5,6,7,7-Hexachlorobicyclo[2.2.1]hept-5-ene-2,3-dicarboxylic acid | chlorendic acid",Bradley,1770.0,free form,,PubChem CID 8266 (rat oral),8266,,LD50 Rat oral 1770 mg/kg bw
+U249,O=C([O-])C=CC(=O)O,Maleate,anion,0,O=C(O)C=CC(=O)O,VZCYOOQTPOCHFL,-1.2196294277,free form,(2E)-but-2-enedioic acid,138.0,free form,(2Z)-But-2-enedioic acid | Fumarate | Fumaric Acid | fumaric acid | maleic acid,Bradley,,,,,723,,
+U250,O=C([O-])C=Cc1ccc(Cl)cc1,4-Chlorocinnamate,anion,0,O=C(O)C=Cc1ccc(Cl)cc1,GXLIFJYFGMHYDY,,,,248.5,free form,"cinnamic acid, p-chloro- | p-chlorocinnamic acid",Bradley,,,,,15371,,
+U251,O=C([O-])C=Cc1ccc(O)cc1,4-Hydroxycinnamate,anion,0,O=C(O)C=Cc1ccc(O)cc1,NGSWKAQJJWESNS,,,,,,,,,,,,322,,
+U252,O=C([O-])C=Cc1ccccc1,Cinnamate,anion,0,O=C(O)C=Cc1ccccc1,WBYWAXJHAXSJNI,-2.45675,free form,cinnamic_acid | trans-cinnamic acid,133.0,free form,"(2E)-3-Phenylacrylic acid | 2-propenoic acid, 3-phenyl-, (e)- | cinnamic acid | trans-cinnamic acid | trans-cinnamic_aci",Bradley,,,,,8784,,
+U253,O=C([O-])CC(O)(CC(=O)O)C(=O)O,Citrate,anion,0,O=C(O)CC(O)(CC(=O)O)C(=O)O,KRKNYBCHXYNGOX,0.4768431239,free form,"2-hydroxypropane-1,2,3-tricarboxylic acid",153.0,free form,"Citric acid | citric acid | citric acid anhydrous | citric acid, anhydrous",Bradley,4865.0,free form,,PubChem CID 311 (rat oral),311,,LD50 Rat oral 3000 mg/kg; 12000 mg/kg; 11700 mg/kg /observed in separate experiments/ || LD50 Rat oral 6730 mg/kg || LD50 Mouse iv 42 mg/kg /From table/ || LD50 Mouse oral 5040 mg/kg /From table/
+U254,O=C([O-])CC(O)C(=O)O,Malate,anion,0,O=C(O)CC(O)C(=O)O,BJEPYKJPYRNKOW,0.64,free form,dl-malic acid;  dl-2-hydroxybutanedioic acid;  hydroxysuccinic acid,130.5,free form,D-malic acid | Malic acid | dl-malic acid | malic acid,Bradley,3200.0,free form,,PubChem CID 525 (rat oral),525,,LD50 Mouse oral 1600-3200 mg/kg || LD50 Mouse ip 50-100 mg/kg || LD50 Rat oral greater than 3200 mg/kg || LD50 Rat ip 100-200 mg/kg || LD50 Rabbit oral 3000 mg/kg
+U255,O=C([O-])CCC(=O)O,Succinate,anion,0,O=C(O)CCC(=O)O,KDYFGRWQOYBRFD,-0.17,free form,succinic  acid;  butanedioic acid,187.5,free form,Succinic acid | butanedioc acid | succinic acid | succinic_acid,Bradley,2260.0,free form,,PubChem CID 1110 (rat oral),1110,,LD50 Rat oral 2260 mg/kg
+U256,O=C([O-])CCC(=O)[O-],Succinate,anion,0,O=C(O)CCC(=O)O,KDYFGRWQOYBRFD,-0.17,free form,succinic  acid;  butanedioic acid,187.5,free form,Succinic acid | butanedioc acid | succinic acid | succinic_acid,Bradley,2260.0,free form,,PubChem CID 1110 (rat oral),1110,,LD50 Rat oral 2260 mg/kg
+U257,O=C([O-])CCCC(=O)O,Glutarate,anion,0,O=C(O)CCCC(=O)O,JFCQEDHGNNZCLN,1.0,free form,glutaric  acid;  pentanedioic  acid,97.0,free form,Glutaric acid | glutaric acid | pentanedioc acid,Bradley,,,,,743,,
+U258,O=C([O-])CCCCC(=O)O,Adipate,anion,0,O=C(O)CCCCC(=O)O,WNLRTRBMVRJNCN,-0.82,free form,"adipic  acid; 1,6-hexanedioic acid",153.0,free form,Adipic acid | adipic acid | adipic_acid | hexanedioic acid,Bradley,,,,,196,,LD50 Mouse iv 680 mg/kg /From table/ || LD50 Mouse oral 1900 mg/kg /From table/ || LD50 Mouse ip 275 mg/kg /From table/
+U259,O=C([O-])CCCCCC(=O)O,Pimelate,anion,0,O=C(O)CCCCCC(=O)O,WLJVNTCWHIRURA,-0.5056,free form,pimelic acid,106.0,free form,Pimelic Acid | pimelic acid,Bradley,,,,,385,,
+U260,O=C([O-])CCCCCCC(=O)O,Suberate,anion,0,O=C(O)CCCCCCC(=O)O,TYFQFVWCELRYAO,-1.1673,free form,suberic acid,143.5,free form,Suberic acid | suberic acid | suberic_acid,Bradley,,,,,10457,,
+U261,O=C([O-])CCCCCCCC(=O)O,Azelate,anion,0,O=C(O)CCCCCCCC(=O)O,BDJRBEYXGGNYIS,-1.8944614494,free form,nonanedioic acid,106.5,free form,Azelaic Acid | azelaic acid | nonanedioc acid,Bradley,5000.0,free form,,PubChem CID 2266 (rat oral),2266,,LD50 Rat oral >5000 mg/kg
+U262,O=C([O-])CCCCCCCCC(=O)O,Sebacate,anion,0,O=C(O)CCCCCCCCC(=O)O,CXMXRPHRNRROMY,-2.3059,free form,decanedioic acid,133.0,free form,Sebacic acid | decanedioic acid | sebacic acid | sebacic_acid,Bradley,,,,,5192,,
+U263,O=C([O-])CO,Glycolate,anion,0,O=C(O)CO,AEMRFAOFKBGASW,0.5960163257,free form,2-hydroxyacetic acid,79.5,free form,Glycol acid | glycolic acid | hydroxyacetic acid,Bradley,3200.0,free form,,PubChem CID 757 (rat oral),757,,"LD50 Rat oral 4240 mg/kg bw || LD50 Rat oral 1,600-3200 mg/kg bw || LD50 Rat oral 1,950 mg/kg || LD50 Guinea pig oral 1,920 mg/kg"
+U264,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl,Diclofenac,anion,0,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,DCOPUUMXTXDBNB,-4.6202577876,free form,"2-{2-[(2,6-dichlorophenyl)amino]phenyl}acetic acid",157.0,free form,Diclofenac | diclofenac,Bradley,240.0,free form,,PubChem CID 3033 (rat oral),3033,,LD50 Monkey oral 3200 mg/kg /Diclofenac sodium/ || LD50 Dog oral 500 mg/kg /Diclofenac sodium/ || LD50 Rat oral 55-240 mg/kg /Diclofenac sodium/
+U265,O=C([O-])c1cc(=O)c(O)c(C(=O)O)o1,Meconate,anion,0,O=C(O)c1cc(=O)c(O)c(C(=O)O)o1,ZEGRKMXCOCRTCS,,,,270.0,free form,,PubChem CID 10347,,,,,10347,270 °C,
+U266,O=C([O-])c1cc(O)ccc1O,Tuaminoheptanium Gentisate,anion,0,O=C(O)c1cc(O)ccc1O,WXTMDXOMEHJXQO,-0.85,free form,"2,5-dihydroxybenzoic   acid;  gentisic  acid",205.0,free form,"2,5-Dihydroxybenzoic acid | 2,5-dihydroxybenzoic acid | 2,5-dihydroxybenzoic_acid | Gentisic acid | gentisic acid",Bradley,,,,,3469,,
+U267,O=C([O-])c1ccc(C(=O)O)cc1,Terephthalate,anion,0,O=C(O)c1ccc(C(=O)O)cc1,KKEYFWRCBNTPAC,-4.0444,free form,terephthalic acid,300.0,free form,terephthalic_acid,Bradley,,,,,7489,,LD50 Mouse iv 770 mg/kg || LD50 Mouse ip 1900 mg/kg || LD50 Mouse ip 880 mg/kg || LD50 Rat ip 1210 mg/kg
+U268,O=C([O-])c1cccc(C(=O)O)c1C(=O)O,"2,3-Dicarboxybenzoate (1,2,3-benzenetricarboxylate monoanion)",anion,0,O=C(O)c1cccc(C(=O)O)c1C(=O)O,UJMDYLWCYJJYMO,-0.8370000000000001,free form,"1,2,3-benzenetricarboxylic acid",200.0,free form,hemimellitic acid,Bradley,,,,,11288,,
+U269,O=C([O-])c1ccccc1,Benzoate,anion,0,O=C(O)c1ccccc1,WPYMKLBDIGXBTP,-1.619929844,free form,benzoic acid,122.4,free form,Benzoic Acid | Benzoic acid | benzoic acid | benzoic_acid,Bradley,,,,,243,,LD50 Cat oral 2000 mg/kg || LD50 Dog oral 2000 mg/kg || LD50 Mouse intraperitoneal 1460 mg/kg || LD50 Mouse oral 1940 mg/kg
+U270,O=C([O-])c1ccccc1C(=O)O,Phthalate,anion,0,O=C(O)c1ccccc1C(=O)O,XNGIFLGASWRNHJ,-1.4245732761,free form,"benzene-1,2-dicarboxylic acid",230.0,free form,Phthalic Acid | phthalic acid | phthalic_acid,Bradley,7900.0,free form,,PubChem CID 1017 (rat oral),1017,,"LD50 Mouse ip 550 mg/kg || LD50 Mouse oral 2,530 mg/kg || LD50 Rat oral 7.9 g/kg"
+U271,O=C([O-])c1ccccc1O,Salicylate,anion,0,O=C(O)c1ccccc1O,YGSDEFSMJLZEOE,-1.82,free form,salicylic_acid,159.0,free form,Salicyclic acid | Salicylic acid | salicylic acid | salicylic_acid,Bradley,891.0,free form,,PubChem CID 338 (rat oral),338,,LD50 Mouse oral 480 mg/kg || LD50 Rat oral 891 mg/kg || LD50 Mouse subcutaneous 520 mg/kg || LD50 Rat dermal > 2 g/kg
+U272,O=C([O-])c1ccco1,2-Furoate,anion,0,O=C(O)c1ccco1,SMNDYUVBFMFKNZ,-0.4802,free form,2-furoic acid,133.5,free form,2-furancarboxylic acid | 2-furoic acid | furoic acid,Bradley,,,,,6919,,
+U273,O=C1CCCC2C3CCC[NH+]4CCCC(CN12)C34,Matrinium (protonated matrine),cation,0,O=C1CCCC2C3CCCN4CCCC(CN12)C34,ZSBXGIUJOOQZMP,,,,76.0,free form,matrine,Bradley,,,,,285698,,
+U274,O=C1OC(C(O)CO)C([O-])=C1O,Ascorbic acid,anion,0,O=C1OC(C(O)CO)C(O)=C1O,CIWBSHSKHKDKBQ,0.28,free form,ascorbic  acid;  vitamin c,191.0,free form,"5(1,2-dihydroxy-et)-3,4-dihydroxy-5h-furan-2-one | Vitamin C | ascorbic acid",Bradley,,,,,54676860,,
+U275,O=C1[N-]C(=O)C([N+](=O)[O-])C(=O)N1,5-Nitrobarbiturate,anion,0,O=C1NC(=O)C([N+](=O)[O-])C(=O)N1,ABICJYZKIYUWEE,-2.2840000000000003,free form,"2,4,6(1h,3h,5h)-pyrimidinetrione, 5-nitro-",180.5,free form,"2,4,6(1h,3h,5h)-pyrimidinetrione, 5-nitro-",Bradley,,,,,10195,,
+U276,O=C1[N-]S(=O)(=O)c2ccccc21,Saccharinate,anion,0,O=C1NS(=O)(=O)c2ccccc21,CVHZOJJKTDOEJC,-1.6718324141,free form,"1,2-benzisothiazol-3(2H)-one 1,1-dioxide",229.15,free form,o-benzoic sulfimide | saccharin,Bradley,14200.0,free form,,PubChem CID 5143 (rat oral),5143,,"LD50 Rat ip 7100 mg/kg /Sodium saccharin/ || LD50 Rat oral 14,200 mg/kg /Sodium saccharin/ || LD50 Mouse oral 17,500 mg/kg /Sodium saccharin/"
+U277,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,Bis(trifluoromethanesulfonyl)imide,anion,0,O=S(=O)(NS(=O)(=O)C(F)(F)F)C(F)(F)F,NHHWJSXMTZIPES,,,,,,,,,,,,157857,,
+U278,O=S(=O)([O-])CCN1CCN(CCO)CC1,HEPES,anion,0,O=S(=O)(O)CCN1CCN(CCO)CC1,JKMHFZQWWAIEOD,0.4318666789,in a salt,2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonic acid,235.0,free form,2-[4-(2-Hydroxyethyl)piperazin-4-ium-1-yl]ethanesulfonate | hepes,Bradley,,,,,23831,,
+U279,O=S(=O)([O-])OC12CC3CC(CC(C3)C1)C2,Adamantyl sulfate,anion,0,O=S(=O)(O)OC12CC3CC(CC(C3)C1)C2,WLWPEECOAAKXSO,,,,,,,,,,,,54437703,,
+U280,O=S(=O)([O-])c1cccc2c(S(=O)(=O)O)cccc12,"Napadisylate (naphthalene-1,5-disulfonate)",anion,0,O=S(=O)(O)c1cccc2c(S(=O)(=O)O)cccc12,XTEGVFVZDVNBPF,,,,,,,,,,,,6666,,
+U281,O=S1(=O)N=C([O-])c2ccccc21,Saccharinate,anion,0,O=S1(=O)N=C(O)c2ccccc21,CVHZOJJKTDOEJC,-1.6718324141,free form,"1,2-benzisothiazol-3(2H)-one 1,1-dioxide",229.15,free form,o-benzoic sulfimide | saccharin,Bradley,14200.0,free form,,PubChem CID 5143 (rat oral),5143,,"LD50 Rat ip 7100 mg/kg /Sodium saccharin/ || LD50 Rat oral 14,200 mg/kg /Sodium saccharin/ || LD50 Mouse oral 17,500 mg/kg /Sodium saccharin/"
+U282,OCC[NH+](CCO)CCO,Triethanolammonium,cation,0,OCCN(CCO)CCO,GSEJCLTVZPLZKY,0.8262602859999999,free form,2-[bis(2-hydroxyethyl)amino]ethan-1-ol,20.0,free form,"2,2',2''-Nitrilotriethanol | triethanolamine",Bradley,8000.0,free form,,PubChem CID 7618 (rat oral),7618,,"LD50 Mice oral 7400 mg/kg || LD50 Rat oral 8.0 g/kg || LD50 Mouse ip 1,450 mg/kg || LD50 Guinea pig oral 5,300 mg/kg || LD50 Rabbit dermal >20,000 mg/kg"
+U283,OCC[NH+]1CCCC1,1-(2-Hydroxyethyl)pyrrolidinium,cation,0,OCCN1CCCC1,XBRDBODLCHKXHI,,,,,,,,,,,,76288,,
+U284,OCC[NH2+]CCO,Diethanolammonium,cation,0,OCCNCCO,ZBCBWPMODOFKDW,0.9577927941,free form,2-[(2-hydroxyethyl)amino]ethan-1-ol,28.0,free form,"2,2'-Iminodiethanol | diethanolamine",Bradley,460.0,free form,,PubChem CID 8113 (rat oral),8113,,"LD50 Rat oral 710 mg/kg || LD50 Mouse ip 2,300 mg/kg || LD50 Rat acute oral 210 mg/kg bw || LD50 Rabbit acute dermal 11.9 mL/kg || LD50 Mouse sc 3,553 mg/kg"
+U285,OCC[NH2+]Cc1ccccc1,N-Benzylethanolammonium,cation,0,OCCNCc1ccccc1,XNIOWJUQPMKCIJ,,,,-30.0,free form,N-benzylethanolamine,Bradley,,,,,4348,,
+U286,[NH3+]C(CO)(CO)CO,Tris(hydroxymethyl)aminomethane (tromethamine),cation,0,NC(CO)(CO)CO,LENZDBCJOHFCAS,0.7906283690000001,free form,"2-amino-2-(hydroxymethyl)propane-1,3-diol",172.0,free form,"2-Amino-2-(hydroxymethyl)propane-1,3-diol | tris(hydroxymethyl)aminomethane",Bradley,5900.0,free form,,PubChem CID 6503 (rat oral),6503,,LD50 Rat iv 2300 mg/kg || LD50 Rat oral 5900 mg/kg || LD50 Mouse iv 3500 mg/kg
+U287,[NH3+]C(Cc1c[nH]c2ccccc12)C(=O)O,Tryptophanium,cation,0,NC(Cc1c[nH]c2ccccc12)C(=O)O,QIVBCDIJIAJPQS,-1.77,free form,2-amino-3-(1H-indol-3-yl)propanoic acid,293.0,free form,,PubChem CID 1148,,,,,1148,293 °C,
+U288,[NH3+]Cc1ccccc1,Benzylammonium,cation,0,NCc1ccccc1,WGQKYBSKWIADBV,-1.53,free form,benzylamine,0.0,free form,1-Phenylmethanamine | Benzylamine | benzylamine,Bradley,,,,,7504,,LD50 Mouse ip 600 mg/kg
+U289,c1c[nH+]c[nH]1,Imidazolium,cation,0,c1c[nH]cn1,RAXXELZNTBOGNW,0.9683905422,free form,1H-imidazole,90.0,free form,imidazole,Bradley,595.0,free form,,PubChem CID 795 (rat oral),795,,LD50 Rat oral 960-970 mg/kg bw || LD50 Mouse (male) oral 1180 mg/kg bw || LD50 Rat oral 220 mg/kg || LD50 Rat sc 626 mg/kg
+U290,c1cc[n+](CCCCCCCCCC[n+]2ccccc2)cc1,"1,1'-(Decane-1,10-diyl)bispyridinium",cation,1,c1cc[n+](CCCCCCCCCC[n+]2ccccc2)cc1,UONDTBVSZIDJKA,,,,,,,,,,,,201564,,
+U291,c1ccc([B-](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,Tetraphenylborate,anion,0,c1ccc([B-](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,SVHQOIWIRUVWII,,,,,,,,,,,,8934,,

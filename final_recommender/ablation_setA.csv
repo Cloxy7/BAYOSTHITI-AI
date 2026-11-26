@@ -1,0 +1,33 @@
+removed,model,Hit10_full,Hit10_without,drop_Hit10,drop_CI_low,drop_CI_high,drop_MRR,drop_rareHit10
+2D similarity,Extra trees,0.634,0.496,0.138,0.069,0.203,0.139,0.046
+2D similarity,Hist. gradient boosting,0.623,0.467,0.156,0.094,0.214,0.13,0.041
+2D similarity,LightGBM,0.63,0.475,0.156,0.091,0.225,0.131,0.021
+2D similarity,Logistic regression,0.728,0.641,0.087,0.029,0.149,0.125,0.049
+2D similarity,MLP (neural net),0.152,0.134,0.018,-0.062,0.091,-0.01,-0.016
+2D similarity,Random forest,0.605,0.438,0.167,0.098,0.236,0.156,0.034
+2D similarity,SVM (RBF),0.399,0.326,0.072,0.007,0.141,0.072,0.024
+2D similarity,XGBoost,0.641,0.493,0.149,0.087,0.21,0.142,0.008
+3D similarity,Extra trees,0.634,0.594,0.04,-0.014,0.094,0.033,0.0
+3D similarity,Hist. gradient boosting,0.623,0.536,0.087,0.033,0.149,0.051,0.021
+3D similarity,LightGBM,0.63,0.565,0.065,0.022,0.116,0.041,-0.02
+3D similarity,Logistic regression,0.728,0.678,0.051,0.014,0.091,0.053,0.004
+3D similarity,MLP (neural net),0.152,0.185,-0.033,-0.112,0.047,-0.038,-0.007
+3D similarity,Random forest,0.605,0.529,0.076,0.025,0.13,0.05,0.013
+3D similarity,SVM (RBF),0.399,0.355,0.043,-0.022,0.109,0.008,-0.008
+3D similarity,XGBoost,0.641,0.572,0.069,0.018,0.123,0.04,-0.02
+ESP,Extra trees,0.634,0.623,0.011,-0.025,0.047,0.05,-0.014
+ESP,Hist. gradient boosting,0.623,0.554,0.069,0.018,0.123,0.056,0.017
+ESP,LightGBM,0.63,0.601,0.029,-0.022,0.076,0.046,0.0
+ESP,Logistic regression,0.728,0.725,0.004,-0.007,0.018,0.007,0.008
+ESP,MLP (neural net),0.152,0.174,-0.022,-0.094,0.047,-0.021,0.009
+ESP,Random forest,0.605,0.536,0.069,0.025,0.116,0.046,0.008
+ESP,SVM (RBF),0.399,0.409,-0.011,-0.072,0.051,0.001,-0.001
+ESP,XGBoost,0.641,0.594,0.047,0.007,0.087,0.023,0.005
+pKa,Extra trees,0.634,0.659,-0.025,-0.062,0.011,-0.003,-0.003
+pKa,Hist. gradient boosting,0.623,0.623,0.0,-0.036,0.04,0.033,0.014
+pKa,LightGBM,0.63,0.616,0.014,-0.029,0.062,0.016,-0.003
+pKa,Logistic regression,0.728,0.746,-0.018,-0.04,0.0,0.031,0.026
+pKa,MLP (neural net),0.152,0.268,-0.116,-0.181,-0.054,-0.075,-0.025
+pKa,Random forest,0.605,0.609,-0.004,-0.054,0.047,0.021,-0.018
+pKa,SVM (RBF),0.399,0.402,-0.004,-0.08,0.073,-0.007,0.004
+pKa,XGBoost,0.641,0.612,0.029,-0.018,0.08,0.023,0.001

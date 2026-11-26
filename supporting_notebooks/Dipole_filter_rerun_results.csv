@@ -1,0 +1,14 @@
+,0,1
+set,all,hard (no choline)
+n,131,106
+A_mean_percentile_true_partner,48.2,49.5
+B_kept_true_70%,76.2,73.2
+B_kept_true_50%,58.4,54.1
+B_kept_true_30%,35.6,30.4
+top5_similarity,70.2,63.2
+top5_after_dipole_filter_70%,61.1,51.9
+top5_after_dipole_filter_50%,57.3,47.2
+top5_after_dipole_filter_30%,45.0,34.9
+C_top5_dipole_only,10.7,9.4
+C_top1_dipole_only,3.1,0.9
+C_expected_top5_random,3.6,3.8

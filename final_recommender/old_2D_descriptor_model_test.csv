@@ -1,0 +1,7 @@
+model,Hit1,Hit5,Hit10,Hit10_CI_low,Hit10_CI_high,MRR,change_vs_final,change_CI_low,change_CI_high
+Final score (Set A equation),0.326,0.612,0.717,0.649,0.79,0.449,0.0,0.0,0.0
+Old base LightGBM (drug + ion 2D descriptors + pKa),0.409,0.732,0.775,0.707,0.841,0.536,0.058,0.011,0.105
+Drug 2D descriptors + pKa only (no ion descriptors),0.051,0.33,0.402,0.326,0.482,0.217,-0.315,-0.395,-0.239
+Ion 2D descriptors only (same list for every drug),0.384,0.692,0.736,0.663,0.804,0.508,0.018,-0.047,0.083
+Final score + ion 2D descriptors,0.272,0.572,0.714,0.641,0.786,0.405,-0.004,-0.047,0.043
+Check only: how many training drugs use the ion,0.384,0.688,0.746,0.674,0.812,0.507,0.029,-0.029,0.091

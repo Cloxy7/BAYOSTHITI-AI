@@ -1,0 +1,7 @@
+metric,value
+drugs,138.0
+Hit@1,0.341
+Hit@5,0.616
+Hit@10,0.739
+MRR,0.471
+pairs whose ion no other drug uses (cannot be recommended),173.0

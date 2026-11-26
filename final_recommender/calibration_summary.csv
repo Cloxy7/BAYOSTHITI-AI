@@ -1,0 +1,3 @@
+version,brier,ece,mean_pred,base_rate
+raw score (trained on subsampled negatives),0.0268,0.0162,0.0443,0.0283
+after Platt calibration,0.0263,0.0036,0.0283,0.0283

@@ -1,0 +1,5 @@
+feature,drugs,mean_AUC,CI_low,CI_high,signal
+stronger binding (-dE_int),138,0.468,0.407,0.53,no (CI includes 0.5)
+ion hydrophilicity (-Gsolv ion),138,0.571,0.513,0.633,yes
+drug-ion Gsolv gap |dG|,138,0.542,0.474,0.607,no (CI includes 0.5)
+popularity (check),138,0.535,0.495,0.575,no (CI includes 0.5)

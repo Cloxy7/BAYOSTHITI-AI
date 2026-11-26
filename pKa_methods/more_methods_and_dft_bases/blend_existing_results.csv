@@ -1,0 +1,25 @@
+group,method,n,MAE,RMSE,R2
+all,RF,69,1.489,2.151,0.508
+all,GNN,69,2.257,3.475,-0.285
+all,MolGpKa,69,2.2,3.671,-0.435
+all,DFT line (LOO),69,0.947,1.444,0.778
+all,average RF + DFT,69,1.117,1.566,0.739
+all,stack RF + DFT (nested LOO),69,0.989,1.504,0.759
+all,stack RF + GNN + MolGpKa + DFT (nested LOO),69,0.971,1.525,0.752
+all,"stack RF + GNN + MolGpKa, no DFT (nested LOO)",69,1.417,2.058,0.549
+anions / acids,RF,34,1.416,2.191,-0.645
+anions / acids,GNN,34,2.159,3.592,-3.422
+anions / acids,MolGpKa,34,1.109,2.338,-0.873
+anions / acids,DFT line (LOO),34,0.766,1.029,0.637
+anions / acids,average RF + DFT,34,1.061,1.507,0.221
+anions / acids,stack RF + DFT (nested LOO),34,0.891,1.212,0.497
+anions / acids,stack RF + GNN + MolGpKa + DFT (nested LOO),34,0.811,1.084,0.597
+anions / acids,"stack RF + GNN + MolGpKa, no DFT (nested LOO)",34,1.295,1.904,-0.242
+cations / bases,RF,35,1.56,2.111,-0.55
+cations / bases,GNN,35,2.352,3.357,-2.919
+cations / bases,MolGpKa,35,3.261,4.61,-6.39
+cations / bases,DFT line (LOO),35,1.122,1.756,-0.072
+cations / bases,average RF + DFT,35,1.172,1.621,0.087
+cations / bases,stack RF + DFT (nested LOO),35,1.084,1.742,-0.055
+cations / bases,stack RF + GNN + MolGpKa + DFT (nested LOO),35,1.125,1.856,-0.198
+cations / bases,"stack RF + GNN + MolGpKa, no DFT (nested LOO)",35,1.536,2.198,-0.68

@@ -1,0 +1,5 @@
+version,hit10,mrr,pop_hit10,rare_hit10,change_vs_current,CI_lo,CI_hi,gap_vs_popularity,gap_CI_lo,gap_CI_hi
+current (as in 0.769 run),0.769,0.487,0.731,0.066,0.0,0.0,0.0,0.037,0.0,0.078
+amino-acid fix only,0.761,0.498,0.731,0.045,-0.007,-0.037,0.022,0.03,0.0,0.063
+A: fix + pKasso for non-measured ions,0.761,0.489,0.731,0.059,-0.007,-0.041,0.03,0.03,0.0,0.06
+B: pKasso for every ion it can predict,0.757,0.508,0.731,0.054,-0.011,-0.037,0.015,0.026,0.004,0.049

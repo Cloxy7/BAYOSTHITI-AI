@@ -1,0 +1,9 @@
+name,chemotype,pKa,pred,resid
+ampicillinate,carboxylate+amine (amino acid),7.24,1.52,-5.72
+benzocainium,aromatic amine (aniline-type),2.51,8.08,5.57
+Tetramethylguanidinium,amidine/guanidine,13.6,10.46,-3.14
+lysinate,carboxylate+amine (amino acid),10.78,8.26,-2.52
+L-Aspartic acid diethyl ester,primary/secondary/tertiary aliphatic ammonium,6.4,8.86,2.46
+primaquinium,primary/secondary/tertiary aliphatic ammonium,10.16,8.2,-1.96
+3-ethyl-imidazolium,N-heteroaromatic (imidazolium/pyridinium),7.3,9.09,1.79
+Tris(2-hydroxypropyl)ammonium,primary/secondary/tertiary aliphatic ammonium,7.86,9.36,1.5

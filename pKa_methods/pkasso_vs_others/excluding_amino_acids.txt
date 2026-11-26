@@ -1,0 +1,5 @@
+ions with both an amine and a carboxylic acid: 27 -> excluded below
+ml_pKa             n=111 MAE=1.11 RMSE=1.99 R2=0.56
+molgpka_prepared   n=110 MAE=0.78 RMSE=1.85 R2=0.62
+pkasso_pKa         n=110 MAE=0.53 RMSE=0.91 R2=0.91
+qupkake_pKa        n=110 MAE=0.78 RMSE=1.28 R2=0.82

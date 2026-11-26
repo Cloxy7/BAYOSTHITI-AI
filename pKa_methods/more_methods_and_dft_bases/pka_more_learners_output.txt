@@ -1,0 +1,42 @@
+training molecules 5916 | removed because identical to one of our test ions: 52
+FCFP6 bits (paper) (5864, 4096) features in 5s
+  RandomForest (paper)   298s  ours R2 0.510 MAE 1.42
+  ExtraTrees             853s  ours R2 0.164 MAE 1.79
+  XGBoost                11s  ours R2 0.507 MAE 1.54
+  LightGBM               5s  ours R2 0.439 MAE 1.64
+  CatBoost               22s  ours R2 0.433 MAE 1.68
+rich: Morgan counts+MACCS+RDKit descriptors (5864, 2432) features in 45s
+  RandomForest (paper)   174s  ours R2 0.323 MAE 1.62
+  ExtraTrees             374s  ours R2 0.353 MAE 1.46
+  XGBoost                12s  ours R2 0.337 MAE 1.64
+  LightGBM               10s  ours R2 0.385 MAE 1.59
+  CatBoost               70s  ours R2 0.318 MAE 1.67
+  SVR (RBF)              35s  ours R2 0.294 MAE 2.02
+Traceback (most recent call last):
+  File "/mnt/attach/outputs/pKa_more_methods/pka_more_learners.py", line 57, in <module>
+    t0=time.time(); m=mk().fit(Xtr,ytr)
+                      ~~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/sklearn/pipeline.py", line 645, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/sklearn/base.py", line 1393, in wrapper
+    estimator._validate_params()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/sklearn/base.py", line 554, in _validate_params
+    validate_parameter_constraints(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._parameter_constraints,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.get_params(deep=False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        caller_name=self.__class__.__name__,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/sklearn/utils/_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+    ...<2 lines>...
+    )
+sklearn.utils._param_validation.InvalidParameterError: The 'loss' parameter of MLPRegressor must be a str among {'poisson', 'squared_error'}. Got (256, 64) instead.

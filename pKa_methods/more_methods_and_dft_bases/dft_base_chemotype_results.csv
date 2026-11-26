@@ -1,0 +1,7 @@
+method,group,n,MAE,RMSE,R2
+one line per kind (current),acid,36,0.824,1.106,0.674
+one line per kind (current),base,35,1.122,1.756,-0.072
+line + chemotype offset,acid,36,0.824,1.106,0.674
+line + chemotype offset,base,35,1.074,1.669,0.032
+line + chemotype + RF prediction,acid,34,0.678,0.997,0.659
+line + chemotype + RF prediction,base,35,0.945,1.467,0.252

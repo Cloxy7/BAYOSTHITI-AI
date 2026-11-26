@@ -1,0 +1,5 @@
+family_removed,Hit10_full,Hit10_without,drop_Hit10,drop_CI_low,drop_CI_high,drop_MRR,rare_Hit10_full,rare_Hit10_without,share_of_total_drop_%
+2D similarity,0.717,0.576,0.141,0.08,0.21,0.115,0.105,0.049,70.9
+3D similarity,0.717,0.678,0.04,0.0,0.083,0.026,0.105,0.095,20.1
+pKa,0.717,0.707,0.011,-0.025,0.047,0.028,0.105,0.092,5.5
+ESP complementarity,0.717,0.71,0.007,-0.014,0.025,0.03,0.105,0.095,3.5

@@ -1,0 +1,421 @@
+master_id,name,ion_type,smiles,acceptability
+AN_001,bromide,anion,[Br-],pharma-established salt former
+AN_002,acetate,anion,CC(=O)[O-],pharma-established salt former
+AN_003,2-hydroxyacetate,anion,O=C([O-])CO,biocompatible / excipient / food-derived
+AN_004,glycinate,anion,NCC(=O)[O-],biocompatible / excipient / food-derived
+AN_005,methanesulfonate,anion,CS(=O)(=O)[O-],pharma-established salt former
+AN_006,propanoate,anion,CCC(=O)[O-],biocompatible / excipient / food-derived
+AN_007,butanoate,anion,CCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_008,lactate,anion,CC(O)C(=O)[O-],pharma-established salt former
+AN_009,serinate,anion,N[C@@H](CO)C(=O)[O-],biocompatible / excipient / food-derived
+AN_010,benzoate,anion,O=C([O-])c1ccccc1,pharma-established salt former
+AN_011,1-hexanesulfonate,anion,CCCCCCS(=O)(=O)[O-],unclassified
+AN_012,"6-methyl-2,2-dioxo-2H-1,2λ6,3-oxathiazin-4-olate",anion,CC1=CC([O-])=NS(=O)(=O)O1,biocompatible / excipient / food-derived
+AN_013,salicylate,anion,O=C([O-])c1ccccc1O,active drug ion (dual-active IL)
+AN_014,toluene-4-sulfonate,anion,Cc1ccc(S(=O)(=O)[O-])cc1,pharma-established salt former
+AN_015,"1,1-dioxo-1,2-benzothiazol-3-olate",anion,O=S1(=O)N=C([O-])c2ccccc21,biocompatible / excipient / food-derived
+AN_016,decanoate,anion,CCCCCCCCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_017,octylsulfate,anion,CCCCCCCCOS(=O)(=O)[O-],biocompatible / excipient / food-derived
+AN_018,dodecylsulfate,anion,CCCCCCCCCCCCOS(=O)(=O)[O-],biocompatible / excipient / food-derived
+AN_019,,anion,C=CC(=O)[O-],biocompatible / excipient / food-derived
+AN_020,,anion,O=C([O-])C(=O)O,unclassified
+AN_021,,anion,CC(=O)C(=O)[O-],unclassified
+AN_022,,anion,C/C=C/C(=O)[O-],biocompatible / excipient / food-derived
+AN_023,,anion,C=C(C)C(=O)[O-],biocompatible / excipient / food-derived
+AN_024,,anion,CC(C)(C)C(=O)[O-],biocompatible / excipient / food-derived
+AN_025,,anion,CC(O)CC(=O)[O-],unclassified
+AN_026,,anion,COCCC(=O)[O-],unclassified
+AN_027,,anion,NCCS(=O)(=O)[O-],unclassified
+AN_028,,anion,O=C([O-])CC(=O)O,unclassified
+AN_029,,anion,CC=CC=CC(=O)[O-],biocompatible / excipient / food-derived
+AN_030,,anion,CC(=O)CCC(=O)[O-],biocompatible / excipient / food-derived
+AN_031,,anion,CCCCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_032,,anion,O=C([O-])C=CC(=O)O,pharma-established salt former
+AN_033,,anion,O=C([O-])CC(O)C(=O)O,pharma-established salt former
+AN_034,,anion,O=C([O-])CCCC(=O)O,active drug ion (dual-active IL)
+AN_035,,anion,O=C([O-])c1cnccn1,active drug ion (dual-active IL)
+AN_036,,anion,O=C([O-])c1ccccc1S,active drug ion (dual-active IL)
+AN_037,,anion,CCCCCCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_038,,anion,O=C([O-])C(O)C(O)C(=O)O,pharma-established salt former
+AN_039,,anion,CCCC(CCC)C(=O)[O-],biocompatible / excipient / food-derived
+AN_040,,anion,O=C([O-])CCCCC(=O)O,unclassified
+AN_041,,anion,O=S(=O)([O-])c1ccccc1,pharma-established salt former
+AN_042,,anion,O=C([O-])C(O)c1ccccc1,active drug ion (dual-active IL)
+AN_043,,anion,O=C([O-])C=Cc1ccccc1,active drug ion (dual-active IL)
+AN_044,,anion,Cc1ccc(C(=O)[O-])c(O)c1,active drug ion (dual-active IL)
+AN_045,,anion,Cc1cccc(C(=O)O)c1[O-],active drug ion (dual-active IL)
+AN_046,,anion,Nc1ccc(C(=O)[O-])c(O)c1,active drug ion (dual-active IL)
+AN_047,,anion,O=C(O)c1cc(Cl)ccc1[O-],active drug ion (dual-active IL)
+AN_048,,anion,O=C(O)c1ccc(Cl)cc1[O-],active drug ion (dual-active IL)
+AN_049,,anion,O=C([O-])c1cc(Br)ccc1O,active drug ion (dual-active IL)
+AN_050,,anion,O=C([O-])c1cc(I)ccc1O,active drug ion (dual-active IL)
+AN_051,,anion,O=C1OC(C(=O)[O-])C(O)C1=O,active drug ion (dual-active IL)
+AN_052,,anion,O=S(=O)([O-])c1ccc(Cl)cc1,unclassified
+AN_053,,anion,O=S(=O)([O-])c1ccccc1O,unclassified
+AN_054,,anion,Cc1ccc(C=CC(=O)[O-])cc1,unclassified
+AN_055,,anion,Cc1ccc(N)c(S(=O)(=O)[O-])c1,active drug ion (dual-active IL)
+AN_056,,anion,Cc1ccc(S(=O)(=O)[O-])c(C)c1,unclassified
+AN_057,,anion,O=C([O-])C=Cc1ccc(Cl)cc1,unclassified
+AN_058,,anion,O=C([O-])C=Cc1ccc(O)cc1,unclassified
+AN_059,,anion,O=C1OC(C(O)CO)C(O)=C1[O-],biocompatible / excipient / food-derived
+AN_060,,anion,CC(=O)Oc1ccccc1C(=O)[O-],active drug ion (dual-active IL)
+AN_061,,anion,Cn1c(=O)c2[n-]cnc2n(C)c1=O,active drug ion (dual-active IL)
+AN_062,,anion,Cc1cc([O-])n(-c2ccccc2)n1,active drug ion (dual-active IL)
+AN_063,,anion,O=C([O-])CC(O)(CC(=O)O)C(=O)O,pharma-established salt former
+AN_064,,anion,COc1ccc(C=CC(=O)[O-])cc1,unclassified
+AN_065,,anion,C[CH2][Hg][S]c1ccccc1C(=O)[O-],unclassified
+AN_066,,anion,O=C([O-])C=Cc1ccc(O)c(O)c1,active drug ion (dual-active IL)
+AN_067,,anion,O=C([O-])CCCCCCCC(=O)O,biocompatible / excipient / food-derived
+AN_068,,anion,O=C([O-])[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)CO,pharma-established salt former
+AN_069,,anion,CC(=O)[N-]S(=O)(=O)c1ccc(N)cc1,active drug ion (dual-active IL)
+AN_070,,anion,CCCCCCCCCCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_071,,anion,O=C([O-])c1ccc(C(F)(F)F)cc1O,active drug ion (dual-active IL)
+AN_072,,anion,CC(C)c1ccc(C=CC(=O)[O-])cc1,unclassified
+AN_073,,anion,CCCCCCCCCOS(=O)(=O)[O-],biocompatible / excipient / food-derived
+AN_074,,anion,O=C(O)c1cc(S(=O)(=O)[O-])ccc1O,active drug ion (dual-active IL)
+AN_075,,anion,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1,active drug ion (dual-active IL)
+AN_076,,anion,CCCCCCCCCCOS(=O)(=O)[O-],biocompatible / excipient / food-derived
+AN_077,,anion,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,research-only (not pharma-acceptable)
+AN_078,,anion,CC(C)CCCC(C)CCOS(=O)(=O)[O-],biocompatible / excipient / food-derived
+AN_079,,anion,CC1(C)C2CCC1(CS(=O)(=O)[O-])C(=O)C2,unclassified
+AN_080,,anion,CCCCCCCCCCCS(=O)(=O)[O-],unclassified
+AN_081,,anion,O=S(=O)([O-])OC12CC3CC(CC(C3)C1)C2,biocompatible / excipient / food-derived
+AN_082,,anion,Cn1c(=O)n(CC(=O)[O-])c(=O)c2[nH]cnc21,active drug ion (dual-active IL)
+AN_083,,anion,Nc1nc2c(ncn2COCCO)c(=O)[n-]1,active drug ion (dual-active IL)
+AN_084,,anion,CCCCCCCCCCCCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_085,,anion,Nc1ccc(S(=O)(=O)[N-]c2nccs2)cc1,active drug ion (dual-active IL)
+AN_086,,anion,COc1ccc2cc(C(C)C(=O)[O-])ccc2c1,active drug ion (dual-active IL)
+AN_087,,anion,CCn1cc(C(=O)[O-])c(=O)c2ccc(C)nc21,active drug ion (dual-active IL)
+AN_088,,anion,Cc1cc([N-]S(=O)(=O)c2ccc(N)cc2)no1,active drug ion (dual-active IL)
+AN_089,,anion,Nc1ccc(S(=O)(=O)[N-]c2ncccn2)cc1,active drug ion (dual-active IL)
+AN_090,,anion,Cc1c(Cl)cccc1Nc1ccccc1C(=O)[O-],active drug ion (dual-active IL)
+AN_091,,anion,CC(C(=O)[O-])c1ccc(CC2CCCC2=O)cc1,active drug ion (dual-active IL)
+AN_092,,anion,CCCC(CC)CCC(CC(C)C)OS(=O)(=O)[O-],unclassified
+AN_093,,anion,CCCCCCCCCCCCCCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_094,,anion,CC(C(=O)[O-])c1ccc(-c2ccccc2)c(F)c1,unclassified
+AN_095,,anion,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl,active drug ion (dual-active IL)
+AN_096,,anion,Cc1ccc(Cl)c(Nc2ccccc2C(=O)[O-])c1Cl,active drug ion (dual-active IL)
+AN_097,,anion,CC(C(=O)[O-])c1cccc(C(=O)c2ccccc2)c1,active drug ion (dual-active IL)
+AN_098,,anion,CCCCCCCC(CC(C)CCC)OS(=O)(=O)[O-],biocompatible / excipient / food-derived
+AN_099,,anion,CCn1cc(C(=O)[O-])c(=O)c2cc3c(cc21)OCO3,unclassified
+AN_100,,anion,CCCCCCCCC=CCCCCCCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_101,,anion,CCCCCCCCCCCCCCCCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_102,,anion,CCCCCC=CCC=CCCCCCCCC(=O)[O-],biocompatible / excipient / food-derived
+AN_103,,anion,O=C([O-])c1ccccc1Nc1cccc(C(F)(F)F)c1,unclassified
+AN_104,,anion,CCCCCCCCCCCCCCCCCOS(=O)(=O)[O-],biocompatible / excipient / food-derived
+AN_105,,anion,Cc1ccc(S(=O)(=O)[N-]C(=O)NN2CC3CCCC3C2)cc1,active drug ion (dual-active IL)
+AN_106,,anion,CC1(C)SC2C(NC(=O)Cc3ccccc3)C(=O)N2C1C(=O)[O-],biocompatible / excipient / food-derived
+AN_107,,anion,CCCCCCCCCCCCCCCCCCOS(=O)(=O)[O-],biocompatible / excipient / food-derived
+AN_108,,anion,CC1(C)SC2C(NC(=O)C(N)c3ccccc3)C(=O)N2C1C(=O)[O-],biocompatible / excipient / food-derived
+AN_109,,anion,CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-],biocompatible / excipient / food-derived
+AN_110,,anion,CC1CCC2(C(=O)[O-])CCC3(C)C(=CCC4C5(C)CCC(O)C(C)(C)C5CCC43C)C2C1C,biocompatible / excipient / food-derived
+AN_111,chloride,anion,[Cl-],pharma-established salt former
+AN_112,fluoride,anion,[F-],unclassified
+AN_113,iodide,anion,[I-],unclassified
+AN_114,formate,anion,O=C[O-],biocompatible / excipient / food-derived
+AN_115,thiocyanate,anion,N#C[S-],research-only (not pharma-acceptable)
+AN_116,triiodide,anion,I[I-]I,unclassified
+AN_117,chlorate,anion,[O-][Cl+2]([O-])[O-],unclassified
+AN_118,hydrogencarbonate,anion,O=C([O-])O,unclassified
+AN_119,nitrate,anion,O=[N+]([O-])[O-],research-only (not pharma-acceptable)
+AN_120,phosphonate,anion,O=[PH]([O-])[O-],unclassified
+AN_121,chlorotrifluoroborate,anion,F[B-](F)(F)Cl,research-only (not pharma-acceptable)
+AN_122,dicyanamide,anion,N#C[N-]C#N,research-only (not pharma-acceptable)
+AN_123,dihydrogen-phosphate,anion,O=P([O-])(O)O,pharma-established salt former
+AN_124,hydrogensulfate,anion,O=S(=O)([O-])O,pharma-established salt former
+AN_125,methylcarbonate,anion,COC(=O)[O-],unclassified
+AN_126,sulfamate,anion,NS(=O)(=O)[O-],unclassified
+AN_127,sulfate,anion,O=S(=O)([O-])[O-],pharma-established salt former
+AN_128,tetrachloroborate,anion,Cl[B-](Cl)(Cl)Cl,research-only (not pharma-acceptable)
+AN_129,tetrachlorogallate,anion,[Cl][Ga-]([Cl])([Cl])[Cl],research-only (not pharma-acceptable)
+AN_130,tetrachloroindium,anion,[Cl][In-]([Cl])([Cl])[Cl],research-only (not pharma-acceptable)
+AN_131,tetrafluoroborate,anion,F[B-](F)(F)F,research-only (not pharma-acceptable)
+AN_132,alaninate,anion,C[C@H](N)C(=O)[O-],biocompatible / excipient / food-derived
+AN_133,methylsulfate,anion,COS(=O)(=O)[O-],unclassified
+AN_134,"2,2,2-trifluoroethanoate",anion,O=C([O-])C(F)(F)F,unclassified
+AN_135,dimethylphosphate,anion,COP(=O)([O-])OC,unclassified
+AN_136,ethylsulfate,anion,CCOS(=O)(=O)[O-],unclassified
+AN_137,hexafluoroantimonate,anion,[F][Sb-]([F])([F])([F])([F])[F],research-only (not pharma-acceptable)
+AN_138,hexafluoroarsenate,anion,F[As-](F)(F)(F)(F)F,research-only (not pharma-acceptable)
+AN_139,hexafluorophosphate,anion,F[P-](F)(F)(F)(F)F,research-only (not pharma-acceptable)
+AN_140,propanedioate,anion,O=C([O-])CC(=O)[O-],unclassified
+AN_141,tricyanomethane,anion,N#C[C-](C#N)C#N,research-only (not pharma-acceptable)
+AN_142,1-butanesulfonate,anion,CCCCS(=O)(=O)[O-],unclassified
+AN_143,2-amino-3-hydroxybutanoate,anion,CC(O)C(N)C(=O)[O-],biocompatible / excipient / food-derived
+AN_144,2-amino-3-methylbutanoate,anion,CC(C)C(N)C(=O)[O-],biocompatible / excipient / food-derived
+AN_145,butanedioate,anion,O=C([O-])CCC(=O)[O-],pharma-established salt former
+AN_146,prolinate,anion,O=C([O-])[C@@H]1CCCN1,biocompatible / excipient / food-derived
+AN_147,trifluoromethane-sulfonate,anion,O=S(=O)([O-])C(F)(F)F,research-only (not pharma-acceptable)
+AN_148,trifluoromethyltrifluoroborate,anion,F[B-](F)(F)C(F)(F)F,research-only (not pharma-acceptable)
+AN_149,2-hydroxybutanedioate,anion,O=C([O-])CC(O)C(=O)[O-],pharma-established salt former
+AN_150,asparaginate,anion,NC(=O)C[C@H](N)C(=O)[O-],biocompatible / excipient / food-derived
+AN_151,aspartate,anion,N[C@@H](CC(=O)[O-])C(=O)[O-],biocompatible / excipient / food-derived
+AN_152,butylsulfate,anion,CCCCOS(=O)(=O)[O-],unclassified
+AN_153,diethylphosphate,anion,CCOP(=O)([O-])OCC,unclassified
+AN_154,isoleucinate,anion,CC[C@H](C)[C@H](N)C(=O)[O-],biocompatible / excipient / food-derived
+AN_155,leucinate,anion,CC(C)C[C@H](N)C(=O)[O-],biocompatible / excipient / food-derived
+AN_156,methioninate,anion,CSCC[C@H](N)C(=O)[O-],biocompatible / excipient / food-derived
+AN_157,methoxyethylsulfate,anion,COC(C)OS(=O)(=O)[O-],unclassified
+AN_158,tetracyanoborate,anion,N#C[B-](C#N)(C#N)C#N,research-only (not pharma-acceptable)
+AN_159,"(2r,3r)-2,3-dihydroxybutanedioate",anion,O=C([O-])[C@H](O)[C@@H](O)C(=O)[O-],pharma-established salt former
+AN_160,ethoxyethylsulfate,anion,CCOC(C)OS(=O)(=O)[O-],unclassified
+AN_161,glutamate,anion,N[C@@H](CCC(=O)[O-])C(=O)[O-],biocompatible / excipient / food-derived
+AN_162,glutaminate,anion,NC(=O)CC[C@H](N)C(=O)[O-],biocompatible / excipient / food-derived
+AN_163,lysinate,anion,NCCCC[C@H](N)C(=O)[O-],pharma-established salt former
+AN_164,histidinate,anion,N[C@@H](Cc1c[nH]cn1)C(=O)[O-],biocompatible / excipient / food-derived
+AN_165,pentafluoroethyltrifluoroborate,anion,F[B-](F)(F)C(F)(F)C(F)(F)F,research-only (not pharma-acceptable)
+AN_166,2-(2-methoxyethoxy)ethylsulfate,anion,COCCOCCOS(=O)(=O)[O-],unclassified
+AN_167,argininate,anion,N=C(N)NCCC[C@H](N)C(=O)[O-],pharma-established salt former
+AN_168,"2-hydroxy-1,2,3-propanetricarboxylate",anion,O=C([O-])CC(O)(CC(=O)[O-])C(=O)[O-],pharma-established salt former
+AN_169,dibutylphosphate,anion,CCCCOP(=O)([O-])OCCCC,unclassified
+AN_170,heptafluorobutanoate,anion,O=C([O-])C(F)(F)C(F)(F)C(F)(F)F,research-only (not pharma-acceptable)
+AN_171,bis(trifluoromethylsulfonyl)methane,anion,O=S(=O)([CH-]S(=O)(=O)C(F)(F)F)C(F)(F)F,unclassified
+AN_172,bis-pentafluoroethyl-phosphinate,anion,O=P([O-])(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,research-only (not pharma-acceptable)
+AN_173,perfluorobutanesulfonate,anion,O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,research-only (not pharma-acceptable)
+AN_174,"bis(2,4,4-trimethylpentyl)phosphinate",anion,CC(CC(C)(C)C)CP(=O)([O-])CC(C)CC(C)(C)C,unclassified
+AN_175,bis(pentafluoroethylsulfonyl)amide,anion,O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,research-only (not pharma-acceptable)
+AN_176,perfluorooctanesulfonate,anion,O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,research-only (not pharma-acceptable)
+CAT_001,tetra-methylammonium,cation,C[N+](C)(C)C,unclassified
+CAT_002,3-methyl-imidazolium,cation,Cn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_003,Bis(methyl)-2-hydroxyethylammonium,cation,C[NH+](C)CCO,unclassified
+CAT_004,Bis(2-hydroxyethyl)ammonium,cation,OCC[NH2+]CCO,pharma-established salt former
+CAT_005,Choline,cation,C[N+](C)(C)CCO,pharma-established salt former
+CAT_006,1-ethyl-3-methyl-imidazolium,cation,CC[n+]1ccn(C)c1,research-only (not pharma-acceptable)
+CAT_007,butyltrimethylammonium,cation,CCCC[N+](C)(C)C,unclassified
+CAT_008,"1-ethyl-2,3-dimethyl-3H-imidazol-1-ium",cation,CC[n+]1ccn(C)c1C,research-only (not pharma-acceptable)
+CAT_009,1-propyl-3-methyl-imidazolium,cation,CCC[n+]1ccn(C)c1,research-only (not pharma-acceptable)
+CAT_010,tetra-ethylammonium,cation,CC[N+](CC)(CC)CC,unclassified
+CAT_011,1-butyl-1-methyl-pyrrolidinium,cation,CCCC[N+]1(C)CCCC1,research-only (not pharma-acceptable)
+CAT_012,octyltrimethylammonium,cation,CCCCCCCC[N+](C)(C)C,unclassified
+CAT_013,tributylmethylammonium,cation,CCCC[N+](C)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_014,tributylmethylphosphonium,cation,CCCC[P+](C)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_015,tributyl-ethyl-phosphonium,cation,CCCC[P+](CC)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_016,tetra-n-butylammonium,cation,CCCC[N+](CCCC)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_017,tetrabutyl-phosphonium,cation,CCCC[P+](CCCC)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_018,dodecyl-dimethyl-benzylammonium,cation,CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1,biocompatible / excipient / food-derived
+CAT_019,,cation,[NH3+]CC(=O)O,biocompatible / excipient / food-derived
+CAT_020,,cation,CCCC[NH3+],unclassified
+CAT_021,,cation,CC[NH2+]CC(=O)O,biocompatible / excipient / food-derived
+CAT_022,,cation,CCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_023,,cation,CN(C)C(=[NH2+])N(C)C,unclassified
+CAT_024,,cation,C1C[NH+]2CCN1CC2,unclassified
+CAT_025,,cation,CCCCCC(C)[NH3+],unclassified
+CAT_026,,cation,CCOC(=O)C(C)[NH3+],biocompatible / excipient / food-derived
+CAT_027,,cation,OCCC1CC[NH2+]C1,unclassified
+CAT_028,,cation,CSCCC([NH3+])C(=O)O,biocompatible / excipient / food-derived
+CAT_029,,cation,CN(C)C(=N)N=C(N)[NH3+],unclassified
+CAT_030,,cation,Cn1cc[n+](CCO)c1,research-only (not pharma-acceptable)
+CAT_031,,cation,C[n+]1ccn(CCO)c1,research-only (not pharma-acceptable)
+CAT_032,,cation,C1CN=C2CCC[NH+]2C1,unclassified
+CAT_033,,cation,CC(O)C[NH2+]CC(C)O,unclassified
+CAT_034,,cation,CCCCCCC(C)[NH3+],unclassified
+CAT_035,,cation,CCCCCCCC[NH3+],unclassified
+CAT_036,,cation,CC[N+]1(C)CCCCC1,research-only (not pharma-acceptable)
+CAT_037,,cation,CC[N+]1(C)CCOCC1,biocompatible / excipient / food-derived
+CAT_038,,cation,C[N+](C)(CCO)CCO,biocompatible / excipient / food-derived
+CAT_039,,cation,N=C(N)NCCCC[NH3+],unclassified
+CAT_040,,cation,[NH3+]CCCCC([NH3+])C(=O)[O-],pharma-established salt former
+CAT_041,,cation,CCCCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_042,,cation,CCOC(=O)C1CC[NH2+]C1,active drug ion (dual-active IL)
+CAT_043,,cation,C[N+]1(C)CCCC1C(=O)O,biocompatible / excipient / food-derived
+CAT_044,,cation,OCC[NH+](CCO)CCO,active drug ion (dual-active IL)
+CAT_045,,cation,CCCOC(=O)C([NH3+])C(C)C,biocompatible / excipient / food-derived
+CAT_046,,cation,CCCOC(=O)C([NH3+])C(C)O,biocompatible / excipient / food-derived
+CAT_047,,cation,C1CCC2=NCCC[NH+]2CC1,unclassified
+CAT_048,,cation,COC(=O)c1ccc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_049,,cation,C[N+](C)(C)CC(O)CC(=O)O,biocompatible / excipient / food-derived
+CAT_050,,cation,CCCCOC(=O)C([NH3+])C(C)C,biocompatible / excipient / food-derived
+CAT_051,,cation,CCCCOC(=O)C([NH3+])C(C)O,biocompatible / excipient / food-derived
+CAT_052,,cation,CCCOC(=O)C([NH3+])C(C)CC,biocompatible / excipient / food-derived
+CAT_053,,cation,CCOC(=O)c1ccc([NH3+])cc1,unclassified
+CAT_054,,cation,CCCCCCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_055,,cation,CCCOC(=O)C([NH3+])CCSC,biocompatible / excipient / food-derived
+CAT_056,,cation,C[NH2+]C(C)C(O)c1ccccc1,unclassified
+CAT_057,,cation,CCCCOC(=O)C([NH3+])C(C)CC,biocompatible / excipient / food-derived
+CAT_058,,cation,CCCCOC(=O)C([NH3+])CCSC,biocompatible / excipient / food-derived
+CAT_059,,cation,C=CC[N+](C)(C)Cc1ccccc1,unclassified
+CAT_060,,cation,CC(O)C[NH+](CC(C)O)CC(C)O,unclassified
+CAT_061,,cation,CCCCCCCCCCCC[NH3+],unclassified
+CAT_062,,cation,CCOC(=O)CC([NH3+])C(=O)OCC,biocompatible / excipient / food-derived
+CAT_063,,cation,C[NH2+]C[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)CO,pharma-established salt former
+CAT_064,,cation,CCCCCCCCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_065,,cation,CCCCCCCCCC[N+](C)(C)C,unclassified
+CAT_066,,cation,CCOC(=O)C([NH3+])Cc1ccccc1,biocompatible / excipient / food-derived
+CAT_067,,cation,CCCCCCCCCCCC[N+](C)(C)C,unclassified
+CAT_068,,cation,CCCCCCCCCCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_069,,cation,CCCC[P+](CCC)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_070,,cation,CCCC[P+](CCO)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_071,,cation,CCCNC(C)C(=O)[NH+]c1ccccc1C,unclassified
+CAT_072,,cation,[NH3+]c1nc2c(ncn2COCCO)c(=O)[nH]1,active drug ion (dual-active IL)
+CAT_073,,cation,CC[NH+](CC)CC(=O)Nc1c(C)cccc1C,active drug ion (dual-active IL)
+CAT_074,,cation,CCCC[P+](CCCC)(CCCC)CC(C)O,research-only (not pharma-acceptable)
+CAT_075,,cation,CCCC[P+](CCCC)(CCCC)CCCO,research-only (not pharma-acceptable)
+CAT_076,,cation,CCC[N+](CCC)(CCC)Cc1ccccc1,unclassified
+CAT_077,,cation,CC[NH+](CC)CCOC(=O)c1ccc(N)cc1,pharma-established salt former
+CAT_078,,cation,CCCCCCCCCCCCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_079,,cation,CCCCC[P+](CCCC)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_080,,cation,CCCC[P+](CCCC)(CCCC)CCCCO,research-only (not pharma-acceptable)
+CAT_081,,cation,CCC[N+](CCC)(CCC)Cc1ccc(F)cc1,unclassified
+CAT_082,,cation,CCC[P+](CCC)(CCC)Cc1ccc(F)cc1,research-only (not pharma-acceptable)
+CAT_083,,cation,CC(C)[NH2+]CC(O)COc1cccc2ccccc12,unclassified
+CAT_084,,cation,CCCCCC[P+](CCCC)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_085,,cation,C[NH+](C)CCOC(c1ccccc1)c1ccccc1,active drug ion (dual-active IL)
+CAT_086,,cation,COc1ccc2nccc(NC(C)CCC[NH3+])c2c1,active drug ion (dual-active IL)
+CAT_087,,cation,CCCC[N+](CCCC)(CCCC)Cc1ccccc1,research-only (not pharma-acceptable)
+CAT_088,,cation,CCCC[P+](CCCC)(CCCC)Cc1ccccc1,research-only (not pharma-acceptable)
+CAT_089,,cation,CCCC[N+](CCCC)(CCCC)Cc1ccc(F)cc1,research-only (not pharma-acceptable)
+CAT_090,,cation,CCCC[NH+]1CCCCC1C(=O)Nc1c(C)cccc1C,active drug ion (dual-active IL)
+CAT_091,,cation,CCCC[P+](CCCC)(CCCC)Cc1ccc(Cl)cc1,research-only (not pharma-acceptable)
+CAT_092,,cation,CCCC[P+](CCCC)(CCCC)Cc1ccc(F)cc1,research-only (not pharma-acceptable)
+CAT_093,,cation,CCCC[P+](CCCC)(CCCC)Cc1ccc(I)cc1,research-only (not pharma-acceptable)
+CAT_094,,cation,CNC(=C[N+](=O)[O-])NCCSCc1ccc(C[NH+](C)C)o1,active drug ion (dual-active IL)
+CAT_095,,cation,CCCCCCCCCCCCCCCC[n+]1ccccc1,biocompatible / excipient / food-derived
+CAT_096,,cation,CCCCCCCCCCCCCCCCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_097,,cation,CCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1,biocompatible / excipient / food-derived
+CAT_098,,cation,CCCCCCCCCC[N+](C)(C)CCCCCCCCCC,unclassified
+CAT_099,,cation,CCCCCCCCCCCCCCCCn1cc[n+](C)c1C,research-only (not pharma-acceptable)
+CAT_100,,cation,CCCC[P+](CCCC)(CCCC)Cc1ccc(C(F)(F)F)cc1,research-only (not pharma-acceptable)
+CAT_101,,cation,C[N+]1(C)CCCC(OC(=O)C(O)(c2ccccc2)c2ccccc2)C1,biocompatible / excipient / food-derived
+CAT_102,2-hydroxyethyl-ammonium,cation,[NH3+]CCO,pharma-established salt former
+CAT_103,ethyl-dimethylsulfonium,cation,CC[S+](C)C,research-only (not pharma-acceptable)
+CAT_104,diethyl-methylsulfonium,cation,CC[S+](C)CC,research-only (not pharma-acceptable)
+CAT_105,pyridinium,cation,c1cc[nH+]cc1,research-only (not pharma-acceptable)
+CAT_106,trimethylethylammonium,cation,CC[N+](C)(C)C,unclassified
+CAT_107,"1,1-dimethyl-pyrrolidinium",cation,C[N+]1(C)CCCC1,research-only (not pharma-acceptable)
+CAT_108,"1,3-dimethyl-3H-imidazol-1-ium",cation,Cn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_109,1-methyl-pyridinium,cation,C[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_110,3-ethyl-imidazolium,cation,CCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_111,triethylsulfonium,cation,CC[S+](CC)CC,research-only (not pharma-acceptable)
+CAT_112,1-ethyl-1-methyl-pyrrolidinium,cation,CC[N+]1(C)CCCC1,research-only (not pharma-acceptable)
+CAT_113,1-ethyl-pyridinium,cation,CC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_114,3-propyl-imidazolium,cation,CCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_115,cyanomethyl-dimethyl-ethylammonium,cation,CC[N+](C)(C)CC#N,unclassified
+CAT_116,ethyl-dimethyl-propylammonium,cation,CCC[N+](C)(C)CC,unclassified
+CAT_117,"1,3-diethylimidazolium",cation,CCn1cc[n+](CC)c1,research-only (not pharma-acceptable)
+CAT_118,1-(2-hydroxyethyl)-1-methylpyrrolidinium,cation,C[N+]1(CCO)CCCC1,biocompatible / excipient / food-derived
+CAT_119,1-(2-hydroxyethyl)pyridinium,cation,OCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_120,1-(cyanomethyl)-1-methylpyrrolidinium,cation,C[N+]1(CC#N)CCCC1,research-only (not pharma-acceptable)
+CAT_121,1-(cyanomethyl)pyridinium,cation,N#CC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_122,1-butyl-imidazolium,cation,CCCC[NH+]1C=CN=C1,unclassified
+CAT_123,"1-ethyl-3,4-dimethylimidazolium",cation,CC[n+]1cc(C)n(C)c1,research-only (not pharma-acceptable)
+CAT_124,1-ethyl-3-methylpyridinium,cation,CC[n+]1cccc(C)c1,research-only (not pharma-acceptable)
+CAT_125,1-methyl-1-propylpyrrolidinium,cation,CCC[N+]1(C)CCCC1,research-only (not pharma-acceptable)
+CAT_126,1-propylpyridinium,cation,CCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_127,3-(cyanomethyl)-1-methyl-imidazolium,cation,C[n+]1ccn(CC#N)c1,research-only (not pharma-acceptable)
+CAT_128,bis(2-methoxyethyl)ammonium,cation,COCC[NH2+]CCOC,unclassified
+CAT_129,diethyl-methyl-propylammonium,cation,CCC[N+](C)(CC)CC,unclassified
+CAT_130,dimethyl-phenylsulfonium,cation,C[S+](C)c1ccccc1,research-only (not pharma-acceptable)
+CAT_131,ethyl-(3-hydroxypropyl)-dimethylammonium,cation,CC[N+](C)(C)CCCO,unclassified
+CAT_132,ethyl-dimethyl-2-methoxyethylammonium,cation,CC[N+](C)(C)CCOC,biocompatible / excipient / food-derived
+CAT_133,ethyl-dimethyl-butylammonium,cation,CCCC[N+](C)(C)CC,unclassified
+CAT_134,(2-ethoxyethyl)-ethyl-dimethylammonium,cation,CCOCC[N+](C)(C)CC,biocompatible / excipient / food-derived
+CAT_135,1-(2-methoxyethyl)-1-methylpyrrolidinium,cation,COCC[N+]1(C)CCCC1,biocompatible / excipient / food-derived
+CAT_136,1-(3-hydroxypropyl)-1-methylpyrrolidinium,cation,C[N+]1(CCCO)CCCC1,research-only (not pharma-acceptable)
+CAT_137,1-(cyanomethyl)-1-methylpiperidinium,cation,C[N+]1(CC#N)CCCCC1,research-only (not pharma-acceptable)
+CAT_138,1-(ethoxymethyl)pyridinium,cation,CCOC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_139,1-butyl-3-methyl-imidazolium,cation,CCCC[n+]1ccn(C)c1,active drug ion (dual-active IL)
+CAT_140,1-butyl-pyridinium,cation,CCCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_141,1-ethyl-3-propylimidazolium,cation,CCCn1cc[n+](CC)c1,research-only (not pharma-acceptable)
+CAT_142,1-isobutenyl-3-methylimidazolium,cation,CC(C)=C[n+]1ccn(C)c1,research-only (not pharma-acceptable)
+CAT_143,1-methyl-1-propylpiperidinium,cation,CCC[N+]1(C)CCCCC1,research-only (not pharma-acceptable)
+CAT_144,1-tert-butyl-pyridinium,cation,CC(C)(C)[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_145,3-pentyl-imidazolium,cation,CCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_146,N-(3-hydroxypropyl)pyridinium,cation,OCCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_147,ethyl-(3-methoxypropyl)-dimethylammonium,cation,CC[N+](C)(C)CCCOC,unclassified
+CAT_148,ethyl-phenyl-methylsulfonium,cation,CC[S+](C)c1ccccc1,research-only (not pharma-acceptable)
+CAT_149,hexyltrimethylammonium,cation,CCCCCC[N+](C)(C)C,unclassified
+CAT_150,"1,1-dipropyl-pyrrolidinium",cation,CCC[N+]1(CCC)CCCC1,research-only (not pharma-acceptable)
+CAT_151,1-(2-ethoxyethyl)pyridinium,cation,CCOCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_152,1-(2-methoxyethyl)-1-methylpiperidinium,cation,COCC[N+]1(C)CCCCC1,biocompatible / excipient / food-derived
+CAT_153,1-(3-hydroxypropyl)-1-methylpiperidinium,cation,C[N+]1(CCCO)CCCCC1,research-only (not pharma-acceptable)
+CAT_154,1-(3-methoxypropyl)-1-methylpyrrolidinium,cation,COCCC[N+]1(C)CCCC1,research-only (not pharma-acceptable)
+CAT_155,1-(ethoxymethyl)-1-methylpiperidinium,cation,CCOC[N+]1(C)CCCCC1,research-only (not pharma-acceptable)
+CAT_156,1-butyl-1-ethyl-pyrrolidinium,cation,CCCC[N+]1(CC)CCCC1,research-only (not pharma-acceptable)
+CAT_157,1-butyl-1-methylpiperidinium,cation,CCCC[N+]1(C)CCCCC1,research-only (not pharma-acceptable)
+CAT_158,"1-butyl-2,3-dimethyl-3H-imidazol-1-ium",cation,CCCC[n+]1ccn(C)c1C,research-only (not pharma-acceptable)
+CAT_159,1-butyl-3-ethylimidazolium,cation,CCCC[n+]1ccn(CC)c1,research-only (not pharma-acceptable)
+CAT_160,1-methyl-1-pentylpyrrolidinium,cation,CCCCC[N+]1(C)CCCC1,research-only (not pharma-acceptable)
+CAT_161,1-methyl-3-(3-oxobutyl)-imidazolium,cation,CC(=O)CCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_162,1-pentyl-3-methyl-imidazolium,cation,CCCCC[n+]1ccn(C)c1,research-only (not pharma-acceptable)
+CAT_163,1-pentylpyridinium,cation,CCCCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_164,3-(3-methoxypropyl)-1-methyl-imidazolium,cation,COCCCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_165,3-(4-hydroxybutyl)-1-methyl-imidazolium,cation,C[n+]1ccn(CCCCO)c1,research-only (not pharma-acceptable)
+CAT_166,3-(butoxymethyl)-imidazolium,cation,CCCCOCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_167,3-hexyl-imidazolium,cation,CCCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_168,4-methyl-n-butylpyridinium,cation,CCCC[n+]1ccc(C)cc1,research-only (not pharma-acceptable)
+CAT_169,butyl-Bis(2-hydroxyethyl)ammonium,cation,CCCC[NH+](CCO)CCO,unclassified
+CAT_170,heptyltrimethylammonium,cation,CCCCCCC[N+](C)(C)C,unclassified
+CAT_171,1-(3-methoxypropyl)-1-methylpiperidinium,cation,COCCC[N+]1(C)CCCCC1,research-only (not pharma-acceptable)
+CAT_172,1-hexyl-1-methyl-pyrrolidinium,cation,CCCCCC[N+]1(C)CCCC1,research-only (not pharma-acceptable)
+CAT_173,1-hexyl-3-methyl-imidazolium,cation,CCCCCC[n+]1ccn(C)c1,active drug ion (dual-active IL)
+CAT_174,1-hexyl-pyridinium,cation,CCCCCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_175,1-propenyl-boronic-acid-3-methyl-imidazolium,cation,CC=CB(O)O.Cn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_176,3-(3-carboxypropyl)-1-methyl-imidazolium,cation,C[n+]1ccn(CCCC(=O)O)c1,research-only (not pharma-acceptable)
+CAT_177,3-heptyl-imidazolium,cation,CCCCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_178,triethylpentylammonium,cation,CCCCC[N+](CC)(CC)CC,unclassified
+CAT_179,1-benzyl-3-methyl-imidazolium,cation,Cn1cc[n+](Cc2ccccc2)c1,research-only (not pharma-acceptable)
+CAT_180,1-ethyl-3-hexyl-imidazolium,cation,CCCCCCn1cc[n+](CC)c1,research-only (not pharma-acceptable)
+CAT_181,1-heptyl-3-methyl-imidazolium,cation,CCCCCCC[n+]1ccn(C)c1,research-only (not pharma-acceptable)
+CAT_182,"1-hexyl-2,3-dimethyl-3H-imidazol-1-ium",cation,CCCCCC[n+]1ccn(C)c1C,research-only (not pharma-acceptable)
+CAT_183,1-hexyl-3-methyl-pyridinium,cation,CCCCCC[n+]1cccc(C)c1,research-only (not pharma-acceptable)
+CAT_184,1-hexyl-4-methyl-pyridinium,cation,CCCCCC[n+]1ccc(C)cc1,research-only (not pharma-acceptable)
+CAT_185,3-[(hexyloxy)methyl]-imidazolium,cation,CCCCCCOCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_186,3-octyl-imidazolium,cation,CCCCCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_187,N-(3-sulfopropyl)pyridinium,cation,O=S(=O)(O)CCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_188,dibutylimidazolium,cation,CCCCC1=NC=C[NH+]1CCCC,unclassified
+CAT_189,n-hexyl-tris(ethyl)ammonium,cation,CCCCCC[N+](CC)(CC)CC,unclassified
+CAT_190,tetrapropylammonium,cation,CCC[N+](CCC)(CCC)CCC,unclassified
+CAT_191,1-octyl-1-methyl-pyrrolidinium,cation,CCCCCCCC[N+]1(C)CCCC1,research-only (not pharma-acceptable)
+CAT_192,1-octyl-3-methyl-imidazolium,cation,CCCCCCCC[n+]1ccn(C)c1,active drug ion (dual-active IL)
+CAT_193,1-octyl-pyridinium,cation,CCCCCCCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_194,3-[(heptyloxy)methyl]-imidazolium,cation,CCCCCCCOCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_195,3-nonyl-imidazolium,cation,CCCCCCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_196,methyltris(2-methylpropyl)phosphonium; triisobutyl-methyl-phosphonium,cation,CC(C)C[P+](C)(CC(C)C)CC(C)C,research-only (not pharma-acceptable)
+CAT_197,triethylheptylammonium,cation,CCCCCCC[N+](CC)(CC)CC,unclassified
+CAT_198,"1,3-dipentyl-imidazolium",cation,CCCCCn1cc[n+](CCCCC)c1,research-only (not pharma-acceptable)
+CAT_199,1-methyl-3-heptoxymethylimidazolium,cation,CCCCCCCOCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_200,1-methyl-3-nonylimidazolium,cation,CCCCCCCCCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_201,3-[(octyloxy)methyl]-imidazolium,cation,CCCCCCCCOCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_202,3-decyl-imidazolium,cation,CCCCCCCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_203,triethyloctylammonium,cation,CCCCCCCC[N+](CC)(CC)CC,unclassified
+CAT_204,1-[(heptyloxy)methyl]-3-hydroxypyridinium,cation,CCCCCCCOC[n+]1cccc(O)c1,research-only (not pharma-acceptable)
+CAT_205,1-butoxymethyl-3-propoxymethylimidazolium,cation,CCCCOC[n+]1ccn(COCCC)c1,research-only (not pharma-acceptable)
+CAT_206,1-decyl-3-methyl-imidazolium,cation,CCCCCCCCCC[n+]1ccn(C)c1,active drug ion (dual-active IL)
+CAT_207,1-decylpyridinium,cation,CCCCCCCCCC[n+]1ccccc1,research-only (not pharma-acceptable)
+CAT_208,2-methyl-1-(phenylmethyl)-3-propylimidazolium,cation,CCCn1cc[n+](Cc2ccccc2)c1C,research-only (not pharma-acceptable)
+CAT_209,3-(7-carboxyheptyl)-1-methyl-imidazolium,cation,C[n+]1ccn(CCCCCCCC(=O)O)c1,biocompatible / excipient / food-derived
+CAT_210,3-undecyl-imidazolium,cation,CCCCCCCCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_211,"1,1-dihexylpyrrolidinium",cation,CCCCCC[N+]1(CCCCCC)CCCC1,research-only (not pharma-acceptable)
+CAT_212,"1,3-dihexyl-imidazolium",cation,CCCCCCn1cc[n+](CCCCCC)c1,research-only (not pharma-acceptable)
+CAT_213,1-decyl-3-ethyl-imidazolium,cation,CCCCCCCCCC[n+]1ccn(CC)c1,research-only (not pharma-acceptable)
+CAT_214,1-methyl-3-nonoxymethylimidazolium,cation,CCCCCCCCCOCn1cc[n+](C)c1,research-only (not pharma-acceptable)
+CAT_215,3-dodecyl-imidazolium,cation,CCCCCCCCCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_216,1-dodecyl-3-methyl-imidazolium,cation,CCCCCCCCCCCC[n+]1ccn(C)c1,research-only (not pharma-acceptable)
+CAT_217,tetradecyltrimethylammonium,cation,CCCCCCCCCCCCCC[N+](C)(C)C,unclassified
+CAT_218,1-propenyl-boronic-acid-3-octyl-imidazolium,cation,CC=CB(O)O.CCCCCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_219,3-[(dodecyloxy)methyl]-imidazolium,cation,CCCCCCCCCCCCOCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_220,1-tetradecyl-3-methyl-imidazolium,cation,CCCCCCCCCCCCCC[n+]1ccn(C)c1,research-only (not pharma-acceptable)
+CAT_221,decyl-dimethyl-benzylammonium,cation,CCCCCCCCCC[N+](C)(C)Cc1ccccc1,biocompatible / excipient / food-derived
+CAT_222,1-propenyl-boronic-acid-3-decyl-imidazolium,cation,CC=CB(O)O.CCCCCCCCCCn1cc[nH+]c1,research-only (not pharma-acceptable)
+CAT_223,ethyl-trihexyl-phosphonium,cation,CCCCCC[P+](CC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)
+CAT_224,1-hexadecyl-3-methyl-imidazolium,cation,CCCCCCCCCCCCCCCC[n+]1ccn(C)c1,research-only (not pharma-acceptable)
+CAT_225,dodecyl-dimethyl-3-sulfopropylammonium,cation,CCCCCCCCCCCC[N+](C)(C)CCCS(=O)(=O)O,unclassified
+CAT_226,trihexyl(methoxymethyl)phosphonium,cation,CCCCCC[P+](CCCCCC)(CCCCCC)COC,research-only (not pharma-acceptable)
+CAT_227,trihexyl-2-propen-1-ylphosphonium,cation,C=CC[P+](CCCCCC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)
+CAT_228,trihexyl-propyl-phosphonium,cation,CCCCCC[P+](CCC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)
+CAT_229,"1,3-bis[(heptyloxy)methyl]-imidazolium",cation,CCCCCCCOCn1cc[n+](COCCCCCCC)c1,research-only (not pharma-acceptable)
+CAT_230,"1-hexadecyl-2,3-dimethyl-3H-imidazol-1-ium",cation,CCCCCCCCCCCCCCCC[n+]1ccn(C)c1C,research-only (not pharma-acceptable)
+CAT_231,butyl-trihexyl-phosphonium,cation,CCCCCC[P+](CCCC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)
+CAT_232,1-octadecyl-3-methyl-imidazolium,cation,CCCCCCCCCCCCCCCCCC[n+]1ccn(C)c1,research-only (not pharma-acceptable)
+CAT_233,dimethyl-tetradecyl-benzylammonium,cation,CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1,biocompatible / excipient / food-derived
+CAT_234,tetrahexyl-phosphonium,cation,CCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)
+CAT_235,"1,3-didecyl-2-methyl-imidazolium",cation,CCCCCCCCCCn1cc[n+](CCCCCCCCCC)c1C,research-only (not pharma-acceptable)
+CAT_236,benzyl-triphenyl-phosphonium,cation,c1ccc(C[P+](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,research-only (not pharma-acceptable)
+CAT_237,heptyl-trihexyl-phosphonium,cation,CCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)
+CAT_238,methyl-trioctyl-ammonium,cation,CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC,active drug ion (dual-active IL)
+CAT_239,tributyl-tetradecylphosphonium,cation,CCCCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC,research-only (not pharma-acceptable)
+CAT_240,trihexyl-octyl-phosphonium,cation,CCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)
+CAT_241,decyl-trihexyl-phosphonium,cation,CCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)
+CAT_242,dodecyl-trihexyl-phosphonium,cation,CCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)
+CAT_243,trihexyl-tetradecyl-phosphonium,cation,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,active drug ion (dual-active IL)
+CAT_244,hexadecyl-trihexyl-phosphonium,cation,CCCCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,research-only (not pharma-acceptable)

@@ -1,0 +1,132 @@
+API_id,API_name,names_in_file,neutral_smiles,ionic_form,ionic_smiles,charge,role_in_pairs,other_form_in_data,n_pairs,drug_pKa,drug_pKa_type
+API_001,Salicylic acid,Salicylate | Salicylic acid | Salicylic acid (salicylate),O=C(O)c1ccccc1O,anion,O=C([O-])c1ccccc1O,-1,counter-ion needed: cation,,70,2.97,measured
+API_002,Ibuprofen,2-(4-Isobutylphenyl)propionate | Ibuprofen | Ibuprofenate,CC(C)Cc1ccc(C(C)C(=O)O)cc1,anion,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1,-1,counter-ion needed: cation,,51,4.57,measured
+API_003,Ketoprofen,Ketoprofen | Ketoprofenate,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,anion,CC(C(=O)[O-])c1cccc(C(=O)c2ccccc2)c1,-1,counter-ion needed: cation,,28,4.2,measured
+API_004,Naproxen,(S)-6-methoxy-α-methyl-2-naphthaleneacetate | Naproxen | Naproxenate,COc1ccc2cc([C@H](C)C(=O)O)ccc2c1,anion,COc1ccc2cc([C@H](C)C(=O)[O-])ccc2c1,-1,counter-ion needed: cation,,22,4.35,measured
+API_005,Theophyllinate,Theophyllinate | Theophylline,Cn1c(=O)c2[nH]cnc2n(C)c1=O,anion,Cn1c(=O)c2[n-]cnc2n(C)c1=O,-1,counter-ion needed: cation,cation: Cn1c(=O)c2[nH]c[nH+]c2n(C)c1=O,21,8.6,measured
+API_006,Nalidixate,Nalidixate | Nalidixic acid,CCn1cc(C(=O)O)c(=O)c2ccc(C)nc21,anion,CCn1cc(C(=O)[O-])c(=O)c2ccc(C)nc21,-1,counter-ion needed: cation,,20,6.33,measured
+API_007,Methotrexate,Methotrexate | Methotrexate Salt,CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1,anion,CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)[O-])C(=O)[O-])cc1,-2,counter-ion needed: cation,,18,4.8,measured
+API_008,Lidocainium,Lidocaine | Lidocainium,CCN(CC)CC(=O)Nc1c(C)cccc1C,cation,CC[NH+](CC)CC(=O)Nc1c(C)cccc1C,1,counter-ion needed: anion,,16,7.94,measured
+API_009,Ciprofloxacin,Ciprofloxacin,O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O,cation,O=C(O)c1cn(C2CC2)c2cc(N3CC[NH2+]CC3)c(F)cc2c1=O,1,counter-ion needed: anion,anion: O=C([O-])c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O,15,6.2,measured
+API_010,Cinnarizinium,Cinnarizine | Cinnarizinium,C(=C\c1ccccc1)/CN1CCN(C(c2ccccc2)c2ccccc2)CC1,cation,C(=C\c1ccccc1)/C[NH+]1CCN(C(c2ccccc2)c2ccccc2)CC1,1,counter-ion needed: anion,,14,7.4,measured
+API_011,Aripiprazolium,Aripiprazolium,O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1,cation,O=C1CCc2ccc(OCCCC[NH+]3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1,1,counter-ion needed: anion,,13,7.6,measured
+API_012,Metformin,Metformin | Metforminium,CN(C)C(=N)N=C(N)N,cation,CN(C)C(=[NH2+])N=C(N)N,1,counter-ion needed: anion,,13,11.5,measured
+API_013,Diclofenac,"2-[(2,6-dichlorophenyl)amino]benzeneacetate | Diclofenac",O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,anion,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,counter-ion needed: cation,,12,4.08,measured
+API_014,Donepezil,Donepezil,COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2,cation,COc1cc2c(cc1OC)C(=O)C(CC1CC[NH+](Cc3ccccc3)CC1)C2,1,counter-ion needed: anion,,12,9.04,measured
+API_015,Tolfenamate,Tolfenamate | Tolfenamic acid,Cc1c(Cl)cccc1Nc1ccccc1C(=O)O,anion,Cc1c(Cl)cccc1Nc1ccccc1C(=O)[O-],-1,counter-ion needed: cation,,11,3.66,site-predicted
+API_016,Fexofenadinium,Fexofenadinium,CC(C)(C(=O)O)c1ccc(C(O)CCCN2CCC(C(O)(c3ccccc3)c3ccccc3)CC2)cc1,cation,CC(C)(C(=O)O)c1ccc(C(O)CCC[NH+]2CCC(C(O)(c3ccccc3)c3ccccc3)CC2)cc1,1,counter-ion needed: anion,,10,4.2,measured
+API_017,Ampicillinate,Ampicillin | Ampicillinate,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccccc3)C(=O)N2[C@H]1C(=O)O,anion,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccccc3)C(=O)N2[C@H]1C(=O)[O-],-1,counter-ion needed: cation,,9,7.24,measured
+API_018,Hydroxychloroquinium,Hydroxychloroquine | Hydroxychloroquinium,CCN(CCO)CCCC(C)Nc1ccnc2cc(Cl)ccc12,cation,CC[NH+](CCO)CCCC(C)Nc1cc[nH+]c2cc(Cl)ccc12,2,counter-ion needed: anion,,8,9.67,measured
+API_019,Venetoclax,Venetoclax,CC1(C)CCC(CN2CCN(c3ccc(C(=O)NS(=O)(=O)c4ccc(NCC5CCOCC5)c([N+](=O)[O-])c4)c(Oc4cnc5[nH]ccc5c4)c3)CC2)=C(c2ccc(Cl)cc2)C1,cation,CC1(C)CCC(C[NH+]2CCN(c3ccc(C(=O)NS(=O)(=O)c4ccc(NCC5CCOCC5)c([N+](=O)[O-])c4)c(Oc4cnc5[nH]ccc5c4)c3)CC2)=C(c2ccc(Cl)cc2)C1,1,counter-ion needed: anion,,7,8.1,site-predicted
+API_020,Isoniazid,Isoniazid,NNC(=O)c1ccncc1,cation,NNC(=O)c1cc[nH+]cc1,1,counter-ion needed: anion,,7,3.5,measured
+API_021,Chloroquine,Chloroquine,CCN(CC)CCCC(C)Nc1ccnc2cc(Cl)ccc12,cation,CC[NH+](CC)CCCC(C)Nc1ccnc2cc(Cl)ccc12,1,counter-ion needed: anion,,7,10.2,measured
+API_022,Primaquinium,Primaquine | Primaquinium,COc1cc(NC(C)CCCN)c2ncccc2c1,cation,COc1cc(NC(C)CCC[NH3+])c2ncccc2c1,1,counter-ion needed: anion,,7,10.16,measured
+API_023,Indomethacinate,Indomethacin | Indomethacinate,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,anion,COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1,-1,counter-ion needed: cation,,6,4.5,measured
+API_024,Propranolol,Propranolol | Propranololium,CC(C)NCC(O)COc1cccc2ccccc12,cation,CC(C)[NH2+]CC(O)COc1cccc2ccccc12,1,counter-ion needed: anion,,6,9.14,measured
+API_025,Mefloquine,Mefloquine,OC(c1cc(C(F)(F)F)nc2c(C(F)(F)F)cccc12)C1CCCCN1,cation,OC(c1cc(C(F)(F)F)nc2c(C(F)(F)F)cccc12)C1CCCC[NH2+]1,1,counter-ion needed: anion,,6,8.6,site-unlabeled
+API_026,Rivastigminium,Rivastigminium,CCN(C)C(=O)Oc1cccc([C@H](C)N(C)C)c1,cation,CCN(C)C(=O)Oc1cccc([C@H](C)[NH+](C)C)c1,1,counter-ion needed: anion,,6,8.99,measured
+API_027,Acyclovirate,Acyclovir | Acyclovirate,Nc1nc2c(ncn2COCCO)c(=O)[nH]1,anion,Nc1nc2c(ncn2COCCO)c(=O)[n-]1,-1,counter-ion needed: cation,cation: Nc1nc2n(COCCO)c[nH+]c2c(=O)[nH]1,6,2.27,measured
+API_028,Loxoprofenate,Loxoprofen | Loxoprofenate,CC(C(=O)O)c1ccc(CC2CCCC2=O)cc1,anion,CC(C(=O)[O-])c1ccc(CC2CCCC2=O)cc1,-1,counter-ion needed: cation,,6,4.2,site-unlabeled
+API_029,Amphotericin B,Amphotericin B,C[C@@H]1[C@H](O)[C@@H](C)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@H](O[C@@H]2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)C[C@@H]2O[C@](O)(C[C@@H](O)C[C@@H](O)[C@H](O)CC[C@@H](O)C[C@@H](O)CC(=O)O[C@H]1C)C[C@H](O)[C@H]2C(=O)O,anion,C[C@@H]1[C@H](O)[C@@H](C)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@H](O[C@@H]2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)C[C@@H]2O[C@](O)(C[C@@H](O)C[C@@H](O)[C@H](O)CC[C@@H](O)C[C@@H](O)CC(=O)O[C@H]1C)C[C@H](O)[C@H]2C(=O)[O-],-1,counter-ion needed: cation,,6,5.5,measured
+API_030,Norfloxacin,Norfloxacin,CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCNCC3)cc21,cation,CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CC[NH2+]CC3)cc21,1,counter-ion needed: anion,anion: CCn1cc(C(=O)[O-])c(=O)c2cc(F)c(N3CCNCC3)cc21,5,6.34,measured
+API_031,Papaverine,Papaverine,COc1ccc(Cc2nccc3cc(OC)c(OC)cc23)cc1OC,cation,COc1ccc(Cc2[nH+]ccc3cc(OC)c(OC)cc23)cc1OC,1,counter-ion needed: anion,,5,6.4,measured
+API_032,Amlodipinium,Amlodipine | Amlodipinium,CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl,cation,CCOC(=O)C1=C(COCC[NH3+])NC(C)=C(C(=O)OC)C1c1ccccc1Cl,1,counter-ion needed: anion,,5,8.6,measured
+API_033,Cefuroxime,Cefuroxime,CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(COC(N)=O)CS[C@H]12)c1ccco1,anion,CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(COC(N)=O)CS[C@H]12)c1ccco1,-1,counter-ion needed: cation,,5,2.5,measured
+API_034,Aspirin,2-Acetylsalicylate | Acetylsalicylate | Acetylsalicylic acid | Aspirin,CC(=O)Oc1ccccc1C(=O)O,anion,CC(=O)Oc1ccccc1C(=O)[O-],-1,counter-ion needed: cation,,5,3.38,measured
+API_035,Azelaic acid,Azelaic acid,O=C(O)CCCCCCCC(=O)O,anion,O=C([O-])CCCCCCCC(=O)O,-1,counter-ion needed: cation,,5,4.55,measured
+API_036,Rotigotinium,Rotigotinate | Rotigotinium,CCCN(CCc1cccs1)[C@H]1CCc2c(O)cccc2C1,cation,CCC[NH+](CCc1cccs1)[C@H]1CCc2c(O)cccc2C1,1,counter-ion needed: anion,anion: CCCN(CCc1cccs1)[C@H]1CCc2c([O-])cccc2C1,5,10.03,site-predicted
+API_037,Bupivacainium,Bupivacainium,CCCCN1CCCCC1C(=O)Nc1c(C)cccc1C,cation,CCCC[NH+]1CCCCC1C(=O)Nc1c(C)cccc1C,1,counter-ion needed: anion,,5,7.27,measured
+API_038,Ranitidinium,Ranitidine | Ranitidinium,CN/C(=C\[N+](=O)[O-])NCCSCc1ccc(CN(C)C)o1,cation,CN/C(=C\[N+](=O)[O-])NCCSCc1ccc(C[NH+](C)C)o1,1,counter-ion needed: anion,,4,8.32,measured
+API_039,Alendronate,Alendronate,NCCCC(O)(P(=O)(O)O)P(=O)(O)O,anion,NCCCC(O)(P(=O)([O-])O)P(=O)(O)O,-1,counter-ion needed: cation,,4,2.72,measured
+API_040,Imipramine,Imipramine,CN(C)CCCN1c2ccccc2CCc2ccccc21,cation,C[NH+](C)CCCN1c2ccccc2CCc2ccccc21,1,counter-ion needed: anion,,4,9.5,measured
+API_041,Halofantrinium,Halofantrinium,CCCCN(CCCC)CCC(O)c1cc2c(Cl)cc(Cl)cc2c2cc(C(F)(F)F)ccc12,cation,CCCC[NH+](CCCC)CCC(O)c1cc2c(Cl)cc(Cl)cc2c2cc(C(F)(F)F)ccc12,1,counter-ion needed: anion,,4,10.05,site-predicted
+API_042,Chlorhexidine,Chlorhexidine,NC(=NCCCCCCN=C(N)N=C(N)Nc1ccc(Cl)cc1)N=C(N)Nc1ccc(Cl)cc1,cation,NC(=[NH+]CCCCCC[NH+]=C(N)N=C(N)Nc1ccc(Cl)cc1)N=C(N)Nc1ccc(Cl)cc1,2,counter-ion needed: anion,,4,10.8,measured
+API_043,Levamisole,Levamisole,c1ccc([C@H]2CN3CCSC3=N2)cc1,cation,C1CSC2=[NH+][C@H](CN21)c1ccccc1,1,counter-ion needed: anion,,4,8.0,measured
+API_044,Asenapinium,Asenapinium,CN1C[C@@H]2c3ccccc3Oc3ccc(Cl)cc3[C@H]2C1,cation,C[NH+]1C[C@@H]2c3ccccc3Oc3ccc(Cl)cc3[C@H]2C1,1,counter-ion needed: anion,,4,8.51,site-unlabeled
+API_045,Edaravonate,Edaravonate,Cc1cc(O)n(-c2ccccc2)n1,anion,Cc1cc([O-])n(-c2ccccc2)n1,-1,counter-ion needed: cation,,4,11.3,measured
+API_046,Mebendazolium,Mebendazole | Mebendazolium,COC(=O)Nc1nc2ccc(C(=O)c3ccccc3)cc2[nH]1,cation,COC(=O)Nc1[nH]c2cc(C(=O)c3ccccc3)ccc2[nH+]1,1,counter-ion needed: anion,,4,3.93,site-predicted
+API_047,Tramadolium,Tramadol | Tramadolium,COc1cccc([C@@]2(O)CCCC[C@@H]2CN(C)C)c1,cation,COc1cccc([C@@]2(O)CCCC[C@@H]2C[NH+](C)C)c1,1,counter-ion needed: anion,,4,9.41,measured
+API_048,Alverinium,Alverinium,CCN(CCCc1ccccc1)CCCc1ccccc1,cation,CC[NH+](CCCc1ccccc1)CCCc1ccccc1,1,counter-ion needed: anion,,3,10.44,site-predicted
+API_049,Gatifloxacin,Gatifloxacin,COc1c(N2CCNC(C)C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12,cation,COc1c(N2CC[NH2+]C(C)C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12,1,counter-ion needed: anion,,3,9.2,measured
+API_050,Itraconazolium,Itraconazolium,CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O,cation,CCC(C)n1[nH+]cn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O,1,counter-ion needed: anion,,3,3.7,measured
+API_051,4-Aminosalicylate,4-Aminosalicylate | p-Aminosalicylic acid,Nc1ccc(C(=O)O)c(O)c1,anion,Nc1ccc(C(=O)[O-])c(O)c1,-1,counter-ion needed: cation,,3,3.65,measured
+API_052,Mefenamate,Mefenamate | Mefenamic acid,Cc1cccc(Nc2ccccc2C(=O)O)c1C,anion,Cc1cccc(Nc2ccccc2C(=O)[O-])c1C,-1,counter-ion needed: cation,,3,4.35,measured
+API_053,Gliclazidate,Gliclazidate | Gliclazide,Cc1ccc(S(=O)(=O)NC(=O)NN2CC3CCCC3C2)cc1,anion,Cc1ccc(S(=O)(=O)[N-]C(=O)NN2CC3CCCC3C2)cc1,-1,counter-ion needed: cation,,3,5.98,measured
+API_054,Carvedilolium,Carvedilol | Carvedilolium,COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12,cation,COc1ccccc1OCC[NH2+]CC(O)COc1cccc2[nH]c3ccccc3c12,1,counter-ion needed: anion,,3,7.77,measured
+API_055,Dextromethorphan Decyl,Dextromethorphan Decyl | Dextromethorphan Dodecyl | Dextromethorphanium,COc1ccc2c(c1)[C@]13CCCC[C@@H]1[C@H](C2)N(C)CC3,cation,COc1ccc2c(c1)[C@]13CCCC[C@@H]1[C@H](C2)[NH+](C)CC3,1,counter-ion needed: anion,,3,8.3,site-unlabeled
+API_056,Meclofenamate,Meclofenamate,Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl,anion,Cc1ccc(Cl)c(Nc2ccccc2C(=O)[O-])c1Cl,-1,counter-ion needed: cation,,3,3.79,site-predicted
+API_057,Ursodeoxycholic acid,Ursodeoxycholic acid,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,anion,C[C@H](CCC(=O)[O-])[C@H]1CC[C@H]2[C@@H]3[C@@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,-1,counter-ion needed: cation,,3,5.0,measured
+API_058,Nicotinic acid,Nicotinic acid | Nicotinic acid (niacin),O=C(O)c1cccnc1,anion,O=C([O-])c1cccnc1,-1,counter-ion needed: cation,,3,4.85,measured
+API_059,Sulfacetamidate,Sulfacetamidate,CC(=O)NS(=O)(=O)c1ccc(N)cc1,anion,CC(=O)[N-]S(=O)(=O)c1ccc(N)cc1,-1,counter-ion needed: cation,,3,5.35,measured
+API_060,Moxifloxacin,Moxifloxacin,COc1c(N2C[C@@H]3CCCN[C@@H]3C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12,cation,COc1c(N2C[C@@H]3CCC[NH2+][C@@H]3C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12,1,counter-ion needed: anion,,3,9.5,measured
+API_061,Pipemidic acid,Pipemidic acid,CCn1cc(C(=O)O)c(=O)c2cnc(N3CCNCC3)nc21,cation,CCn1cc(C(=O)O)c(=O)c2cnc(N3CC[NH2+]CC3)nc21,1,counter-ion needed: anion,,3,8.04,site-predicted
+API_062,Terbinafine,Terbinafine,CN(C/C=C/C#CC(C)(C)C)Cc1cccc2ccccc12,cation,C[NH+](C/C=C/C#CC(C)(C)C)Cc1cccc2ccccc12,1,counter-ion needed: anion,,3,8.5,measured
+API_063,Diltiazemium,Diltiazemium,COc1ccc([C@@H]2Sc3ccccc3N(CCN(C)C)C(=O)[C@@H]2OC(C)=O)cc1,cation,COc1ccc([C@@H]2Sc3ccccc3N(CC[NH+](C)C)C(=O)[C@@H]2OC(C)=O)cc1,1,counter-ion needed: anion,,3,7.99,measured
+API_064,Deoxycholic acid,Deoxycholate | Deoxycholic acid,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,anion,C[C@H](CCC(=O)[O-])[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,-1,counter-ion needed: cation,,3,5.15,measured
+API_065,Voriconazole,Voriconazole,C[C@@H](c1ncncc1F)[C@](O)(Cn1cncn1)c1ccc(F)cc1F,cation,C[C@@H](c1[nH+]cncc1F)[C@](O)(Cn1cncn1)c1ccc(F)cc1F,1,counter-ion needed: anion,,3,2.27,site-predicted
+API_066,Procainium,Procaine | Procainium,CCN(CC)CCOC(=O)c1ccc(N)cc1,cation,CC[NH+](CC)CCOC(=O)c1ccc(N)cc1,1,counter-ion needed: anion,,3,8.95,measured
+API_067,Ethambutol,Ethambutol,CC[C@@H](CO)NCCN[C@@H](CC)CO,cation,CC[C@@H](CO)[NH2+]CC[NH2+][C@@H](CC)CO,2,counter-ion needed: anion,,2,6.35,measured
+API_068,Mepivacaine,Mepivacaine,Cc1cccc(C)c1NC(=O)C1CCCCN1C,cation,Cc1cccc(C)c1NC(=O)C1CCCC[NH+]1C,1,counter-ion needed: anion,,2,7.7,measured
+API_069,Prilocaine,Prilocaine,CCCNC(C)C(=O)Nc1ccccc1C,cation,CCC[NH2+]C(C)C(=O)Nc1ccccc1C,1,counter-ion needed: anion,,2,7.9,measured
+API_070,Zoledronic acid,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,anion,O=P([O-])(O)C(O)(Cn1ccnc1)P(=O)(O)O,-1,counter-ion needed: cation,,2,0.66,site-predicted
+API_071,Tetracyclinium,Tetracyclinium,CN(C)[C@@H]1C(=O)C(C(N)=O)=C(O)[C@@]2(O)C(=O)C3=C(O)c4c(O)cccc4[C@@](C)(O)[C@H]3C[C@@H]12,cation,C[NH+](C)[C@@H]1C(=O)C(C(N)=O)=C(O)[C@@]2(O)C(=O)C3=C(O)c4c(O)cccc4[C@@](C)(O)[C@H]3C[C@@H]12,1,counter-ion needed: anion,,2,9.349,measured
+API_072,Epinephrine,Epinephrine,CNC[C@H](O)c1ccc(O)c(O)c1,cation,C[NH2+]C[C@H](O)c1ccc(O)c(O)c1,1,counter-ion needed: anion,,2,10.3,measured
+API_073,Diphenhydraminium,Diphenhydraminium,CN(C)CCOC(c1ccccc1)c1ccccc1,cation,C[NH+](C)CCOC(c1ccccc1)c1ccccc1,1,counter-ion needed: anion,,2,9.1,measured
+API_074,Warfarin,Warfarin,CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O,anion,CC(=O)CC(c1ccccc1)c1c([O-])c2ccccc2oc1=O,-1,counter-ion needed: cation,,2,5.0,measured
+API_075,Levothyroxinate,Levothyroxinate,N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O,anion,N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)[O-],-1,counter-ion needed: cation,,2,0.27,site-predicted
+API_076,Valproate,Valproate | Valproic acid,CCCC(CCC)C(=O)O,anion,CCCC(CCC)C(=O)[O-],-1,counter-ion needed: cation,,2,4.8,measured
+API_077,Penicillinate,Penicillinate,CC1(C)S[C@@H]2[C@H](NC(=O)Cc3ccccc3)C(=O)N2[C@H]1C(=O)O,anion,CC1(C)S[C@@H]2[C@H](NC(=O)Cc3ccccc3)C(=O)N2[C@H]1C(=O)[O-],-1,counter-ion needed: cation,,2,2.76,measured
+API_078,Tetracainium,Tetracainium,CCCCNc1ccc(C(=O)OCCN(C)C)cc1,cation,CCCCNc1ccc(C(=O)OCC[NH+](C)C)cc1,1,counter-ion needed: anion,,2,8.2,measured
+API_079,5-Fluorouracil,5-Fluorouracil,O=c1[nH]cc(F)c(=O)[nH]1,anion,O=c1[n-]c(=O)c(F)c[nH]1,-1,counter-ion needed: cation,,2,7.93,measured
+API_080,Oxybuprocaine,Oxybuprocaine,CCCCOc1cc(C(=O)OCCN(CC)CC)ccc1N,cation,CCCCOc1cc(C(=O)OCC[NH+](CC)CC)ccc1N,1,counter-ion needed: anion,,2,8.96,site-predicted
+API_081,Lumefantrinium,Lumefantrinium,CCCCN(CCCC)CC(O)c1cc(Cl)cc2c1-c1ccc(Cl)cc1/C2=C/c1ccc(Cl)cc1,cation,CCCC[NH+](CCCC)CC(O)c1cc(Cl)cc2c1-c1ccc(Cl)cc1/C2=C/c1ccc(Cl)cc1,1,counter-ion needed: anion,,2,9.78,site-predicted
+API_082,Amantadinium,Amantadinium,NC12CC3CC(CC(C3)C1)C2,cation,[NH3+]C12CC3CC(CC(C3)C1)C2,1,counter-ion needed: anion,,2,10.58,measured
+API_083,Articaine,Articaine,CCCNC(C)C(=O)Nc1c(C)csc1C(=O)OC,cation,CCC[NH2+]C(C)C(=O)Nc1c(C)csc1C(=O)OC,1,counter-ion needed: anion,,2,7.8,measured
+API_084,Erlotinib,Erlotinib,C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1,cation,C#Cc1cccc(Nc2[nH+]cnc3cc(OCCOC)c(OCCOC)cc23)c1,1,counter-ion needed: anion,,1,5.42,measured
+API_085,Ascorbic acid,Ascorbic acid,O=C1O[C@H]([C@@H](O)CO)C(O)=C1O,anion,O=C1O[C@H]([C@@H](O)CO)C([O-])=C1O,-1,counter-ion needed: cation,,1,4.04,measured
+API_086,Oxycodone,Oxycodone,COc1ccc2c3c1OC1C(=O)CCC4(O)C(C2)N(C)CCC314,cation,COc1ccc2c3c1OC1C(=O)CCC4(O)C(C2)[NH+](C)CCC314,1,counter-ion needed: anion,,1,8.6,measured
+API_087,Cholic acid,Cholic acid,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,anion,C[C@H](CCC(=O)[O-])[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,-1,counter-ion needed: cation,,1,5.0,measured
+API_088,Hexetidinium,Hexetidinium,CCCCC(CC)CN1CN(CC(CC)CCCC)CC(C)(N)C1,cation,CCCCC(CC)CN1C[NH+](CC(CC)CCCC)CC(C)(N)C1,1,counter-ion needed: anion,,1,8.3,measured
+API_089,Levamisole,Levamisole,c1ccc([C@H]2CN=C3SCCN32)cc1,cation,C1CSC2=[NH+]C[C@@H](N21)c1ccccc1,1,counter-ion needed: anion,,1,8.0,measured
+API_090,Phenytoinate,Phenytoinate,O=C1NC(=O)C(c2ccccc2)(c2ccccc2)N1,anion,O=C1[N-]C(=O)C(c2ccccc2)(c2ccccc2)N1,-1,counter-ion needed: cation,,1,8.33,measured
+API_091,Pefloxacin,Pefloxacin,CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCN(C)CC3)cc21,cation,CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CC[NH+](C)CC3)cc21,1,counter-ion needed: anion,,1,6.47,site-predicted
+API_092,Flubendazole,Flubendazole,COC(=O)Nc1nc2ccc(C(=O)c3ccc(F)cc3)cc2[nH]1,cation,COC(=O)Nc1[nH]c2cc(C(=O)c3ccc(F)cc3)ccc2[nH+]1,1,counter-ion needed: anion,,1,1.92,site-predicted
+API_093,Pholcodine,Pholcodine,CN1CC[C@]23c4c5ccc(OCCN6CCOCC6)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5,cation,C[NH+]1CC[C@]23c4c5ccc(OCCN6CCOCC6)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5,1,counter-ion needed: anion,,1,9.19,site-predicted
+API_094,Mepacrine,Mepacrine,CCN(CC)CCCC(C)Nc1c2ccc(Cl)cc2nc2ccc(OC)cc12,cation,CC[NH+](CC)CCCC(C)Nc1c2ccc(Cl)cc2nc2ccc(OC)cc12,1,counter-ion needed: anion,,1,10.47,site-predicted
+API_095,Ofloxacin,Ofloxacin,CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23,anion,CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)[O-])cn1c23,-1,counter-ion needed: cation,,1,6.08,measured
+API_096,Piperazine,Piperazine,C1CNCCN1,cation,C1C[NH2+]CCN1,1,counter-ion needed: anion,,1,9.73,measured
+API_097,Albendazole,Albendazole,CCCSc1ccc2nc(NC(=O)OC)[nH]c2c1,cation,CCCSc1ccc2[nH+]c(NC(=O)OC)[nH]c2c1,1,counter-ion needed: anion,,1,2.8,measured
+API_098,Fusidic acid,Fusidic acid,CC(=O)O[C@H]1C[C@@]2(C)[C@@H](C[C@@H](O)[C@H]3[C@@]4(C)CC[C@@H](O)[C@@H](C)[C@@H]4CC[C@@]32C)/C1=C(\CCC=C(C)C)C(=O)O,anion,CC(=O)O[C@H]1C[C@@]2(C)[C@@H](C[C@@H](O)[C@H]3[C@@]4(C)CC[C@@H](O)[C@@H](C)[C@@H]4CC[C@@]32C)/C1=C(\CCC=C(C)C)C(=O)[O-],-1,counter-ion needed: cation,,1,5.35,measured
+API_099,Eicosapentanoate (EPA),Eicosapentanoate (EPA),CC/C=C\C/C=C\C/C=C\C/C=C\C/C=C\CCCC(=O)O,anion,CC/C=C\C/C=C\C/C=C\C/C=C\C/C=C\CCCC(=O)[O-],-1,counter-ion needed: cation,,1,4.88,site-predicted
+API_100,Oleanolate,Oleanolate,CC1(C)CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]2C1,anion,CC1(C)CC[C@]2(C(=O)[O-])CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]2C1,-1,counter-ion needed: cation,,1,2.52,site-unlabeled
+API_101,Cloxacillin,Cloxacillin,Cc1onc(-c2ccccc2Cl)c1C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)O,anion,Cc1onc(-c2ccccc2Cl)c1C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)[O-],-1,counter-ion needed: cation,,1,2.78,measured
+API_102,Quinine,Quinine,C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12,cation,C=C[C@H]1C[NH+]2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12,1,counter-ion needed: anion,,1,8.5,measured
+API_103,Sulfamethoxazolate,Sulfamethoxazolate,Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1,anion,Cc1cc([N-]S(=O)(=O)c2ccc(N)cc2)no1,-1,counter-ion needed: cation,,1,5.7,site-unlabeled
+API_104,Sulfathiazolate,Sulfathiazolate,Nc1ccc(S(=O)(=O)Nc2nccs2)cc1,anion,Nc1ccc(S(=O)(=O)[N-]c2nccs2)cc1,-1,counter-ion needed: cation,,1,7.33,measured
+API_105,Rifampicin,Rifampicin,CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CCN(C)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\C=C\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C,cation,CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CC[NH+](C)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\C=C\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C,1,counter-ion needed: anion,,1,7.9,measured
+API_106,Niflumate,Niflumate,O=C(O)c1cccnc1Nc1cccc(C(F)(F)F)c1,anion,O=C([O-])c1cccnc1Nc1cccc(C(F)(F)F)c1,-1,counter-ion needed: cation,,1,1.88,site-predicted
+API_107,Betaine,Betaine,C[N+](C)(C)CC(=O)O,cation,C[N+](C)(C)CC(=O)O,1,counter-ion needed: anion,,1,1.84,measured
+API_108,Tolbutamidate,Tolbutamidate,CCCCNC(=O)NS(=O)(=O)c1ccc(C)cc1,anion,CCCCNC(=O)[N-]S(=O)(=O)c1ccc(C)cc1,-1,counter-ion needed: cation,,1,5.3,measured
+API_109,4-Boronophenylalaninate,4-Boronophenylalaninate,N[C@@H](Cc1ccc(B(O)O)cc1)C(=O)O,anion,N[C@@H](Cc1ccc(B(O)O)cc1)C(=O)[O-],-1,counter-ion needed: cation,,1,2.35,measured
+API_110,Actarit,Actarit,CC(=O)Nc1ccc(CC(=O)O)cc1,anion,CC(=O)Nc1ccc(CC(=O)[O-])cc1,-1,counter-ion needed: cation,,1,4.34,site-predicted
+API_111,Sulfasalazinate,Sulfasalazinate,O=C(O)c1cc(/N=N/c2ccc(S(=O)(=O)Nc3ccccn3)cc2)ccc1O,anion,O=C([O-])c1cc(/N=N/c2ccc(S(=O)(=O)Nc3ccccn3)cc2)ccc1O,-1,counter-ion needed: cation,,1,2.4,site-unlabeled
+API_112,Bromhexinium,Bromhexinium,CN(Cc1cc(Br)cc(Br)c1N)C1CCCCC1,cation,C[NH+](Cc1cc(Br)cc(Br)c1N)C1CCCCC1,1,counter-ion needed: anion,,1,8.87,measured
+API_113,Etodolac,Etodolac,CCc1cccc2c3c([nH]c12)C(CC)(CC(=O)O)OCC3,anion,CCc1cccc2c3c([nH]c12)C(CC)(CC(=O)[O-])OCC3,-1,counter-ion needed: cation,,1,4.7,measured
+API_114,Promethazine,Promethazine,CC(CN1c2ccccc2Sc2ccccc21)N(C)C,cation,CC(CN1c2ccccc2Sc2ccccc21)[NH+](C)C,1,counter-ion needed: anion,,1,9.1,measured
+API_115,Cabozantinib,Cabozantinib,COc1cc2nccc(Oc3ccc(NC(=O)C4(C(=O)Nc5ccc(F)cc5)CC4)cc3)c2cc1OC,cation,COc1cc2[nH+]ccc(Oc3ccc(NC(=O)C4(C(=O)Nc5ccc(F)cc5)CC4)cc3)c2cc1OC,1,counter-ion needed: anion,,1,5.9,site-predicted
+API_116,Sulfadiazinate,Sulfadiazinate,Nc1ccc(S(=O)(=O)Nc2ncccn2)cc1,anion,Nc1ccc(S(=O)(=O)[N-]c2ncccn2)cc1,-1,counter-ion needed: cation,,1,6.34,measured
+API_117,Procainamidinium,Procainamidinium,CCN(CC)CCNC(=O)c1ccc(N)cc1,cation,CC[NH+](CC)CCNC(=O)c1ccc(N)cc1,1,counter-ion needed: anion,,1,9.33,measured
+API_118,Edaravone,Edaravone,CC1=NN(c2ccccc2)C(=O)C1,cation,CC1=[NH+]N(c2ccccc2)C(=O)C1,1,counter-ion needed: anion,,1,2.73,site-predicted
+API_119,Lamotrigine,Lamotrigine,Nc1nnc(-c2cccc(Cl)c2Cl)c(N)n1,cation,Nc1[nH+]nc(-c2cccc(Cl)c2Cl)c(N)n1,1,counter-ion needed: anion,,1,5.7,measured
+API_120,"N-[4-[[(2-amino-1,4-dihydro-4-oxo-6-pteridinyl)methyl]amino]benzoyl]-L-glutamate","N-[4-[[(2-amino-1,4-dihydro-4-oxo-6-pteridinyl)methyl]amino]benzoyl]-L-glutamate",Nc1nc2ncc(CNc3ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc3)nc2c(=O)[nH]1,anion,Nc1nc2ncc(CNc3ccc(C(=O)N[C@@H](CCC(=O)[O-])C(=O)[O-])cc3)nc2c(=O)[nH]1,-2,counter-ion needed: cation,,1,3.47,site-predicted
+API_121,Dibucainium,Dibucainium,CCCCOc1cc(C(=O)NCCN(CC)CC)c2ccccc2n1,cation,CCCCOc1cc(C(=O)NCC[NH+](CC)CC)c2ccccc2n1,1,counter-ion needed: anion,,1,8.85,measured
+API_122,Ceritinib,Ceritinib,Cc1cc(Nc2ncc(Cl)c(Nc3ccccc3S(=O)(=O)C(C)C)n2)c(OC(C)C)cc1C1CCNCC1,cation,Cc1cc(Nc2ncc(Cl)c(Nc3ccccc3S(=O)(=O)C(C)C)n2)c(OC(C)C)cc1C1CC[NH2+]CC1,1,counter-ion needed: anion,,1,9.7,measured
+API_123,Eperizonium,Eperizonium,CCc1ccc(C(=O)C(C)CN2CCCCC2)cc1,cation,CCc1ccc(C(=O)C(C)C[NH+]2CCCCC2)cc1,1,counter-ion needed: anion,,1,8.46,site-predicted
+API_124,Gefitinib,Gefitinib,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1,cation,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCC[NH+]1CCOCC1,1,counter-ion needed: anion,,1,7.2,measured
+API_125,Tizanidinium,Tizanidinium,Clc1ccc2nsnc2c1NC1=NCCN1,cation,Clc1ccc2nsnc2c1NC1=[NH+]CCN1,1,counter-ion needed: anion,,1,7.49,site-predicted
+API_126,Tuaminoheptane,Tuaminoheptane,CCCCCC(C)N,cation,CCCCCC(C)[NH3+],1,counter-ion needed: anion,,1,10.8,measured
+API_127,Gabapentin,Gabapentin,NCC1(CC(=O)O)CCCCC1,cation,[NH3+]CC1(CC(=O)O)CCCCC1,1,counter-ion needed: anion,,1,10.7,measured
+API_128,Zolpidem,Zolpidem,Cc1ccc(-c2nc3ccc(C)cn3c2CC(=O)N(C)C)cc1,cation,Cc1ccc(-c2[nH+]c3ccc(C)cn3c2CC(=O)N(C)C)cc1,1,counter-ion needed: anion,,1,6.2,measured
+API_129,Rilpivirine,Rilpivirine,Cc1cc(/C=C/C#N)cc(C)c1Nc1ccnc(Nc2ccc(C#N)cc2)n1,cation,Cc1cc(/C=C/C#N)cc(C)c1Nc1ccnc(Nc2ccc(C#N)cc2)[nH+]1,1,counter-ion needed: anion,,1,3.26,measured
+API_130,Chlorpromazine,Chlorpromazine,CN(C)CCCN1c2ccccc2Sc2ccc(Cl)cc21,cation,C[NH+](C)CCCN1c2ccccc2Sc2ccc(Cl)cc21,1,counter-ion needed: anion,,1,9.3,measured
+API_131,Levocetirizine,Levocetirizine,O=C(O)COCCN1CCN([C@H](c2ccccc2)c2ccc(Cl)cc2)CC1,cation,O=C(O)COCC[NH+]1CCN([C@H](c2ccccc2)c2ccc(Cl)cc2)CC1,1,counter-ion needed: anion,,1,8.0,measured

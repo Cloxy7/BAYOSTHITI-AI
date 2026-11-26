@@ -1,0 +1,10 @@
+,0
+intercept,-1.933333168104069
+spline_basis_per_feature,7
+sim2D,"slice(0, 7, None)"
+sim3D,"slice(7, 14, None)"
+dpKa,"slice(14, 21, None)"
+ESP_comp,"slice(21, 28, None)"
+P_salt,"slice(28, 29, None)"
+pKa_missing,"slice(29, 30, None)"
+perm_cation,"slice(30, 31, None)"

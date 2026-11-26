@@ -1,0 +1,154 @@
+ion_id,name,ion_type,pKa_true,molgpka_pKa,n_acid_sites,n_base_sites,in_138_set
+AN_001,bromide,anion,-9.0,,0,0,False
+AN_002,acetate,anion,4.756,4.468794345855713,1,0,False
+AN_003,2-hydroxyacetate,anion,3.83,4.023879051208496,2,0,True
+AN_004,glycinate,anion,9.6,2.093101739883423,1,1,True
+AN_005,methanesulfonate,anion,-1.92,1.3009034395217896,1,0,False
+AN_006,propanoate,anion,4.87,4.67401123046875,1,0,True
+AN_007,butanoate,anion,4.82,4.7432708740234375,1,0,True
+AN_008,lactate,anion,3.86,3.8986172676086426,2,0,True
+AN_009,serinate,anion,9.15,2.3262455463409424,2,1,True
+AN_010,benzoate,anion,4.204,4.1093878746032715,1,0,True
+AN_013,salicylate,anion,2.97,2.97200083732605,2,0,True
+AN_014,toluene-4-sulfonate,anion,-2.7,0.37046146392822266,1,0,False
+AN_015,"1,1-dioxo-1,2-benzothiazol-3-olate",anion,1.6,4.002288341522217,1,1,True
+AN_016,decanoate,anion,4.9,4.786853790283203,1,0,True
+AN_019,acrylate,anion,4.25,4.3402509689331055,1,0,True
+AN_020,hydrogen oxalate,anion,1.2,1.480656623840332,2,0,False
+AN_021,pyruvate,anion,2.45,2.6396701335906982,1,0,True
+AN_022,crotonate,anion,4.7,4.541486740112305,1,0,True
+AN_024,pivalate,anion,5.03,4.90988826751709,1,0,True
+AN_027,taurinate,anion,9.07,1.2761666774749756,1,1,True
+AN_028,hydrogen malonate,anion,2.85,2.8383750915527344,4,0,True
+AN_030,levulinate,anion,4.6,4.419074535369873,1,0,True
+AN_031,hexanoate,anion,4.8,4.787153244018555,1,0,True
+AN_032,hydrogen maleate,anion,3.1,3.017808437347412,2,0,False
+AN_033,hydrogen malate,anion,3.36,3.225919008255005,3,0,True
+AN_034,hydrogen glutarate,anion,4.3,4.2704877853393555,2,0,True
+AN_038,hydrogen tartrate,anion,2.74,2.883161783218384,4,0,False
+AN_040,hydrogen adipate,anion,4.42,4.533997058868408,2,0,True
+AN_041,benzenesulfonate,anion,-2.8,0.17680677771568298,1,0,True
+AN_042,mandelate,anion,3.14,3.4567453861236572,2,0,True
+AN_043,cinnamate,anion,4.42,4.4652581214904785,1,0,True
+AN_044,4-methylsalicylate,anion,3.16,3.0527427196502686,2,0,True
+AN_045,3-methylsalicylate (phenolate form),anion,3.01,2.9223849773406982,2,0,True
+AN_046,4-aminosalicylate,anion,3.65,3.142481565475464,4,1,True
+AN_047,5-chlorosalicylate (phenolate form),anion,2.66,2.6452443599700928,2,0,True
+AN_049,5-bromosalicylate,anion,2.63,2.6251280307769775,2,0,True
+AN_050,5-iodosalicylate,anion,2.63,2.631067991256714,2,0,True
+AN_058,4-hydroxycinnamate (p-coumarate),anion,4.64,4.763758659362793,2,0,True
+AN_059,ascorbate (2-O-enolate form),anion,4.04,4.188263893127441,4,0,True
+AN_060,acetylsalicylate,anion,3.38,3.388737201690674,1,0,True
+AN_061,theophyllinate,anion,8.6,8.354745864868164,1,3,True
+AN_063,dihydrogen citrate,anion,2.87,2.9669506549835205,4,0,True
+AN_066,caffeate,anion,4.55,4.856584072113037,3,0,True
+AN_067,hydrogen azelate (SMILES is C9),anion,4.55,4.568775177001953,2,0,True
+AN_070,laurate,anion,5.3,4.786853790283203,1,0,True
+AN_084,myristate,anion,6.3,4.786853790283203,1,0,True
+AN_085,sulfathiazolate,anion,7.33,6.739229202270508,3,3,True
+AN_089,sulfadiazinate,anion,6.34,6.834962844848633,3,4,True
+AN_102,linoleate,anion,4.77,4.78685188293457,1,0,True
+AN_108,ampicillinate,anion,7.24,2.5996806621551514,2,1,True
+AN_109,docusate,anion,-2.0,0.07757565379142761,1,0,True
+AN_111,chloride,anion,-6.3,,0,0,False
+AN_112,fluoride,anion,3.17,,0,0,True
+AN_113,iodide,anion,-2.0,,0,0,False
+AN_114,formate,anion,3.75,4.136242866516113,1,0,True
+AN_118,hydrogencarbonate,anion,6.35,1.9097462892532349,2,0,True
+AN_123,dihydrogen-phosphate,anion,2.15,2.1118061542510986,3,0,False
+AN_124,hydrogensulfate,anion,-3.0,,0,0,False
+AN_127,sulfate,anion,1.99,,0,0,False
+AN_132,alaninate,anion,9.69,2.3732247352600098,1,1,True
+AN_134,"2,2,2-trifluoroethanoate",anion,0.23,-0.4059405028820038,1,0,False
+AN_135,dimethylphosphate,anion,1.25,1.4190338850021362,1,0,True
+AN_140,propanedioate,anion,5.7,2.8383750915527344,4,0,True
+AN_143,2-amino-3-hydroxybutanoate,anion,9.1,2.225590944290161,2,1,True
+AN_144,2-amino-3-methylbutanoate,anion,9.63,2.5393550395965576,1,1,True
+AN_145,butanedioate,anion,5.67,3.4372336864471436,2,0,True
+AN_146,prolinate,anion,10.68,2.1822478771209717,1,1,True
+AN_149,2-hydroxybutanedioate,anion,4.94,3.225919008255005,3,0,True
+AN_150,asparaginate,anion,8.83,2.191389799118042,3,2,True
+AN_151,aspartate,anion,9.88,2.106698513031006,2,1,True
+AN_153,diethylphosphate,anion,1.06,1.501485824584961,1,0,True
+AN_154,isoleucinate,anion,9.76,2.5570805072784424,1,1,True
+AN_155,leucinate,anion,9.74,2.487502098083496,1,1,True
+AN_156,methioninate,anion,9.2,2.2831344604492188,1,1,True
+AN_159,"(2r,3r)-2,3-dihydroxybutanedioate",anion,4.14,2.883161783218384,4,0,False
+AN_161,glutamate,anion,9.76,2.2008254528045654,2,1,True
+AN_162,glutaminate,anion,9.07,2.413971185684204,3,2,True
+AN_163,lysinate,anion,10.78,2.5476813316345215,1,2,True
+AN_164,histidinate,anion,9.16,1.9955360889434814,2,2,True
+AN_168,"2-hydroxy-1,2,3-propanetricarboxylate",anion,5.68,2.9669506549835205,4,0,True
+AN_169,dibutylphosphate,anion,1.36,1.523337960243225,1,0,True
+CAT_002,3-methyl-imidazolium,cation,7.1,7.039255142211914,0,2,True
+CAT_003,Bis(methyl)-2-hydroxyethylammonium,cation,9.26,7.92304801940918,1,1,True
+CAT_004,Bis(2-hydroxyethyl)ammonium,cation,8.94,9.095561981201172,2,1,True
+CAT_019,glycinium,cation,2.35,9.6355619430542,1,1,True
+CAT_020,butylammonium,cation,10.69,11.206015586853027,0,1,True
+CAT_021,N-ethylglycinium,cation,2.32,9.956998825073242,1,1,True
+CAT_023,Tetramethylguanidinium,cation,13.6,12.52273941040039,1,1,True
+CAT_024,"1,4-diazabicyclo[2.2.2]octanium (DABCO-H)",cation,8.5,7.873383522033691,0,2,True
+CAT_025,tuaminoheptanium,cation,10.8,11.965683937072754,0,1,True
+CAT_026,alanine ethyl ester (protonated),cation,7.74,7.530933380126953,0,1,True
+CAT_028,methioninium,cation,2.15,8.997912406921387,1,1,True
+CAT_035,Octylammonium,cation,10.68,11.20881175994873,0,1,True
+CAT_040,"lysinium (protonated lysine, charge +1)",cation,9.06,10.79656982421875,1,2,True
+CAT_053,benzocainium,cation,2.51,4.405872344970703,2,1,True
+CAT_056,ephedrinium,cation,9.47,9.519686698913574,1,1,True
+CAT_060,Tris(2-hydroxypropyl)ammonium,cation,7.86,8.217329978942871,3,1,True
+CAT_061,dodecylammonium,cation,10.63,11.151647567749023,0,1,True
+CAT_062,L-Aspartic acid diethyl ester,cation,6.4,5.954565048217773,0,1,True
+CAT_063,Megluminium,cation,9.5,8.799951553344727,5,1,True
+CAT_077,procainium,cation,8.95,8.481653213500977,2,2,True
+CAT_085,Diphenhydraminium,cation,9.1,8.283523559570312,0,1,True
+CAT_086,primaquinium,cation,10.16,10.277915954589844,1,3,True
+CAT_102,2-hydroxyethyl-ammonium,cation,9.5,9.160184860229492,1,1,True
+CAT_105,pyridinium,cation,5.2,5.12706184387207,0,1,True
+CAT_110,3-ethyl-imidazolium,cation,7.3,7.257789611816406,0,2,True
+CAT_169,butyl-Bis(2-hydroxyethyl)ammonium,cation,8.94,8.218929290771484,2,1,True
+CAT_N002,lysinium (L-lysine),cation,10.53,10.79656982421875,1,2,True
+CAT_N003,tryptophanium,cation,2.42,8.721944808959961,2,2,True
+AN_N003,saccharinate,anion,1.6,1.7913717031478882,1,1,True
+AN_N004,gentisate,anion,2.97,3.0511529445648193,3,0,True
+AN_N007,piperacillinate,anion,3.37,2.571949005126953,3,0,True
+CAT_N022,octadecylammonium,cation,10.6,11.097416877746582,0,1,True
+CAT_N031,L-Phenylalanine methyl ester (protonated),cation,7.11,6.725589275360107,0,1,True
+AN_N012,ascorbate,anion,4.04,4.188263893127441,4,0,True
+AN_N013,vanillate,anion,4.53,4.438089847564697,2,0,True
+AN_N014,2-furoate,anion,3.12,3.209834337234497,1,0,True
+CAT_N040,Decylammonium,cation,10.64,11.184744834899902,0,1,True
+CAT_N041,Prochlorazium (protonated prochloraz),cation,3.8,4.305494785308838,0,2,True
+CAT_N045,argininium (protonated arginine),cation,12.48,11.591437339782715,1,2,True
+CAT_N047,2-Methylimidazolium,cation,7.86,7.355310440063477,1,1,True
+CAT_N048,Imidazolium,cation,6.95,6.784439563751221,1,1,True
+CAT_N051,p-Anisidinium (4-methoxyanilinium),cation,5.36,5.157026767730713,2,1,True
+AN_N017,cephalothinate,anion,2.2,2.6153647899627686,2,0,True
+AN_N018,oxacillinate,anion,2.72,2.5961782932281494,2,0,True
+AN_N019,carbenicillinate (dianion),anion,2.22,2.402247667312622,4,0,True
+CAT_N053,Diethylammonium,cation,10.98,1.794812560081482,0,1,True
+CAT_N056,donepezilium,cation,9.04,8.94735336303711,0,1,True
+AN_N029,"1,2,4-triazolate",anion,10.26,10.713383674621582,1,1,True
+AN_N030,2-methyl-4-nitroimidazolate,anion,9.64,10.114331245422363,1,1,False
+AN_N031,benzotriazolate,anion,8.2,9.358600616455078,1,0,True
+AN_N033,hydrogen suberate,anion,4.526,4.61823844909668,2,0,True
+AN_N034,hydrogen pimelate,anion,4.5,4.6280107498168945,2,0,True
+AN_N035,hydrogen phthalate,anion,2.95,3.2096869945526123,2,0,True
+AN_N036,hydrogen itaconate,anion,3.85,2.777188539505005,2,0,True
+AN_N037,hydrogen sebacate,anion,4.72,4.565439701080322,2,0,True
+CAT_N067,tromethaminium (protonated tris(hydroxymethyl)aminomethane),cation,8.07,7.637190341949463,3,1,True
+AN_N039,hydrogen succinate,anion,4.21,3.4372336864471436,2,0,True
+AN_N040,undecanoate,anion,4.9,4.786853790283203,1,0,True
+CAT_N076,Triethylammonium,cation,10.75,1.6967856884002686,0,1,True
+CAT_N077,Benzylammonium,cation,9.34,9.203474998474121,0,1,True
+AN_N042,ferulate,anion,4.55,4.843710899353027,2,0,True
+CAT_N082,Morpholinium,cation,8.36,8.899114608764648,0,1,True
+AN_N043,hydrogen terephthalate,anion,3.54,3.4033043384552,2,0,True
+CAT_N087,Trimethylammonium,cation,9.81,1.3673248291015625,0,1,True
+AN_N044,deoxycholate,anion,5.15,4.738190650939941,3,0,True
+CAT_N092,3-Methylpyridinium,cation,5.52,5.640995025634766,0,1,True
+AN_N046,gabapentinate (gabapentin carboxylate),anion,3.68,4.576326370239258,1,1,True
+AN_N047,pregabalinate (pregabalin carboxylate),anion,4.2,4.321631908416748,1,1,True
+AN_N048,4-aminobutyrate (GABA),anion,4.031,4.444511890411377,1,1,True
+AN_N050,"dihydrogen hemimellitate (benzene-1,2,3-tricarboxylate)",anion,2.88,2.217158317565918,3,0,True
+AN_N051,MCPA ((4-chloro-2-methylphenoxy)acetate),anion,3.73,3.0293123722076416,1,0,True
+AN_N052,"2,4-D ((2,4-dichlorophenoxy)acetate)",anion,2.64,2.715007781982422,1,0,True

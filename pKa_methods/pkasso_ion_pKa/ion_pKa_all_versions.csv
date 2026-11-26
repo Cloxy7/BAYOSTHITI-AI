@@ -1,0 +1,311 @@
+ion_id,name,smiles,sign,perm,is_measured,v6_status,current (as in 0.769 run),amino-acid fix only,A: fix + pKasso for non-measured ions,B: pKasso for every ion it can predict,pkasso_raw
+CAT_047,,C1CCC2=NCCC[NH+]2CC1,1,0,False,our DFT,8.55,8.55,9.834753036499023,9.834753036499023,9.834753036499023
+CAT_032,,C1CN=C2CCC[NH+]2C1,1,0,False,our DFT,8.45,8.45,11.007428169250488,11.007428169250488,11.007428169250488
+CAT_N082,Morpholinium,C1COCC[NH2+]1,1,0,True,web lookup,8.36,8.36,8.36,8.899114608764648,8.899114608764648
+CAT_024,"1,4-Diazabicyclo[2.2.2]octanium (DABCO)",C1C[NH+]2CCN1CC2,1,0,True,measured,8.5,8.5,8.5,8.174409703000407,8.174409703000407
+CAT_N083,Piperazinium,C1C[NH2+]CCN1,1,0,False,our DFT (new run),9.81,9.81,10.76251967309318,10.76251967309318,10.76251967309318
+CAT_N094,[2-(Methacryloyloxy)ethyl]trimethylammonium,C=C(C)C(=O)OCC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+AN_023,,C=C(C)C(=O)[O-],-1,0,False,our DFT,4.64,4.64,4.2049241065979,4.2049241065979,4.2049241065979
+AN_N027,Betulinate,C=C(C)[C@@H]1CC[C@]2(C(=O)[O-])CC[C@]3(C)[C@H](CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]12,-1,0,False,web lookup,4.75,4.75,4.723144657245799,4.723144657245799,4.723144657245799
+AN_N036,Itaconate,C=C(CC(=O)[O-])C(=O)O,-1,0,True,web lookup,3.85,3.85,3.85,2.621873626672199,2.621873626672199
+AN_019,,C=CC(=O)[O-],-1,0,True,measured,4.25,4.25,4.25,4.3402509689331055,4.3402509689331055
+CAT_N055,Diallyldimethylammonium,C=CC[N+](C)(C)CC=C,1,1,False,permanent cation (no pKa),,,,,
+CAT_059,,C=CC[N+](C)(C)Cc1ccccc1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N054,1-Ethyl-3-vinylimidazolium,C=C[n+]1ccn(CC)c1,1,1,False,permanent cation (no pKa),,,,,
+AN_030,,CC(=O)CCC(=O)[O-],-1,0,True,measured,4.6,4.6,4.6,4.419074535369872,4.419074535369872
+AN_N020,N-Acetyl-L-valinate,CC(=O)N[C@H](C(=O)[O-])C(C)C,-1,0,False,web lookup,4.11,4.11,3.539096682962464,3.539096682962464,3.539096682962464
+,Cephalothin,CC(=O)OCC1=C(C(=O)[O-])N2C(=O)[C@@H](NC(=O)Cc3cccs3)[C@H]2SC1.CC(=O)OCC1=C(C(=O)[O-])N2C(=O)[C@@H](NC(=O)Cc3cccs3)[C@H]2SC1,-1,0,False,,2.2,2.2,2.615356051047188,2.615356051047188,2.615356051047188
+AN_060,,CC(=O)Oc1ccccc1C(=O)[O-],-1,0,True,measured,3.38,3.38,3.38,3.388736963261469,3.388736963261469
+AN_069,,CC(=O)[N-]S(=O)(=O)c1ccc(N)cc1,-1,0,False,our DFT,5.22,5.22,5.436468696983546,5.436468696983546,5.436468696983546
+AN_002,,CC(=O)[O-],-1,0,True,measured,4.756,4.756,4.756,4.468794345855712,4.468794345855712
+AN_094,Flurbiprofenate,CC(C(=O)[O-])c1ccc(-c2ccccc2)c(F)c1,-1,0,False,our DFT,4.33,4.33,4.122071266174316,4.122071266174316,4.122071266174316
+AN_091,,CC(C(=O)[O-])c1ccc(CC2CCCC2=O)cc1,-1,0,False,our DFT,4.54,4.54,4.3975586891174325,4.3975586891174325,4.3975586891174325
+AN_078,,CC(C)CCCC(C)CCOS(=O)(=O)[O-],-1,0,False,our DFT,-4.32,-4.32,-3.5429498576370704,-3.5429498576370704,-3.5429498576370704
+AN_N008,,CC(C)COC(=O)CC(C(=O)OCC(C)C)S(=O)(=O)[O-],-1,0,False,web lookup,-1.9,-1.9,0.0776996804236898,0.0776996804236898,0.0776996804236898
+AN_N047,Pregabalin,CC(C)C[C@H](CN)CC(=O)[O-],-1,0,True,web lookup,4.2,10.6,10.6,10.33180522918701,10.33180522918701
+CAT_N099,L-Leucine isopropyl ester,CC(C)C[C@H]([NH3+])C(=O)OC(C)C,1,0,False,our DFT (new run),7.81,7.81,7.699504375457763,7.699504375457763,7.699504375457763
+AN_075,,CC(C)Cc1ccc(C(C)C(=O)[O-])cc1,-1,0,False,our DFT,4.58,4.58,4.4000654220581055,4.4000654220581055,4.4000654220581055
+CAT_N036,Clofazimine (protonated),CC(C)N=c1cc2n(-c3ccc(Cl)cc3)c3ccccc3[nH+]c-2cc1Nc1ccc(Cl)cc1,1,0,False,no pKa yet,,,10.021870987107524,10.021870987107524,10.021870987107524
+CAT_N106,L-Aspartic acid diisopropyl ester,CC(C)OC(=O)C[C@H]([NH3+])C(=O)OC(C)C,1,0,False,our DFT (new run),7.35,7.35,5.956671714782714,5.956671714782714,5.956671714782714
+CAT_N100,Glycine isopropyl ester,CC(C)OC(=O)C[NH3+],1,0,False,our DFT (new run),7.28,7.28,7.203458786010742,7.203458786010742,7.203458786010742
+CAT_N102,L-Lysine isopropyl ester,CC(C)OC(=O)[C@@H](N)CCCC[NH3+],1,0,False,our DFT (new run),8.35,8.35,10.602714302493675,10.602714302493675,10.602714302493675
+CAT_N026,L-Valine isopropyl ester (protonated),CC(C)OC(=O)[C@@H]([NH3+])C(C)C,1,0,False,our DFT (new run),8.24,8.24,7.802569866180421,7.802569866180421,7.802569866180421
+CAT_N101,L-Serine isopropyl ester,CC(C)OC(=O)[C@@H]([NH3+])CO,1,0,False,our DFT (new run),5.63,5.63,6.062893390655518,6.062893390655518,6.062893390655518
+CAT_N105,L-Cysteine isopropyl ester,CC(C)OC(=O)[C@@H]([NH3+])CS,1,0,False,our DFT (new run),5.49,5.49,6.094571323221762,6.094571323221762,6.094571323221762
+CAT_N103,L-Phenylalanine isopropyl ester,CC(C)OC(=O)[C@@H]([NH3+])Cc1ccccc1,1,0,False,our DFT (new run),7.38,7.38,6.778134346008302,6.778134346008302,6.778134346008302
+CAT_N065,L-Threonine isopropyl ester,CC(C)OC(=O)[C@@H]([NH3+])[C@@H](C)O,1,0,False,our DFT (new run),5.89,5.89,6.243340969085693,6.243340969085693,6.243340969085693
+CAT_N029,L-Proline isopropyl ester (protonated),CC(C)OC(=O)[C@@H]1CCC[NH2+]1,1,0,False,web lookup,8.23,8.23,8.284930229187013,8.284930229187013,8.284930229187013
+CAT_N104,L-Alanine isopropyl ester,CC(C)OC(=O)[C@H](C)[NH3+],1,0,False,our DFT (new run),7.53,7.53,7.69695234298706,7.69695234298706,7.69695234298706
+AN_144,L-Valinate,CC(C)[C@H](N)C(=O)[O-],-1,0,True,measured,9.63,9.63,9.63,9.808557510375977,9.808557510375977
+AN_072,,CC(C)c1ccc(C=CC(=O)[O-])cc1,-1,0,False,our DFT,4.63,4.63,4.397883892059326,4.397883892059326,4.397883892059326
+AN_025,,CC(O)CC(=O)[O-],-1,0,False,our DFT,4.46,4.46,4.314597446823053,4.314597446823053,4.314597446823053
+CAT_060,Tris(2-hydroxypropyl)ammonium,CC(O)C[NH+](CC(C)O)CC(C)O,1,0,True,measured,7.86,7.86,7.86,8.217333793640137,8.217333793640137
+CAT_033,,CC(O)C[NH2+]CC(C)O,1,0,False,our DFT,8.86,8.86,8.990578651428223,8.990578651428223,8.990578651428223
+CAT_N093,2-Hydroxypropylammonium,CC(O)C[NH3+],1,0,False,web lookup,9.6,9.6,8.88737992030651,8.88737992030651,8.88737992030651
+AN_N022,Docosahexaenoate,CC/C=C\C/C=C\C/C=C\C/C=C\C/C=C\C/C=C\CCC(=O)[O-],-1,0,False,web lookup,4.89,4.89,4.642388820648193,4.642388820648193,4.642388820648193
+AN_N021,alpha-Linolenate,CC/C=C\C/C=C\C/C=C\CCCCCCCC(=O)[O-],-1,0,False,web lookup,4.95,4.95,4.78685188293457,4.78685188293457,4.78685188293457
+,,CC1(C)C2CCC1(CS(=O)(=O)[O-])C(=O)C2.CC1(C)C2CCC1(CS(=O)(=O)[O-])C(=O)C2,-1,0,False,,1.49,1.49,1.6309925305821122,1.6309925305821122,1.6309925305821122
+AN_079,(R)-Camphorsulfonate,CC1(C)C2CC[C@]1(CS(=O)(=O)[O-])C(=O)C2,-1,0,False,our DFT,1.49,1.49,1.6309925305821122,1.6309925305821122,1.6309925305821122
+AN_N019,Carbenicillin (carbenicillinate),CC1(C)S[C@@H]2[C@H](NC(=O)C(C(=O)[O-])c3ccccc3)C(=O)N2[C@H]1C(=O)[O-],-1,0,True,web lookup,2.22,2.22,2.22,2.3793961430195694,2.3793961430195694
+AN_108,,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccccc3)C(=O)N2[C@H]1C(=O)[O-],-1,0,True,measured,7.24,7.24,7.24,6.894972103943448,6.894972103943448
+,Ampicillin (ampicillinate),CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccccc3)C(=O)N2[C@H]1C(=O)[O-].CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccccc3)C(=O)N2[C@H]1C(=O)[O-],-1,0,False,,7.24,7.24,6.894972103943448,6.894972103943448,6.894972103943448
+AN_079,Camphorsulfonate ((R)- and (S)-),CC1(C)[C@@H]2CC[C@@]1(CS(=O)(=O)[O-])C(=O)C2,-1,0,False,our DFT,1.49,1.49,1.6309925305821122,1.6309925305821122,1.6309925305821122
+AN_N001,Acesulfamate,CC1=CC(=O)[N-]S(=O)(=O)O1,-1,0,False,no pKa yet,,,1.525616407402776,1.525616407402776,1.525616407402776
+AN_029,,CC=CC=CC(=O)[O-],-1,0,False,our DFT,5.08,5.08,4.422250747680665,4.422250747680665,4.422250747680665
+AN_007,Butyrate,CCCC(=O)[O-],-1,0,True,measured,4.82,4.82,4.82,4.7432708740234375,4.7432708740234375
+AN_092,,CCCCC(CC)CCC(CC(C)C)OS(=O)(=O)[O-],-1,0,False,our DFT (new run),-3.16,-3.16,-3.457792758941651,-3.457792758941651,-3.457792758941651
+AN_109,Docusate,CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-],-1,0,True,measured,-2.0,-2.0,-2.0,0.0775756644237383,0.0775756644237383
+,Docusate,CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-].CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-],-1,0,False,,-2.0,-2.0,0.0775756644237383,0.0775756644237383,0.0775756644237383
+AN_N026,2-Ethyl-1-hexyl sulfate,CCCCC(CC)COS(=O)(=O)[O-],-1,0,False,web lookup,-1.5,-1.5,-3.4464683532714853,-3.4464683532714853,-3.4464683532714853
+AN_102,Linoleate,CCCCC/C=C\C/C=C\CCCCCCCC(=O)[O-],-1,0,True,measured,4.77,4.77,4.77,4.78685188293457,4.78685188293457
+AN_031,,CCCCCC(=O)[O-],-1,0,True,measured,4.8,4.8,4.8,4.787153720855712,4.787153720855712
+CAT_025,,CCCCCC(C)[NH3+],1,0,True,measured,10.8,10.8,10.8,11.965680122375488,11.965680122375488
+AN_N025,2-Butyl-1-octyl sulfate,CCCCCCC(CCCC)COS(=O)(=O)[O-],-1,0,False,web lookup,-1.5,-1.5,-3.4497463496904746,-3.4497463496904746,-3.4497463496904746
+AN_037,Octanoate,CCCCCCCC(=O)[O-],-1,0,False,our DFT,5.04,5.04,4.786873817443847,4.786873817443847,4.786873817443847
+AN_100,Oleate,CCCCCCCC/C=C\CCCCCCCC(=O)[O-],-1,0,False,our DFT,5.16,5.16,4.78685188293457,4.78685188293457,4.78685188293457
+CAT_N019,,CCCCCCCC/C=C\CCCCCCCC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+AN_N024,2-Hexyl-1-decyl sulfate,CCCCCCCCC(CCCCCC)COS(=O)(=O)[O-],-1,0,False,web lookup,-1.5,-1.5,-3.449741145731869,-3.449741145731869,-3.449741145731869
+CAT_N018,,CCCCCCCCC=CCCCCCCCC[N+](C)(CCO)CCO,1,1,False,permanent cation (no pKa),,,,,
+AN_016,Decanoate,CCCCCCCCCC(=O)[O-],-1,0,True,measured,4.9,4.9,4.9,4.786853790283203,4.786853790283203
+AN_N040,Undecanoate,CCCCCCCCCCC(=O)[O-],-1,0,True,measured,4.9,4.9,4.9,4.786853790283203,4.786853790283203
+AN_N023,2-Octyl-1-dodecyl sulfate,CCCCCCCCCCC(CCCCCCCC)COS(=O)(=O)[O-],-1,0,False,web lookup,-1.5,-1.5,-3.449741145731869,-3.449741145731869,-3.449741145731869
+AN_070,Laurate,CCCCCCCCCCCC(=O)[O-],-1,0,True,measured,5.3,5.3,5.3,4.786853790283203,4.786853790283203
+AN_084,Myristate,CCCCCCCCCCCCCC(=O)[O-],-1,0,True,measured,6.3,6.3,6.3,4.786853790283203,4.786853790283203
+AN_093,,CCCCCCCCCCCCCCCC(=O)[O-],-1,0,False,our DFT,5.16,5.16,4.786853790283203,4.786853790283203,4.786853790283203
+AN_101,Stearate,CCCCCCCCCCCCCCCCCC(=O)[O-],-1,0,False,our DFT,5.2,5.2,4.786853790283203,4.786853790283203,4.786853790283203
+AN_107,Octadecyl sulfate,CCCCCCCCCCCCCCCCCCOS(=O)(=O)[O-],-1,0,False,our DFT,-5.29,-5.29,-3.542273340299916,-3.542273340299916,-3.542273340299916
+CAT_N075,Octadecyltrimethylammonium,CCCCCCCCCCCCCCCCCC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+CAT_N016,,CCCCCCCCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCCCCCCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_N022,,CCCCCCCCCCCCCCCCCC[NH3+],1,0,True,measured,10.6,10.6,10.6,11.09741497039795,11.09741497039795
+CAT_N001,Cetyltrimethylammonium,CCCCCCCCCCCCCCCC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+CAT_N005,,CCCCCCCCCCCCCCCC[n+]1cccc(C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_095,Cetylpyridinium,CCCCCCCCCCCCCCCC[n+]1ccccc1,1,1,False,permanent cation (no pKa),,,,,
+CAT_096,1-Hexadecyl-3-methylimidazolium,CCCCCCCCCCCCCCCCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_099,,CCCCCCCCCCCCCCCCn1cc[n+](C)c1C,1,1,False,permanent cation (no pKa),,,,,
+CAT_217,Tetradecyltrimethylammonium,CCCCCCCCCCCCCC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+CAT_233,Benzalkonium,CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1,1,1,False,permanent cation (no pKa),,,,,
+CAT_239,Tributyltetradecylphosphonium,CCCCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_243,Trihexyltetradecylphosphonium,CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_N004,,CCCCCCCCCCCCCCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+AN_018,Dodecyl sulfate,CCCCCCCCCCCCOS(=O)(=O)[O-],-1,0,False,our DFT,-4.35,-4.35,-3.542273340299916,-3.542273340299916,-3.542273340299916
+,Dodecylsulfate,CCCCCCCCCCCCOS(=O)(=O)[O-].CCCCCCCCCCCCOS(=O)(=O)[O-],-1,0,False,,-4.35,-4.35,-3.542273340299916,-3.542273340299916,-3.542273340299916
+AN_N005,Dodecanesulfonate,CCCCCCCCCCCCS(=O)(=O)[O-],-1,0,False,web lookup,-1.9,-1.9,1.7693754425371946,1.7693754425371946,1.7693754425371946
+,,CCCCCCCCCCCCS(=O)(=O)[O-].CCCCCCCCCCCCS(=O)(=O)[O-],-1,0,False,,-1.9,-1.9,1.7693754425371946,1.7693754425371946,1.7693754425371946
+CAT_067,,CCCCCCCCCCCC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+CAT_N013,,CCCCCCCCCCCC[N+](C)(C)C1CCCCC1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N020,,CCCCCCCCCCCC[N+](C)(C)CCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_N015,,CCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_N024,Dodecylcholinium ([C12Ch]),CCCCCCCCCCCC[N+](C)(C)CCO,1,1,False,permanent cation (no pKa),,,,,
+,"N-Dodecyl-N-(2-hydroxyethyl)-N,N-dimethylammonium",CCCCCCCCCCCC[N+](C)(C)CCO.CCCCCCCCCCCC[N+](C)(C)CCO,1,0,False,,,,12.218994140625,12.218994140625,12.218994140625
+CAT_018,,CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N011,,CCCCCCCCCCCC[N+](C)(CCO)CCO,1,1,False,permanent cation (no pKa),,,,,
+CAT_N017,1-Dodecyl-1-methylpiperidinium,CCCCCCCCCCCC[N+]1(C)CCCCC1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N074,N-Dodecyl-N-methylmorpholinium,CCCCCCCCCCCC[N+]1(C)CCOCC1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N058,Dodecyldimethylammonium,CCCCCCCCCCCC[NH+](C)C,1,0,False,web lookup,9.78,9.78,9.683749198913574,9.683749198913574,9.683749198913574
+CAT_061,,CCCCCCCCCCCC[NH3+],1,0,True,measured,10.63,10.63,10.63,11.151644706726076,11.151644706726076
+CAT_078,,CCCCCCCCCCCCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+,1-Dodecyl-3-methylimidazolium,CCCCCCCCCCCCn1cc[n+](C)c1.CCCCCCCCCCCCn1cc[n+](C)c1,1,0,False,,,,,,
+CAT_N046,Decyl phenylalaninate (phenylalanine decyl ester cation),CCCCCCCCCCOC(=O)[C@@H]([NH3+])Cc1ccccc1,1,0,False,web lookup,7.11,7.11,6.7673115730285645,6.7673115730285645,6.7673115730285645
+CAT_N044,Decyl alaninate (alanine decyl ester cation),CCCCCCCCCCOC(=O)[C@H](C)[NH3+],1,0,False,our DFT (new run),7.5,7.5,7.686224460601806,7.686224460601806,7.686224460601806
+AN_076,Decyl sulfate,CCCCCCCCCCOS(=O)(=O)[O-],-1,0,False,our DFT,-4.69,-4.69,-3.542273340299916,-3.542273340299916,-3.542273340299916
+CAT_065,Decyltrimethylammonium,CCCCCCCCCC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+CAT_N012,,CCCCCCCCCC[N+](C)(C)C1CCCCC1,1,1,False,permanent cation (no pKa),,,,,
+CAT_098,,CCCCCCCCCC[N+](C)(C)CCCCCCCCCC,1,1,False,permanent cation (no pKa),,,,,
+,,CCCCCCCCCC[N+](C)(C)CCCCCCCCCC.CCCCCCCCCC[N+](C)(C)CCCCCCCCCC,1,0,False,,,,,,
+,"N-Decyl-N-(2-hydroxyethyl)-N,N-dimethylammonium",CCCCCCCCCC[N+](C)(C)CCO.CCCCCCCCCC[N+](C)(C)CCO,1,0,False,,,,12.218993186950684,12.218993186950684,12.218993186950684
+CAT_N014,,CCCCCCCCCC[N+]1(C)CCCCC1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N021,,CCCCCCCCCC[NH+](C)CCCCCCCCCC,1,0,False,no pKa yet,,,9.930097579956058,9.930097579956058,9.930097579956058
+CAT_N040,Decylammonium,CCCCCCCCCC[NH3+],1,0,True,web lookup,10.64,10.64,10.64,11.184743881225582,11.184743881225582
+,1-Decyl-3-methylpyridinium (3-picolinium),CCCCCCCCCC[n+]1cccc(C)c1.CCCCCCCCCC[n+]1cccc(C)c1,1,0,False,,,,,,
+CAT_207,1-Decylpyridinium,CCCCCCCCCC[n+]1ccccc1,1,1,False,permanent cation (no pKa),,,,,
+CAT_206,,CCCCCCCCCC[n+]1ccn(C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_068,,CCCCCCCCCCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+,1-Decyl-3-methylimidazolium,CCCCCCCCCCn1cc[n+](C)c1.CCCCCCCCCCn1cc[n+](C)c1,1,0,False,,,,,,
+CAT_N109,1-[(Nonyloxy)methyl]-1H-imidazol-3-ium,CCCCCCCCCOCn1cc[nH+]c1,1,0,False,web lookup,7.4,7.4,6.443391799926757,6.443391799926757,6.443391799926757
+AN_073,,CCCCCCCCCOS(=O)(=O)[O-],-1,0,False,our DFT,-4.36,-4.36,-3.542273340299916,-3.542273340299916,-3.542273340299916
+CAT_N078,L-Valine octyl ester (cation),CCCCCCCCOC(=O)[C@@H]([NH3+])C(C)C,1,0,False,our DFT (new run),7.59,7.59,7.759313583374024,7.759313583374024,7.759313583374024
+AN_017,1-Octyl sulfate,CCCCCCCCOS(=O)(=O)[O-],-1,0,False,our DFT,-3.77,-3.77,-3.542273340299916,-3.542273340299916,-3.542273340299916
+AN_N006,Octanesulfonate,CCCCCCCCS(=O)(=O)[O-],-1,0,False,web lookup,-1.9,-1.9,1.7693753242492676,1.7693753242492676,1.7693753242492676
+CAT_012,Octyltrimethylammonium,CCCCCCCC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+CAT_N039,Dioctyldimethylammonium,CCCCCCCC[N+](C)(C)CCCCCCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_N023,Octylcholinium ([C8Ch]),CCCCCCCC[N+](C)(C)CCO,1,1,False,permanent cation (no pKa),,,,,
+CAT_238,Trioctylmethylammonium,CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_N107,Trioctylammonium,CCCCCCCC[NH+](CCCCCCCC)CCCCCCCC,1,0,False,web lookup,9.85,9.85,10.140525817871094,10.140525817871094,10.140525817871094
+CAT_035,Octylammonium,CCCCCCCC[NH3+],1,0,True,measured,10.68,10.68,10.68,11.208811759948729,11.208811759948729
+CAT_N007,,CCCCCCCC[P+](C)(CCCCCCCC)CCCCCCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_064,1-Octyl-3-methylimidazolium,CCCCCCCCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+,1-Octyl-3-methylimidazolium,CCCCCCCCn1cc[n+](C)c1.CCCCCCCCn1cc[n+](C)c1,1,0,False,,,,,,
+CAT_N079,L-Valine heptyl ester (cation),CCCCCCCOC(=O)[C@@H]([NH3+])C(C)C,1,0,False,our DFT (new run),7.61,7.61,7.757244110107423,7.757244110107423,7.757244110107423
+AN_N010,Dihexyl sulfosuccinate,CCCCCCOC(=O)CC(C(=O)OCCCCCC)S(=O)(=O)[O-],-1,0,False,web lookup,-1.9,-1.9,0.0804505156785323,0.0804505156785323,0.0804505156785323
+CAT_N027,L-Valine hexyl ester (protonated),CCCCCCOC(=O)[C@@H]([NH3+])C(C)C,1,0,False,our DFT (new run),7.57,7.57,7.757174015045167,7.757174015045167,7.757174015045167
+AN_N041,1-Hexyl sulfate,CCCCCCOS(=O)(=O)[O-],-1,0,False,our DFT (new run),-4.51,-4.51,-3.542312440946888,-3.542312440946888,-3.542312440946888
+,,CCCCCCS(=O)(=O)[O-].CCCCCCS(=O)(=O)[O-],-1,0,False,,-0.66,-0.66,1.7693482628192336,1.7693482628192336,1.7693482628192336
+CAT_N089,Tetrahexylammonium,CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_N033,N-Hexylnicotinamidium,CCCCCC[n+]1cccc(C(N)=O)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_174,1-Hexylpyridinium,CCCCCC[n+]1ccccc1,1,1,False,permanent cation (no pKa),,,,,
+CAT_173,,CCCCCC[n+]1ccn(C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_054,1-Hexyl-3-methylimidazolium,CCCCCCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+,1-Hexyl-3-methylimidazolium,CCCCCCn1cc[n+](C)c1.CCCCCCn1cc[n+](C)c1,1,0,False,,,,,,
+AN_N009,,CCCCCOC(=O)CC(C(=O)OCCCCC)S(=O)(=O)[O-],-1,0,False,web lookup,-1.9,-1.9,0.0804503947884129,0.0804503947884129,0.0804503947884129
+CAT_N080,L-Valine amyl (pentyl) ester (cation),CCCCCOC(=O)[C@@H]([NH3+])C(C)C,1,0,False,our DFT (new run),7.73,7.73,7.759947299957276,7.759947299957276,7.759947299957276
+CAT_N037,Triamylammonium,CCCCC[NH+](CCCCC)CCCCC,1,0,False,web lookup,9.99,9.99,10.069642066955568,10.069642066955568,10.069642066955568
+CAT_057,,CCCCOC(=O)C([NH3+])C(C)CC,1,0,False,our DFT,7.43,7.43,7.863639831542969,7.863639831542969,7.863639831542969
+CAT_051,,CCCCOC(=O)C([NH3+])C(C)O,1,0,False,our DFT,6.0,6.0,6.169005393981934,6.169005393981934,6.169005393981934
+CAT_058,,CCCCOC(=O)C([NH3+])CCSC,1,0,False,our DFT,5.38,5.38,6.812746047973634,6.812746047973634,6.812746047973634
+CAT_050,L-Valine butyl ester (cation),CCCCOC(=O)[C@@H]([NH3+])C(C)C,1,0,False,our DFT,7.87,7.87,7.758933067321777,7.758933067321777,7.758933067321777
+CAT_N030,L-Proline butyl ester (protonated),CCCCOC(=O)[C@@H]1CCC[NH2+]1,1,0,False,web lookup,8.23,8.23,8.261831283569336,8.261831283569336,8.261831283569336
+CAT_N071,(Butoxymethyl)trimethylammonium,CCCCOC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+CAT_N072,1-Butoxymethyl-3-methylimidazolium,CCCCOCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_007,,CCCC[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+CAT_013,Tributylmethylammonium,CCCC[N+](C)(CCCC)CCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_016,Tetrabutylammonium,CCCC[N+](CCCC)(CCCC)CCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_N091,Triethylene glycol monomethyl ether tributylammonium,CCCC[N+](CCCC)(CCCC)CCOCCOCCOC,1,1,False,permanent cation (no pKa),,,,,
+CAT_011,,CCCC[N+]1(C)CCCC1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N090,Tributylammonium,CCCC[NH+](CCCC)CCCC,1,0,False,web lookup,9.99,9.99,9.944624900817873,9.944624900817873,9.944624900817873
+CAT_090,Bupivacaine,CCCC[NH+]1CCCCC1C(=O)Nc1c(C)cccc1C,1,0,False,our DFT,9.85,9.85,8.446551322937013,8.446551322937013,8.446551322937013
+CAT_020,,CCCC[NH3+],1,0,True,measured,10.69,10.69,10.69,11.206015586853024,11.206015586853024
+CAT_014,Tributylmethylphosphonium,CCCC[P+](C)(CCCC)CCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_017,Tetrabutylphosphonium,CCCC[P+](CCCC)(CCCC)CCCC,1,1,False,permanent cation (no pKa),,,,,
+CAT_041,1-Butyl-3-methylimidazolium,CCCCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N041,Prochlorazium (protonated prochloraz),CCCN(CCOc1c(Cl)cc(Cl)cc1Cl)C(=O)n1cc[nH+]c1,1,0,True,web lookup,3.8,3.8,3.8,4.305490493774414,4.305490493774414
+CAT_045,,CCCOC(=O)C([NH3+])C(C)C,1,0,False,our DFT,7.83,7.83,7.748778820037842,7.748778820037842,7.748778820037842
+CAT_052,,CCCOC(=O)C([NH3+])C(C)CC,1,0,False,our DFT,7.43,7.43,7.852546691894531,7.852546691894531,7.852546691894531
+CAT_046,,CCCOC(=O)C([NH3+])C(C)O,1,0,False,our DFT,7.33,7.33,6.167480468750001,6.167480468750001,6.167480468750001
+CAT_055,,CCCOC(=O)C([NH3+])CCSC,1,0,False,our DFT,6.44,6.44,6.805107116699221,6.805107116699221,6.805107116699221
+CAT_045,L-Valine propyl ester (protonated),CCCOC(=O)[C@@H]([NH3+])C(C)C,1,0,False,our DFT,7.83,7.83,7.748778820037842,7.748778820037842,7.748778820037842
+CAT_N069,L-Tryptophan propyl ester,CCCOC(=O)[C@@H]([NH3+])Cc1c[nH]c2ccccc12,1,0,False,web lookup,7.6,7.6,6.962389945983888,6.962389945983888,6.962389945983888
+CAT_N070,L-Histidine propyl ester,CCCOC(=O)[C@@H]([NH3+])Cc1c[nH]c[nH+]1,1,0,False,our DFT (new run),5.94,5.94,6.838340133729718,6.838340133729718,6.838340133729718
+CAT_N068,L-Tyrosine propyl ester,CCCOC(=O)[C@@H]([NH3+])Cc1ccc(O)cc1,1,0,False,our DFT (new run),7.47,7.47,6.830273276976629,6.830273276976629,6.830273276976629
+CAT_N032,L-Phenylalanine propyl ester (protonated),CCCOC(=O)[C@@H]([NH3+])Cc1ccccc1,1,0,False,web lookup,7.11,7.11,6.7521591186523455,6.7521591186523455,6.7521591186523455
+CAT_N028,L-Proline propyl ester (protonated),CCCOC(=O)[C@@H]1CCC[NH2+]1,1,0,False,web lookup,8.23,8.23,8.245256423950194,8.245256423950194,8.245256423950194
+CAT_062,,CCOC(=O)CC([NH3+])C(=O)OCC,1,0,True,measured,6.4,6.4,6.4,5.95456600189209,5.95456600189209
+CAT_062,L-Aspartic acid diethyl ester,CCOC(=O)C[C@H]([NH3+])C(=O)OCC,1,0,True,measured,6.4,6.4,6.4,5.95456600189209,5.95456600189209
+CAT_N025,L-Valine ethyl ester (protonated),CCOC(=O)[C@@H]([NH3+])C(C)C,1,0,False,our DFT (new run),7.75,7.75,7.70075273513794,7.70075273513794,7.70075273513794
+CAT_N035,L-Leucine ethyl ester (protonated),CCOC(=O)[C@@H]([NH3+])CC(C)C,1,0,False,our DFT (new run),7.615,7.615,7.680738925933838,7.680738925933838,7.680738925933838
+CAT_066,L-Phenylalanine ethyl ester (cation),CCOC(=O)[C@@H]([NH3+])Cc1ccccc1,1,0,False,our DFT,7.91,7.91,6.723532199859617,6.723532199859617,6.723532199859617
+CAT_042,L-Proline ethyl ester (protonated),CCOC(=O)[C@@H]1CCC[NH2+]1,1,0,False,web lookup,8.23,8.23,8.163051605224608,8.163051605224608,8.163051605224608
+CAT_026,,CCOC(=O)[C@H](C)[NH3+],1,0,True,measured,7.74,7.74,7.74,7.53093719482422,7.53093719482422
+CAT_053,,CCOC(=O)c1ccc([NH3+])cc1,1,0,True,measured,2.51,2.51,2.51,4.405871868133546,4.405871868133546
+CAT_N008,,CCOCC[n+]1ccn(C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N073,L-Isoleucine isopropyl ester,CC[C@H](C)[C@H]([NH3+])C(=O)OC(C)C,1,0,False,our DFT (new run),8.17,8.17,7.840403079986573,7.840403079986573,7.840403079986573
+CAT_010,Tetraethylammonium,CC[N+](CC)(CC)CC,1,1,False,permanent cation (no pKa),,,,,
+CAT_036,,CC[N+]1(C)CCCCC1,1,1,False,permanent cation (no pKa),,,,,
+CAT_037,N-Ethyl-N-methylmorpholinium,CC[N+]1(C)CCOCC1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N076,Triethylammonium,CC[NH+](CC)CC,1,0,True,web lookup,10.75,10.75,10.75,10.400000000000004,10.400000000000004
+CAT_073,Lidocainium,CC[NH+](CC)CC(=O)Nc1c(C)cccc1C,1,0,False,our DFT,9.37,9.37,7.599276542663574,7.599276542663574,7.599276542663574
+CAT_N086,3-Diethylamino-1-propanol (protonated),CC[NH+](CC)CCCO,1,0,False,our DFT (new run),10.35,10.35,8.861489295959473,8.861489295959473,8.861489295959473
+CAT_077,Procainium,CC[NH+](CC)CCOC(=O)c1ccc(N)cc1,1,0,True,measured,8.95,8.95,8.95,8.504055869977375,8.504055869977375
+CAT_N053,Diethylammonium,CC[NH2+]CC,1,0,True,web lookup,10.98,10.98,10.98,10.400000000000004,10.400000000000004
+CAT_006,,CC[n+]1ccn(C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_008,,CC[n+]1ccn(C)c1C,1,1,False,permanent cation (no pKa),,,,,
+CAT_N050,"1-Ethyl-3-methyl-1,2,3-triazolium",CC[n+]1ccn(C)n1,1,1,False,permanent cation (no pKa),,,,,
+AN_099,,CCn1cc(C(=O)[O-])c(=O)c2cc3c(cc21)OCO3,-1,0,False,our DFT,4.72,4.72,6.633203029632568,6.633203029632568,6.633203029632568
+CAT_022,1-Ethyl-3-methylimidazolium,CCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_023,Tetramethylguanidinium,CN(C)C(=[NH2+])N(C)C,1,0,True,measured,13.6,13.6,13.6,12.522741317749022,12.522741317749022
+CAT_029,,CN(C)C(=[NH2+])N=C(N)N,1,0,False,our DFT,14.99,14.99,10.706294393669124,10.706294393669124,10.706294393669124
+CAT_N084,Creatininium,CN1CC(=O)[NH+]=C1N,1,0,False,our DFT (new run),7.96,7.96,7.96,7.96,
+CAT_N081,L-Valine methyl ester (cation),COC(=O)[C@@H]([NH3+])C(C)C,1,0,False,our DFT (new run),7.49,7.49,7.636619567871095,7.636619567871095,7.636619567871095
+CAT_N031,L-Phenylalanine methyl ester (protonated),COC(=O)[C@@H]([NH3+])Cc1ccccc1,1,0,True,web lookup,7.11,7.11,7.11,6.725588798522949,6.725588798522949
+CAT_048,,COC(=O)c1ccc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+AN_026,,COCCC(=O)[O-],-1,0,False,our DFT,4.59,4.59,4.152647495269775,4.152647495269775,4.152647495269775
+CAT_N098,1-(2-Methoxyethyl)-3-methylimidazolium,COCC[n+]1ccn(C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N038,1-(2-Methoxyethyl)-3-methylimidazolium,COCCn1cc[n+](C)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N042,1-Methyl-3-(3-trimethoxysilylpropyl)imidazolium,CO[Si](CCC[n+]1ccn(C)c1)(OC)OC,1,1,False,permanent cation (no pKa),,,,,
+AN_N042,Ferulate,COc1cc(/C=C/C(=O)[O-])ccc1O,-1,0,True,measured,4.55,4.55,4.55,4.830830493126128,4.830830493126128
+AN_N013,Vanillate,COc1cc(C(=O)[O-])ccc1O,-1,0,True,web lookup,4.53,4.53,4.53,4.417169215261943,4.417169215261943
+CAT_N056,Donepezil (cation),COc1cc2c(cc1OC)C(=O)C(CC1CC[NH+](Cc3ccccc3)CC1)C2,1,0,True,measured,9.04,9.04,9.04,8.947354316711424,8.947354316711424
+AN_064,,COc1ccc(C=CC(=O)[O-])cc1,-1,0,False,our DFT,4.75,4.75,4.56172800064087,4.56172800064087,4.56172800064087
+CAT_N051,p-Anisidinium (4-methoxyanilinium),COc1ccc([NH3+])cc1,1,0,True,web lookup,5.36,5.36,5.36,5.157026767730712,5.157026767730712
+AN_086,,COc1ccc2cc([C@H](C)C(=O)[O-])ccc2c1,-1,0,False,our DFT,4.55,4.55,4.419763088226319,4.419763088226319,4.419763088226319
+AN_005,Mesylate,CS(=O)(=O)[O-],-1,0,True,measured,-1.92,-1.92,-1.92,1.3009034385077036,1.3009034385077036
+,,CS(=O)(=O)[O-].CS(=O)(=O)[O-],-1,0,False,,-1.92,-1.92,1.3009034385077036,1.3009034385077036,1.3009034385077036
+CAT_028,,CSCC[C@H]([NH3+])C(=O)O,1,0,True,measured,2.15,2.15,2.15,2.283134460449219,2.283134460449219
+CAT_N064,L-Methionine isopropyl ester,CSCC[C@H]([NH3+])C(=O)OC(C)C,1,0,False,our DFT (new run),5.95,5.95,6.809959411621094,6.809959411621094,6.809959411621094
+AN_N044,Deoxycholate,C[C@H](CCC(=O)[O-])[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,-1,0,True,measured,5.15,5.15,5.15,4.7412998494566585,4.7412998494566585
+AN_N049,Cholate,C[C@H](CCC(=O)[O-])[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,-1,0,False,our DFT (new run),4.98,4.98,4.744727194177722,4.744727194177722,4.744727194177722
+AN_008,DL-Lactate,C[C@H](O)C(=O)[O-],-1,0,True,measured,3.86,3.86,3.86,3.89599901349295,3.89599901349295
+CAT_001,,C[N+](C)(C)C,1,1,False,permanent cation (no pKa),,,,,
+CAT_N057,Chlormequat (2-chloroethyltrimethylammonium),C[N+](C)(C)CCCl,1,1,False,permanent cation (no pKa),,,,,
+CAT_005,Cholinium,C[N+](C)(C)CCO,1,1,False,permanent cation (no pKa),,,,,
+CAT_049,L-Carnitine (protonated),C[N+](C)(C)C[C@H](O)CC(=O)O,1,0,False,permanent cation (no pKa),,,3.805031717569871,3.805031717569871,3.805031717569871
+CAT_038,,C[N+](C)(CCO)CCO,1,1,False,permanent cation (no pKa),,,,,
+CAT_N066,Dibenzyldimethylammonium,C[N+](C)(Cc1ccccc1)Cc1ccccc1,1,1,False,permanent cation (no pKa),,,,,
+CAT_043,,C[N+]1(C)CCCC1C(=O)O,1,1,False,permanent cation (no pKa),,,,,
+CAT_N108,"N-(2,3-Epoxypropyl)-N-methyl-2-oxopyrrolidinium",C[N+]1(CC2CO2)CCCC1=O,1,1,False,permanent cation (no pKa),,,,,
+CAT_N087,Trimethylammonium,C[NH+](C)C,1,0,True,web lookup,9.81,9.81,9.81,10.400000000000004,10.400000000000004
+CAT_N085,3-Dimethylamino-1-propanol (protonated),C[NH+](C)CCCO,1,0,False,our DFT (new run),9.43,9.43,8.599650382995604,8.599650382995604,8.599650382995604
+CAT_003,,C[NH+](C)CCO,1,0,True,measured,9.26,9.26,9.26,7.923048019409179,7.923048019409179
+CAT_063,Megluminium,C[NH2+]C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,1,0,True,measured,9.5,9.5,9.5,8.799953048169058,8.799953048169058
+CAT_056,,C[NH2+][C@@H](C)[C@H](O)c1ccccc1,1,0,True,measured,9.47,9.47,9.47,9.519679660318705,9.519679660318705
+CAT_N062,"1,12-Bis(3-methylimidazolium-1-yl)dodecane",C[n+]1ccn(CCCCCCCCCCCCn2cc[n+](C)c2)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_031,1-(2-Hydroxyethyl)-3-methylimidazolium,C[n+]1ccn(CCO)c1,1,1,False,permanent cation (no pKa),,,,,
+,1-(2-Hydroxyethyl)-3-methylimidazolium,C[n+]1ccn(CCO)c1.C[n+]1ccn(CCO)c1,1,0,False,,,,13.823876380920408,13.823876380920408,13.823876380920408
+CAT_N047,2-Methylimidazolium,Cc1[nH]cc[nH+]1,1,0,True,web lookup,7.86,7.86,7.86,7.355310440063477,7.355310440063477
+AN_054,,Cc1ccc(C=CC(=O)[O-])cc1,-1,0,False,our DFT,4.63,4.63,4.412144184112549,4.412144184112549,4.412144184112549
+AN_096,,Cc1ccc(Cl)c(Nc2ccccc2C(=O)[O-])c1Cl,-1,0,False,our DFT,4.45,4.45,3.531167834190468,3.531167834190468,3.531167834190468
+AN_014,Tosylate (p-toluenesulfonate),Cc1ccc(S(=O)(=O)[O-])cc1,-1,0,True,measured,-2.7,-2.7,-2.7,0.3704608898904736,0.3704608898904736
+,,Cc1ccc(S(=O)(=O)[O-])cc1.Cc1ccc(S(=O)(=O)[O-])cc1,-1,0,False,,-2.7,-2.7,0.3704608898904736,0.3704608898904736,0.3704608898904736
+,1-(2-Hydroxyethyl)-3-methylpyridinium (3-picolinium),Cc1ccc[n+](CCO)c1.Cc1ccc[n+](CCO)c1,1,0,False,,,,13.40244960784912,13.40244960784912,13.40244960784912
+CAT_N092,3-Methylpyridinium,Cc1ccc[nH+]c1,1,0,True,web lookup,5.52,5.52,5.52,5.640995025634766,5.640995025634766
+CAT_N088,Mepivacaine,Cc1cccc(C)c1NC(=O)C1CCCC[NH+]1C,1,0,False,our DFT (new run),8.69,8.69,8.301352500915527,8.301352500915527,8.301352500915527
+,Oxacillin (oxacillinate),Cc1onc(-c2ccccc2)c1C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)[O-].Cc1onc(-c2ccccc2)c1C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)[O-],-1,0,False,,2.72,2.72,2.587436319001384,2.587436319001384,2.587436319001384
+CAT_N052,8-Piperazinylcaffeinium (protonated 8-piperazinyl caffeine),Cn1c(=O)c2c(nc(N3CC[NH2+]CC3)n2C)n(C)c1=O,1,0,False,our DFT (new run),6.26,6.26,8.705622235300039,8.705622235300039,8.705622235300039
+CAT_N010,,Cn1cc[n+](CCCO)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_030,,Cn1cc[n+](CCO)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_N009,,Cn1cc[n+](CCOCCO)c1,1,1,False,permanent cation (no pKa),,,,,
+CAT_002,,Cn1cc[nH+]c1,1,0,True,measured,7.1,7.1,7.1,7.039255142211915,7.039255142211915
+CAT_N045,Arginine,NC(N)=[NH+]CCC[C@H](N)C(=O)O,1,0,True,web lookup,12.48,9.04,9.04,9.387151554745165,9.387151554745165
+AN_N046,Gabapentin,NCC1(CC(=O)[O-])CCCCC1,-1,0,True,web lookup,3.68,10.7,10.7,10.813582420349125,10.813582420349125
+AN_N048,gamma-Aminobutyrate,NCCCC(=O)[O-],-1,0,True,web lookup,4.031,10.556,10.556,10.192782402038574,10.192782402038574
+AN_027,Taurinate,NCCS(=O)(=O)[O-],-1,0,True,measured,9.07,9.07,9.07,8.70967197418213,8.70967197418213
+CAT_040,Lysine,N[C@@H](CCCC[NH3+])C(=O)O,1,0,True,measured,10.53,9.06,9.06,9.561553178559382,9.561553178559382
+AN_058,p-Coumarate,O=C([O-])/C=C/c1ccc(O)cc1,-1,0,True,measured,4.64,4.64,4.64,4.750376671572307,4.750376671572307
+AN_032,,O=C([O-])/C=C\C(=O)O,-1,0,True,measured,3.1,3.1,3.1,2.716778560892708,2.716778560892708
+AN_020,Oxalate,O=C([O-])C(=O)O,-1,0,True,measured,1.2,1.2,1.2,1.179626985804064,1.179626985804064
+AN_042,,O=C([O-])C(O)c1ccccc1,-1,0,True,measured,3.14,3.14,3.14,3.455480772618184,3.455480772618184
+AN_N015,Chlorendate,O=C([O-])C1C(C(=O)O)C2(Cl)C(Cl)=C(Cl)C1(Cl)C2(Cl)Cl,-1,0,False,web lookup,1.26,1.26,0.8149310791650982,0.8149310791650982,0.8149310791650982
+AN_057,,O=C([O-])C=Cc1ccc(Cl)cc1,-1,0,False,our DFT,4.46,4.46,4.340768814086913,4.340768814086913,4.340768814086913
+AN_043,,O=C([O-])C=Cc1ccccc1,-1,0,True,measured,4.42,4.42,4.42,4.465258121490479,4.465258121490479
+AN_063,Citric acid,O=C([O-])CC(O)(CC(=O)O)C(=O)O,-1,0,True,measured,2.87,2.87,2.87,2.743377845623315,2.743377845623315
+AN_033,Malate,O=C([O-])CC(O)C(=O)O,-1,0,True,measured,3.36,3.36,3.36,3.048559055309496,3.048559055309496
+AN_145,Succinate,O=C([O-])CCC(=O)O,-1,0,True,measured,4.21,4.21,4.21,3.1362038099924394,3.1362038099924394
+AN_145,Succinate,O=C([O-])CCC(=O)[O-],-1,0,True,measured,5.67,5.67,5.67,3.1362038099924394,3.1362038099924394
+AN_034,Glutarate,O=C([O-])CCCC(=O)O,-1,0,True,measured,4.3,4.3,4.3,3.969457789675374,3.969457789675374
+AN_040,Adipate,O=C([O-])CCCCC(=O)O,-1,0,True,measured,4.42,4.42,4.42,4.232967540041583,4.232967540041583
+AN_N034,Pimelate,O=C([O-])CCCCCC(=O)O,-1,0,True,web lookup,4.5,4.5,4.5,4.326981946245743,4.326981946245743
+AN_N033,Suberate,O=C([O-])CCCCCCC(=O)O,-1,0,True,web lookup,4.526,4.526,4.526,4.317208691851239,4.317208691851239
+AN_067,Azelate,O=C([O-])CCCCCCCC(=O)O,-1,0,True,measured,4.55,4.55,4.55,4.267744942919356,4.267744942919356
+AN_N037,Sebacate,O=C([O-])CCCCCCCCC(=O)O,-1,0,True,web lookup,4.72,4.72,4.72,4.264409943834884,4.264409943834884
+AN_003,Glycolate,O=C([O-])CO,-1,0,True,measured,3.83,3.83,3.83,4.013528390703679,4.013528390703679
+AN_095,,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,0,False,our DFT,4.41,4.41,4.088701122237021,4.088701122237021,4.088701122237021
+AN_038,Tartrate,O=C([O-])[C@H](O)[C@@H](O)C(=O)O,-1,0,True,measured,2.74,2.74,2.74,2.5937060786565262,2.5937060786565262
+AN_068,Gluconate,O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,-1,0,False,our DFT,4.59,4.59,3.333261780795176,3.333261780795176,3.333261780795176
+,,O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.O=C([O-])[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,-1,0,False,,4.59,4.59,3.333261780795176,3.333261780795176,3.333261780795176
+AN_N038,Meconate,O=C([O-])c1cc(=O)c(O)c(C(=O)O)o1,-1,0,False,web lookup,0.6,0.6,0.5719070476829042,0.5719070476829042,0.5719070476829042
+AN_N004,,O=C([O-])c1cc(O)ccc1O,-1,0,True,measured,2.97,2.97,2.97,3.0788540795994965,3.0788540795994965
+AN_N043,Terephthalate,O=C([O-])c1ccc(C(=O)O)cc1,-1,0,True,web lookup,3.54,3.54,3.54,3.102274223581925,3.102274223581925
+AN_N050,"2,3-Dicarboxybenzoate (1,2,3-benzenetricarboxylate monoanion)",O=C([O-])c1cccc(C(=O)O)c1C(=O)O,-1,0,True,web lookup,2.88,2.88,2.88,1.9557191810136607,1.9557191810136607
+AN_010,,O=C([O-])c1ccccc1,-1,0,True,measured,4.204,4.204,4.204,4.109387874603272,4.109387874603272
+,Benzoate,O=C([O-])c1ccccc1.O=C([O-])c1ccccc1,-1,0,False,,4.204,4.204,4.109387874603272,4.109387874603272,4.109387874603272
+AN_N035,Phthalate,O=C([O-])c1ccccc1C(=O)O,-1,0,True,web lookup,2.95,2.95,2.95,2.908657594935058,2.908657594935058
+AN_013,Salicylate,O=C([O-])c1ccccc1O,-1,0,True,measured,2.97,2.97,2.97,2.992346467355146,2.992346467355146
+AN_N014,2-Furoate,O=C([O-])c1ccco1,-1,0,True,web lookup,3.12,3.12,3.12,3.2098343372149425,3.2098343372149425
+CAT_N034,Matrinium,O=C1CCC[C@@H]2[C@H]3CCC[NH+]4CCC[C@@H](CN12)[C@@H]34,1,0,False,web lookup,9.47,9.47,9.559829711914064,9.559829711914064,9.559829711914064
+AN_059,Ascorbic acid,O=C1O[C@H]([C@@H](O)CO)C([O-])=C1O,-1,0,True,measured,4.04,4.04,4.04,4.07267600253742,4.07267600253742
+AN_N028,5-Nitrobarbiturate,O=C1[N-]C(=O)C([N+](=O)[O-])C(=O)N1,-1,0,False,no pKa yet,,,1.2634130518876594,1.2634130518876594,1.2634130518876594
+AN_N003,Saccharinate,O=C1[N-]S(=O)(=O)c2ccccc21,-1,0,True,web lookup,1.6,1.6,1.6,1.7913718223571775,1.7913718223571775
+AN_077,,O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,-1,0,False,our DFT,-5.09,-5.09,-0.8590590954518158,-0.8590590954518158,-0.8590590954518158
+AN_N011,HEPES,O=S(=O)([O-])CCN1CCN(CCO)CC1,-1,0,False,web lookup,-2.0,-2.0,7.203313433028795,7.203313433028795,7.203313433028795
+AN_081,,O=S(=O)([O-])OC12CC3CC(CC(C3)C1)C2,-1,0,False,our DFT,-3.39,-3.39,-3.46466944539386,-3.46466944539386,-3.46466944539386
+AN_N016,"Napadisylate (naphthalene-1,5-disulfonate)",O=S(=O)([O-])c1cccc2c(S(=O)(=O)O)cccc12,-1,0,False,web lookup,-1.7,-1.7,-0.3168814933141339,-0.3168814933141339,-0.3168814933141339
+AN_015,Saccharinate,O=S1(=O)N=C([O-])c2ccccc21,-1,0,True,measured,1.6,1.6,1.6,4.002287864685059,4.002287864685059
+CAT_044,Tris(2-hydroxyethyl)ammonium,OCC[NH+](CCO)CCO,1,0,False,our DFT,7.38,7.38,7.950593948364262,7.950593948364262,7.950593948364262
+CAT_N059,1-(2-Hydroxyethyl)pyrrolidinium,OCC[NH+]1CCCC1,1,0,False,our DFT (new run),9.15,9.15,9.925735054116316,9.925735054116316,9.925735054116316
+CAT_004,Bis(2-hydroxyethyl)ammonium,OCC[NH2+]CCO,1,0,True,measured,8.94,8.94,8.94,9.095557212829592,9.095557212829592
+CAT_N049,N-Benzylethanolammonium,OCC[NH2+]Cc1ccccc1,1,0,False,our DFT (new run),8.92,8.92,8.684468269348143,8.684468269348143,8.684468269348143
+CAT_N067,Tris(hydroxymethyl)aminomethane (tromethamine),[NH3+]C(CO)(CO)CO,1,0,True,web lookup,8.07,8.07,8.07,7.637061009120348,7.637061009120348
+CAT_N003,,[NH3+]C(Cc1c[nH]c2ccccc12)C(=O)O,1,0,True,measured,2.42,2.42,2.42,2.1920544071453603,2.1920544071453603
+CAT_N077,Benzylammonium,[NH3+]Cc1ccccc1,1,0,True,web lookup,9.34,9.34,9.34,9.203473091125488,9.203473091125488
+CAT_N048,Imidazolium,c1c[nH+]c[nH]1,1,0,True,web lookup,6.95,6.95,6.95,6.78443956375122,6.78443956375122
+CAT_N043,"1,1'-(Decane-1,10-diyl)bispyridinium",c1cc[n+](CCCCCCCCCC[n+]2ccccc2)cc1,1,1,False,permanent cation (no pKa),,,,,
+AN_N045,Tetraphenylborate,c1ccc([B-](c2ccccc2)(c2ccccc2)c2ccccc2)cc1,-1,0,False,no pKa yet,,,,,
