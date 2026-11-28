@@ -10,10 +10,9 @@ against 22.5% for random ranking.
 ### ▶ Try it live — **[glittery-frangipane-f6cbaf.netlify.app](https://glittery-frangipane-f6cbaf.netlify.app/)**
 
 Pick any of 138 drugs and the model ranks the counter-ions it is most likely to pair with, each with the
-reason behind its score. Runs in the browser — no install, no sign-in.
+reason behind its score. Runs in the browser.
 
-Dual Degree Project · Jilla Sai Mahima (BE22B047) · Dept. of Biotechnology, IIT Madras
-Guide: Prof. Sanjib Senapati
+Jilla Sai Mahima (BE22B047) · Dept. of Biotechnology, IIT Madras
 
 **One-page summary:** [`docs/one-pager.pdf`](docs/one-pager.pdf)
 
